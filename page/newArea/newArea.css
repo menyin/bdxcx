@@ -1,0 +1,51 @@
+.local-city {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    border-top: 1px solid #E3E3E3;
+}
+.city_box .h3 {
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    height: 38px;
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 38px;
+    background: #F8F8F8;
+    color: #3F4358;
+}
+.city_box .city_lst {
+    overflow: hidden;
+    width: 100%;
+}
+.city_box .city_lst .li {
+    float: left;
+    width: 33.3%;
+    height: 45px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #394b59;
+}
+.city_box .h4 {
+    clear: both;
+    height: 40px;
+    border-bottom: 1px solid #FF6C00;
+    border-top: 1px solid #c8c9ca;
+    font-weight: 400;
+    background: #FFF;
+}
+.city_box .h4 p {
+    padding-left: 10px;
+    font-size: 13px;
+    color: #999;
+    line-height: 39px;
+}
+.city_box .h4 p span {
+    color: #3F4358;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 10px;
+}

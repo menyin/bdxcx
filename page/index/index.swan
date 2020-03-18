@@ -1,0 +1,161 @@
+<view class="fullscreen default">
+  <view class="header_c">
+    <view class="module h_search">
+      <!--search-->
+      <view class="header_top">
+        <view class="selectCity" bindtap="selectCity">
+          <image style="width:16px;height:20px;" src="../../images/dingwei.png"></image>
+          <text>{{localCity.name}}</text>
+        </view>
+        <view class="avatar" bindtap="showShare" animation="{{animationData}}">
+          <image src="{{wxUserInfo.avatarUrl}}"></image>
+        </view>
+      </view>
+      <view class="clear"></view>
+      <view class="pageBd">
+        <navigator url="/page/search/search" class="searchBar">
+          <label>
+            <icon style="height:15px;width:15px;" type="search" size="10" />搜索职位</label>
+        </navigator>
+        <!-- <view class="talkSearch" bindtap='talkSearch'>语音搜索</view> -->
+      </view>
+      <!--search-->
+    </view>
+  </view>
+  <!--客服-->
+  <!-- <button class="kefu" bindtap="toAi"></button> -->
+
+  <!--图片轮播-->
+  <view class="ad" s-if="imgUrls.length>0">
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
+      <block s-for="item, index in imgUrls">
+        <swiper-item>
+          <!-- <navigator url="/page/webView/webView?url={{item.url}}"> -->
+            <image src="{{item.img}}" class="slide-image" style="width:100%; height:150px;" />
+          <!-- </navigator> -->
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!--地理位置-->
+  <view class="locationInfo" hidden="{{isHideLoc}}">当前位置：{{localtionNew}}
+    <image bindtap="getLocationInfo" style="width:15px;height:15px;margin-left:10px;" src="https://cdn.597.com/wx/images/refresh.png"></image>
+  </view>
+  <!--历史搜索-->
+
+  <view s-if="historyList.length>0" class="dl j_HotJobsIndustryList j_industrySubmit">
+    <view class="dt HJI_h3">
+      <text>历史搜索</text>
+      <text style="margin-right:15px;float:right;color:#afafaf;" bindtap="clearHistory">清空</text>
+    </view>
+    <view s-for="item, index in historyList" class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword={{item.name}}" class="a">{{item.name}}</navigator>
+    </view>
+  </view>
+  <!--热门搜索-->
+  <view class="dl j_HotJobsIndustryList j_industrySubmit">
+    <view class="dt HJI_h3"><text>热门搜索</text></view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=会计" class="a">会计</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=司机" class="a">司机</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=文员" class="a">文员</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=美工" class="a">美工</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=施工员" class="a">施工员</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=出纳" class="a">出纳</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=销售" class="a">销售</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=外贸" class="a">外贸</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=普工" class="a">普工</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=仓管" class="a">仓管</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=平面设计" class="a">平面设计</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=业务员" class="a">业务员</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=会计助理" class="a">会计助理</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=电工" class="a">电工</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=财务" class="a">财务</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=行政" class="a">行政</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=淘宝客服" class="a">淘宝客服</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=客服" class="a">客服</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=厨师" class="a">厨师</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=采购" class="a">采购</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=保安" class="a">保安</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=室内设计" class="a">室内设计</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=教师" class="a">教师</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=助理" class="a">助理</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=人事" class="a">人事</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=日语" class="a">日语</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=淘宝" class="a">淘宝</navigator>
+    </view>
+    <view class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword=服务员" class="a">服务员</navigator>
+    </view>
+  </view>
+  <!--职位类型列表-->
+  <view s-for="item, index in jobNameData" class="dl j_HotJobsIndustryList j_industrySubmit">
+    <view class="dt HJI_h3"><text>{{item.n}}</text></view>
+    <view s-for="val, index in item.s" class="dd">
+      <navigator url="../search/result/result?kwType=3&keyword={{val}}" class="a">{{val}}</navigator>
+    </view>
+  </view>
+
+</view>
+<!--分享引导-->
+<view class="isShare" hidden="{{isShare}}" bindtap="hideShare">
+  <image src="../../images/showShare.png"></image>
+</view>
+<include src="../footer.swan" />
+<!--<view hidden="{{goTop}}" class="btn_gotop fadeIn" bindtap="goToTop">GoTop</view>-->
+<view s-if="_version>=659" class="zgz" bindtap="jumpCom">找人才点这！</view>
+
+<!--自能语音-->
+<include src="/page/talkTemplate/talkTemplate.swan" />

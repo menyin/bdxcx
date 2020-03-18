@@ -1,0 +1,29 @@
+.talk{
+  margin-top: 10px;
+  text-align: center;
+  line-height: 38px;
+  height: 38px;
+  background-color: #38f;
+  color: #fff;
+  border-radius:5px;
+  border:1px solid #e6e6ea;
+
+}
+.talkOver{
+  margin-top: 10px;
+  text-align: center;
+  line-height: 38px;
+  height: 38px;
+  background-color: #666;
+  border: 1px solid #999;
+  border-radius:5px;
+  color: #fff;
+}
+.pageAi{
+  padding: 10% 5%;
+  background: #fff;
+}
+.textAi{
+  line-height: 28px;
+  /* height: 28px; */
+}

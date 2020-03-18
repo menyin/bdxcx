@@ -1,0 +1,155 @@
+.fullscreen {
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.company_info {
+    position: relative;
+}
+.company_info .conClass {
+    display: block;
+    padding: 15px 25px 15px 15px;
+    overflow: hidden;
+}
+.company_info .dt {
+    float: left;
+}
+.company_info .dt image {
+    display: block;
+    border: 1px solid #EEE;
+    width: 48px;
+    height: 48px;
+}
+.company_info .dd.title {
+    line-height: 18px;
+    height: 18px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.company_info .dd {
+    margin-left: 60px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #555;
+}
+.list_pos .item_body {
+    padding: 0;
+}
+.item_body {
+    padding: 15px 15px;
+    font-size: 14px;
+    color: #555;
+}
+.list_pos .item_body .h4 {
+    line-height: 30px;
+    height: 30px;
+    padding: 0 15px;
+    background: #f3f3f3;
+    font-size: 14px;
+    color: #666;
+}
+.list_pos .item_body .ul {
+    padding-left: 15px;
+}
+.item_body .li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 15px 10px 0;
+}
+.item_body .li navigator {
+    display: block;
+}
+.list_pos .item_body .dl {
+    position: relative;
+    line-height: 20px;
+    font-size: 14px;
+}
+.list_pos .item_body .dt {
+    font-size: 18px;
+    /*font-weight: bold;*/
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 100px;
+    color: #111;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list_pos .item_body .dd {
+    padding: 2px 0;
+    color: #777;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list_pos .item_body .dd.attr span:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    background: #EEE;
+    margin-right: 5px;
+    vertical-align: top;
+    background: url("https://cdn.597.com/wx/images/V3/03.png") no-repeat 0 -22px;
+    background-size: 22px;
+}
+.list_pos .item_body .dd.attr em {
+    padding: 0 10px;
+    color: #ddd;
+}
+em, i {
+    font-style: normal;
+}
+.list_pos .item_body .dd.attr span:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    background: #EEE;
+    margin-right: 5px;
+    vertical-align: top;
+    background: url("https://cdn.597.com/wx/images/V3/03.png") no-repeat 0 -22px;
+    background-size: 22px;
+}
+.list_pos .item_body .dd {
+    padding: 2px 0;
+    color: #777;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list_pos .item_body .salary {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #38f;
+}
+.list_pos .item_body .dd.attr span:last-child:before {
+    background-position: 0 0;
+}
+.shareBtn{
+  float: right;
+  overflow: hidden;
+  
+}
+.share{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px !important;
+}
+.shareBtn{
+  float: right;
+  overflow: hidden;
+  
+}
+.share{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px !important;
+}

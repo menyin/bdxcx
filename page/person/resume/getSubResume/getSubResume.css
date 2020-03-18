@@ -1,0 +1,354 @@
+@import "/page/loginTemplate/loginTemplate.css";
+
+.operate_lang .ul {
+    overflow: hidden;
+    font-size: 16px;
+    background: #f3f3f3;
+}
+.operate_lang .li{
+    font-weight: bold;
+    border-bottom: 2px solid #38f;
+    float: left;
+    width: 50%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #38f;
+}
+.operate_lang .li span {
+    font-size: 12px;
+    margin: 0 5px;
+}
+.refresh_tip {
+    width: 100%;
+    height: 35px;
+    background: #e4f4ff;
+    color: #4ea5e1;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: center;
+}
+.refresh_tip navigator{
+    width: 100%;
+    height: 35px;
+    display: block;
+    color: #4ea5e1;
+}
+.gongkai_tip {
+    width: 100%;
+    height: 35px;
+    background: #31b859;
+    color: #4ea5e1;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: center;
+}
+.gongkai_tip navigator{
+    width: 100%;
+    height: 35px;
+    display: block;
+    color: #ffffff;
+}
+.my_resume_detail {
+    background: #f5f5f5;
+    overflow: hidden;
+    visibility: visible;
+    list-style: none;
+    position: relative;
+}
+.my_resume_detail {
+    background: #f5f5f5;
+    overflow: hidden;
+    visibility: visible;
+    list-style: none;
+    position: relative;
+}
+
+.template_main7 .li {
+    border-top: 1px solid #eeeeee;
+    padding-left: 15px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 15px;
+    background: #ffffff;
+}
+.template_main7 .title {
+    height: 40px;
+    border-bottom: 1px solid #eeeeee;
+}
+.template_main7 .title .dt {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #fa851b;
+    font-size: 16px;
+    color: #fa851b;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.template_main7 .title .dt i {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("https://cdn.597.com/wx/images/resume02.png") no-repeat 0px 0px;
+    background-size: 50px 400px;
+    margin-top: 12px;
+    margin-right: 6px;
+    vertical-align: top;
+    font-style: normal;
+}
+.template_main7 .res_apply .title .dt i {
+    background-position: 0px -25px;
+}
+.template_main7 .res_edu .title .dt i {
+    background-position: 0px -50px;
+}
+.template_main7 .res_work .title .dt i {
+    background-position: 0px -100px;
+}
+.template_main7 .res_school .title .dt i {
+    background-position: 0px -75px;
+}
+.template_main7 .res_project .title .dt i {
+    background-position: 0px -125px;
+}
+.template_main7 .res_language .title .dt i {
+    background-position: 0px -150px;
+}
+.template_main7 .res_ability .title .dt i {
+    background-position: 0px -175px;
+}
+.template_main7 .res_train .title .dt i {
+    background-position: 0px -200px;
+}
+.template_main7 .res_self .title .dt i {
+    background-position: 0px -225px;
+}
+.template_main7 .res_cert .title .dt i {
+    background-position: 0px -250px;
+}
+.template_main7 .res_otherInfo .title .dt i {
+    background: url("https://cdn.597.com/wx/images/box.png") no-repeat 0px 0px;
+}
+.template_main7 .title .dt span {
+    position: absolute;
+    right: -45px;
+    top: 13px;
+    text-indent: -9999px;
+    width: 38px;
+    height: 16px;
+    background: url("https://cdn.597.com/wx/images/resume03.png") no-repeat 0px 0px;
+    background-size: 75px 100px;
+}
+.template_main7 .title .dd {
+    padding: 5px 0px 5px 0;
+    float: right;
+    word-wrap: break-word;
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+}
+.template_main7 .title .dd navigator{
+    width: 60px;
+    height: 30px;
+    text-indent: -9999px;
+    display: block;
+    background: url("https://cdn.597.com/wx/images/resume02.png") no-repeat 29px -342px;
+    background-size: 50px 400px;
+}
+.template_main7 .hs_content {
+    position: relative;
+}
+.template_main7 .hs_content .basicInfo {
+    padding-right: 90px;
+}
+.template_main7 .hs_content .basicInfo .dl {
+    overflow: hidden;
+}
+.template_main7 .hs_content .basicInfo .dt {
+    font-size: 18px;
+    color: #222222;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+.template_main7 .hs_content .basicInfo .dd {
+    font-size: 14px;
+    color: #222222;
+    line-height: 24px;
+}
+.template_main7 .hs_content .personInfo {
+    padding-top: 15px;
+}
+.template_main7 .hs_content .personInfo .dl {
+    overflow: hidden;
+    font-size: 14px;
+}
+.template_main7 .hs_content .personInfo dt {
+    width: 42px;
+    font-size: 14px;
+    color: #888888;
+    line-height: 24px;
+    float: left;
+    text-align: left;
+}
+.template_main7 .hs_content .personInfo .dd {
+    font-size: 14px;
+    color: #222222;
+    line-height: 24px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.template_main7 .myPhoto {
+    width: 68px;
+    height: 90px;
+    background: #eeeeee;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    overflow: hidden;
+    border: 1px solid #eeeeee;
+}
+.template_main7 .myPhoto navigator {
+    height: 100%;
+    display: block;
+}
+.template_main7 .myPhoto image {
+    width: 68px;
+    height: 90px;
+}
+.template_main7 .myPhoto::after {
+    content: '';
+    width: 18px;
+    height: 16px;
+    display: block;
+    background: url("https://cdn.597.com/wx/images/camera.png") no-repeat center center;
+    background-size: 18px 16px;
+    position: absolute;
+    top: 71px;
+    right: 3px;
+}
+.template_main7 .res_apply .hs_content .dl {
+    overflow: hidden;
+}
+.template_main7 .res_apply .hs_content .dt {
+    font-size: 14px;
+    color: #888888;
+    line-height: 24px;
+    float: left;
+    text-align: left;
+}
+.template_main7 .res_apply .hs_content .dd {
+    font-size: 14px;
+    color: #222222;
+    line-height: 24px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.template_main7 .res_edu .un_content, .template_main7 .res_school .un_content, .template_main7 .res_work .un_content {
+    padding-bottom: 15px;
+}
+.template_main7 .un_content {
+    font-size: 14px;
+    line-height: 24px;
+    color: #888888;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.template_main7 .res_edu .hs_content .add_btn navigator, .template_main7 .res_school .hs_content .add_btn navigator, .template_main7 .res_project .hs_content .add_btn navigator, .template_main7 .res_language .hs_content .add_btn navigator, .template_main7 .res_ability .hs_content .add_btn navigator, .template_main7 .res_train .hs_content .add_btn navigator, .template_main7 .res_otherInfo .hs_content .add_btn navigator, .template_main7 .res_cert .hs_content .add_btn navigator, .template_main7 .res_work .hs_content .add_btn navigator {
+    width: 100%;
+    height: 45px;
+    line-height: 43px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    color: #5f8dc9;
+}
+.template_main7 .res_edu .hs_content .li, .template_main7 .res_school .hs_content .li, .template_main7 .res_project .hs_content .li, .template_main7 .res_language .hs_content .li, .template_main7 .res_ability .hs_content .li, .template_main7 .res_train .hs_content .li, .template_main7 .res_otherInfo .hs_content .li, .template_main7 .res_cert .hs_content .li, .template_main7 .res_work .hs_content .li {
+    margin-bottom: 0;
+    border-top: none;
+    padding: 0;
+}
+.template_main7 .res_edu .hs_content .li .li_box, .template_main7 .res_school .hs_content .li .li_box, .template_main7 .res_project .hs_content .li .li_box, .template_main7 .res_language .hs_content .li .li_box, .template_main7 .res_ability .hs_content .li .li_box, .template_main7 .res_train .hs_content .li .li_box, .template_main7 .res_otherInfo .hs_content .li .li_box, .template_main7 .res_cert .hs_content .li .li_box, .template_main7 .res_work .hs_content .li .li_box {
+    padding: 10px 60px 10px 0;
+    position: relative;
+}
+
+.template_main7 .res_edu .hs_content .li view span {
+    padding: 0 8px;
+}
+.template_main7 .res_edu .hs_content .li .name, .template_main7 .res_school .hs_content .li .name, .template_main7 .res_project .hs_content .li .name, .template_main7 .res_language .hs_content .li .name, .template_main7 .res_ability .hs_content .li .name, .template_main7 .res_train .hs_content .li .name, .template_main7 .res_otherInfo .hs_content .li .name, .template_main7 .res_cert .hs_content .li .name, .template_main7 .res_work .hs_content .li .name {
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.template_main7 .res_edu .hs_content .li_box view, .template_main7 .res_school .hs_content .li_box view, .template_main7 .res_project .hs_content .li_box view, .template_main7 .res_language .hs_content .li_box view, .template_main7 .res_ability .hs_content .li_box view, .template_main7 .res_train .hs_content .li_box view, .template_main7 .res_otherInfo .hs_content .li_box view, .template_main7 .res_cert .hs_content .li_box view, .template_main7 .res_work .hs_content .li_box view {
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.template_main7 .res_edu .hs_content .li .edit, .template_main7 .res_school .hs_content .li .edit, .template_main7 .res_project .hs_content .li .edit, .template_main7 .res_language .hs_content .li .edit, .template_main7 .res_ability .hs_content .li .edit, .template_main7 .res_train .hs_content .li .edit, .template_main7 .res_otherInfo .hs_content .li .edit, .template_main7 .res_cert .hs_content .li .edit, .template_main7 .res_work .hs_content .li .edit {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 0px;
+    padding: 0;
+}
+.template_main7 .res_edu .hs_content .li .edit navigator, .template_main7 .res_school .hs_content .li .edit navigator, .template_main7 .res_project .hs_content .li .edit navigator, .template_main7 .res_language .hs_content .li .edit navigator, .template_main7 .res_ability .hs_content .li .edit navigator, .template_main7 .res_train .hs_content .li .edit navigator, .template_main7 .res_otherInfo .hs_content .li .edit navigator, .template_main7 .res_cert .hs_content .li .edit navigator, .template_main7 .res_work .hs_content .li .edit navigator {
+    width: 60px;
+    height: 30px;
+    text-indent: -9999px;
+    display: block;
+    background: url("https://cdn.597.com/wx/images/resume02.png") no-repeat 29px -342px;
+    background-size: 50px 400px;
+}
+.hideContent{margin: 20rpx 0rpx;}
+
+.notResumes {
+    padding: 15px 15px 40px 15px;
+}
+.notResumes .res_null {
+    padding: 45px 0 20px 0;
+    text-align: center;
+}
+.notResumes .res_null i {
+    width: 80px;
+    height: 62px;
+    background: url("https://cdn.597.com/wx/images/null.png") no-repeat 0px 0px;
+    background-size: 80px 62px;
+    display: block;
+    margin: 0 auto 36px auto;
+}
+.notResumes .res_null span {
+    font-size: 14px;
+    color: #aaa;
+}
+.btn_box {
+    padding-top: 15px;
+}
+.btn_box navigator {
+    height: 45px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    line-height: 45px;
+    color: #fff;
+    background: #38f;
+    border-radius: 2px;
+}
+.loginFullscreen {height:2000px !important;}
+.btn_gotop {
+    position: fixed;
+    right: 5px;
+    bottom: 100px;
+    height: 40px;
+    width: 40px;
+    transition: all .3s ease-out;
+    background: url("https://cdn.597.com/mi/images/V3/02.png") no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -100px;
+    z-index: 999;
+}

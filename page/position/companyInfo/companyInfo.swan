@@ -1,0 +1,71 @@
+<view class="fullscreen" hidden="{{hideAll}}">
+  <view class="company_info">
+    <view class="conClass">
+      <view class="dl">
+        <view class="dt">
+          <image s-if="companyRow.logoUrl" src="https://pic.{{ROOT_DOMAIN}}/logo/{{companyRow.logoUrl}}"></image>
+          <image s-else src="https://cdn.597.com/wx/images/com_default_logo_180_180.png"></image>
+        </view>
+        <view class="dd title">{{companyRow.cname}}</view>
+        <view class="dd">{{companyRow.comType}}<span>/</span>{{companyRow.comWorkers}}</view>
+        <view class="dd">{{companyRow.comIndustry}}</view>
+      </view>
+      <view s-if="_version>=658" class="shareBtn"><button class="share" open-type="share">分享</button></view>
+    </view>
+  </view>
+  <view class="item profile">
+    <view class="item_title">公司简介</view>
+    <view id="comDetail" class="item_body" style="overflow:hidden;height:{{pHeight?pHeight:'38px'}};">
+      <text>{{companyRow.comInfo}}</text>
+    </view>
+    <view bindtap="changePHeight" class="comIcon {{hide}}">展开</view>
+  </view>
+  <view class="item contactus">
+    <view class="item_title">联系方式</view>
+    <view class="item_body">
+      <view class="dl">
+        <view class="dt">联系人</view>
+        <view class="dd">{{companyRow.comUser}}</view>
+      </view>
+      <view s-if="companyRow.comPhone" class="dl">
+        <view class="dt">联系电话</view>
+        <view class="dd">{{companyRow.comPhone}}</view>
+      </view>
+      <view s-if="companyRow.comEmail" class="dl">
+        <view class="dt">电子邮箱</view>
+        <view class="dd">{{companyRow.comEmail}}</view>
+      </view>
+      <view class="dl contactus_addree">
+        <view class="dt">公司地址</view>
+        <view class="dd">{{companyRow.comAddress}}
+          <view s-if="companyRow.comLongitude!='0' && companyRow.comLatitude!='0'" style="color:#F8881D;" bindtap="showMap">查看地图</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="item list_pos">
+    <view class="item_title">在招职位</view>
+    <view class="item_body">
+      <view class="ul">
+        <view s-for="jobRow, index in companyRow.jobList" class="li">
+          <navigator open-type="redirect" url="../jobInfo/jobInfo?jobId={{jobRow._jid}}">
+            <view class="dl">
+              <view class="dt"><span>{{jobRow.jname}}</span></view>
+              <view class="dd attr"><span>{{jobRow.jobArea}}</span><em>|</em><span>{{jobRow.updateTime}}刷新</span></view>
+              <view class="dd salary">¥{{jobRow.jobSalary}}</view>
+            </view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="all_pos">
+    <navigator open-type="redirect" url="../comJobList/comJobList?cid={{companyRow._cid}}">查看全部在招职位 ({{companyRow.allCount}})</navigator>
+  </view>
+  <view class="graphic_com">
+    <navigator open-type="redirect" url="../showCompany/showCompany?cid={{companyRow._cid}}">点击查看图文版企业介绍</navigator>
+  </view>
+</view>
+<include src="/page/backIndex.swan" />
+<include src="/page/footerNav.swan" />

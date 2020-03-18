@@ -1,0 +1,25 @@
+<view class="education" id="educationInfo">
+    <form bindsubmit="formSubmit">
+        <view class="template_main6">
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">技能名称</view></view>
+                <view class="dd"><input type="text" name="SkillName" class="inputText tip" placeholder="请输入技能名称" value="{=SkillName=}" /></view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">熟练程度</view></view>
+                <view class="dd">
+                    <picker name="level" bindchange="bindLevelChange" value="{{SkillLevel}}" range="{{level}}">
+                        <view class="select_box tip">
+                        {{level[SkillLevel]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+        <view class="btn_ds">
+            <block s-if="delShow"><button class="delete" bindtap="canDel" data-id="{{skillid}}" data-index="{{index}}">删除</button></block>
+            <button style="{{btnStyle}}" class="btn1_submit lang" formType="submit">保存</button>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

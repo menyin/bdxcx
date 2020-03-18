@@ -1,0 +1,73 @@
+<!--<template name="loginItem">-->
+<view class="fullscreen account_bind">
+	<view s-if="isBindShow" class="bind_box QQ" id="account_bind">
+		<view class="base">
+			<view class="avatar"><image src="{{wxUserInfo.avatarUrl}}" width="55" height="55" border="0" alt="头像" /></view>
+			<view class="name">{{wxUserInfo.nickName}}</view>
+			<view class="state">
+				您已登录微信账号
+			</view>
+		</view>
+		<view s-if="isUser" class="login" id="bindAccount">
+			<view class="h3 title">绑定已有597账号</view>
+			<view class="ul bind_form">
+				<form bindsubmit="formLogin">
+					<view class="li"><view><input type="text" placeholder="用户名" name="username" /><label class="labelName"></label></view></view>
+					<view class="li"><view><input type="text" placeholder="密码" password="true" name="pwd" /><label class="labelPwd"></label></view></view>
+					<view class="li btn" id="bindBtn"><button formType="submit">绑定</button></view>
+				</form>
+			</view>
+			<view class="state" style="color:red;">
+				<text class='floatL' bindtap="changeLoginReg">注册新的597账号>></text>
+				<navigator class='floatR forgetPsw' url='/page/miLogin/forgetPsw/forgetPsw'>忘记密码?</navigator>
+        <view class='clear'></view>
+			</view>
+		</view>
+		<view s-else class="login" id="regBindAccount">
+			<view class="h3 title">注册并绑定新账号</view>
+			<view class="ul bind_form">
+				<form bindsubmit="formReg">
+					<view class="li"><view>填写常用手机号码，完成注册并绑定新账号。</view></view>
+					<view class="li">
+						<view>
+							<input type="number" placeholder="手机号码" name="mobile" bindinput="changeMobile" />
+							<label class="labelPhone"></label>
+						</view>
+					</view>
+					<view class="li"><button disabled="{{sendCodeFlag}}" data-mobile="{{mobile}}" bindtap="getCode" style="background:#31b859">{{sendCodeTitle}}</button></view>
+					<view class="li">
+						<view>
+							<input type="text" placeholder="验证码" name="mobileZym" class="mobileZym" />
+							<label class="labelYzm"></label>
+						</view>
+					</view>
+					<view class="li">
+						<view>
+							<input password="true" placeholder="密码" name="password" />
+							<label class="labelPwd"></label>
+						</view>
+					</view>
+					<view class="li btn" id="regBindBtn"><button formType="submit">注册并绑定</button></view>
+				</form>
+			</view>
+			<view class="state" style="color:red;">
+				<text bindtap="changeLoginReg">绑定已有597账号>></text>
+				<!--<navigator style="float:right;" open-type="switchTab" url="/page/index/index">返回首页</navigator>-->
+			</view>
+		</view>
+	</view>
+
+	<view s-else class="bind_box success" id="bind_success">
+		<view class="state">
+			<view class="icon"><i></i></view>
+			<view class="text">登录成功!</view>
+		</view>
+		<view class="goto">
+			<view class="title">从现在开始你可以使用597人才网的各项功能</view>
+			<!--<view>微信名称:{{wxUserInfo.nickName}}</view>-->
+			<!--<view><navigator open-type="redirect" url="../index/index">直接登录597人才网</navigator></view>-->
+			<view><view class="backBtn" bindtap="goBack">直接登录597人才网</view></view>
+		</view>
+	</view>
+</view>
+<!--</template>-->

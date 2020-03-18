@@ -1,0 +1,36 @@
+<view class="fullscreen mc_default">
+    <view s-if="resumeRow" class="tereResumes">
+        <view class="myResumes">
+            <!-- 手动创建的简历 -->
+            <view class="tab_menu1">
+                <text>我的简历</text>
+            </view>
+            <view class="binding">
+                <navigator url="../getSubResume/getSubResume">{{resumeRow.rTitle?resumeRow.rTitle:'默认简历'}}<text>{{isCheckName}}</text></navigator>
+            </view>
+            <view class="binding" style="border-top:1px solid #eee;">
+                <navigator url="../resumeApply/resumeApply">修改求职意向<text>{{isCheckName}}</text></navigator>
+            </view>
+        </view>
+
+        <!-- 设置部分 -->
+        <view class="manage_setup">
+            <view class="binding resume_center">
+                <view class="template_main1">
+                    <view class="li refresh_res">
+                        <navigator url="../queryBaseInfo/queryBaseInfo"><lable class="labelImg"></lable>刷新简历<text class="updata_time" id="lastUpdate"></text></navigator>
+                    </view>
+                    <view class="li open_set"><navigator url="../securitySetup/securitySetup"><lable class="labelImg"></lable>公开设置</navigator></view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view s-else class="notResumes">
+        <view class="res_null">
+            <i></i>
+            <span>您还没有可用简历，找工作需要可用简历！<span>
+            </span></span>
+        </view>
+        <view class="btn_box"><navigator url="../resumeBase/resumeBase">马上创建简历</navigator></view>
+    </view>
+</view>

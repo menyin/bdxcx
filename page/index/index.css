@@ -1,0 +1,957 @@
+@import "/page/talkTemplate/talkTemplate.css";
+.fullscreen {
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.default .header_c {
+  width: 100%;
+  background: #38f;
+  background-size: 100% 120px;
+}
+
+.default .header_c .logo_c {
+  width: 100%;
+  text-align: center;
+}
+
+.default .header_c .logo_c navigator {
+  display: inline-block;
+  background: url("https://cdn.597.com/wx/images/597logo.png") no-repeat;
+  height: 60px;
+  width: 180px;
+  text-indent: -9000px;
+  background-size: 100%;
+  margin-top: 26px;
+}
+
+a {
+  text-decoration: none;
+  color: #15c;
+}
+
+.h_search {
+  padding: 10px 0px;
+}
+
+.h_search .search_body .keyword_wrap {
+  position: relative;
+}
+
+.h_search .search_body .li {
+  padding: 8px 0;
+}
+
+.h_search .search_body .input_box {
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #c9c9c9;
+  padding: 0 70px 0 8px;
+}
+
+.h_search .search_body .dropdown_icon {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 55px;
+  padding-left: 10px;
+  height: 21px;
+  line-height: 21px;
+  font-size: 12px;
+  border-left: 1px solid #c4c4c4;
+}
+
+.h_search .search_body .dropdown_icon:after {
+  content: ' ';
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border: 5px solid rgba(255, 255, 255, 0);
+  border-top-color: #767676;
+}
+
+.dropdown {
+  width: 70px;
+  border: 1px solid #181818;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.85)));
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85));
+  position: absolute;
+  top: 40px;
+  right: 0;
+  border-radius: 2px;
+  z-index: 2;
+  font-size: 16px;
+}
+
+.dropdown .top_triangle {
+  width: 10px;
+  height: 6px;
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  margin-left: -5px;
+  overflow: hidden;
+}
+
+.h_search .search_body .dropdown .ul {
+  padding: 2px 10px;
+}
+
+.h_search .search_body .dropdown .li {
+  line-height: 28px;
+  padding: 0;
+}
+
+.dropdown .li a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.h_search .homeKeywordAuto {
+  width: 100%;
+  position: absolute;
+  background: #fff;
+  z-index: 1;
+  box-sizing: border-box;
+  display: none;
+}
+
+.h_search .homeKeywordAuto .row {
+  border: 1px solid #eaeaea;
+  border-bottom: 0;
+  padding-left: 10px;
+}
+
+.h_search .homeKeywordAuto .row navigator {
+  display: block;
+  font-size: 14px;
+  height: 32px;
+  line-height: 32px;
+  color: #555;
+}
+
+.h_search .search_body .area {
+  position: relative;
+}
+
+.h_search .search_body .input_box {
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #c9c9c9;
+  padding: 0 70px 0 8px;
+}
+
+.h_search .search_body .inp_search {
+  z-index: 55;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0;
+  line-height: 36px;
+  height: 36px;
+  font-size: 14px;
+  width: 100%;
+  -webkit-appearance: none;
+  outline: none;
+  background: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.h_search .search_body .area_select {
+  position: absolute;
+  top: 18px;
+  right: 2px;
+  width: 20px;
+  height: 15px;
+  padding: 3px 22px;
+  border-left: 1px solid #c4c4c4;
+}
+
+.h_search .search_body .area_select i {
+  background: #879099;
+  display: block;
+  margin-bottom: 3px;
+  height: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.h_search .search_body .area_select i:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 3px;
+  width: 2px;
+  height: 3px;
+  background: #fff;
+}
+
+.h_search .homeKeywordAuto {
+  width: 100%;
+  position: absolute;
+  background: #fff;
+  z-index: 1;
+  box-sizing: border-box;
+  display: none;
+}
+
+.h_search .search_history_body {
+  border: 1px solid #eaeaea;
+  border-top: 0;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.h_search .more_condition_title {
+  padding: 8px 20px;
+  position: relative;
+  font-size: 14px;
+  color: #21a7d9;
+  height: 16px;
+  line-height: 16px;
+}
+
+.h_search .more_condition_title i {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #21a7d9;
+}
+
+.h_search .more_condition_title i.minus:before {
+  content: ' ';
+  position: absolute;
+  top: 6px;
+  left: 3px;
+  width: 8px;
+  height: 2px;
+  font-size: 0;
+  background: #21a7d9;
+}
+
+.h_search .more_condition .ul {
+  overflow: hidden;
+  height: 0;
+}
+
+.h_search .search_body .but_select {
+  border: 1px solid #c9c9c9;
+  border-radius: 2px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fbfbfb));
+  position: relative;
+}
+
+.h_search .search_body .button {
+  width: 100%;
+  height: 36px;
+  font-size: 14px;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  padding: 0 20px 0 8px;
+  position: relative;
+  color: #333;
+  line-height: 36px;
+}
+
+.h_search .search_body .but_select span {
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 65%;
+  color: #aaa;
+  float: right;
+  padding-right: 10%;
+}
+
+.h_search .search_body .button:after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+  right: 40px;
+  width: 6px;
+  height: 6px;
+  border: #aaa solid;
+  -webkit-transform: rotate(45deg);
+  border-width: 2px 2px 0 0;
+  color: #434343;
+}
+
+.h_search .search_body .bton-search .li {
+  padding-bottom: 0;
+}
+
+.h_search .search_body .bton-search button {
+  border-radius: 2px;
+  width: 100%;
+  background: #f8881d;
+  border: 0;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Microsoft Yahei";
+  padding-right: 40px;
+}
+
+/*.h_search .search_body .bton-search button:before {content: "";isplay: inline-block;height: 18px;width: 18px;background: url("https://cdn.597.com/wx/images/icon12.png") no-repeat 0 -50px;background-size: 560%;overflow: hidden;vertical-align: top;margin-top: 10px;margin-right: 5px;}*/
+
+.h_search .search_history {
+  border-radius: 2px;
+  position: relative;
+}
+
+.h_search .search_history_title {
+  height: 38px;
+  line-height: 38px;
+  position: absolute;
+  font-size: 14px;
+  color: #444;
+  top: -38px;
+  right: 0;
+  width: 42px;
+  text-indent: -100px;
+  border-left: 1px solid #f99638;
+  overflow: hidden;
+  background: #f4600f;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.h_search .search_history_title i {
+  border: 2px solid #fff;
+  width: 18px;
+  height: 18px;
+  display: block;
+  border-radius: 20px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.h_search .search_history_title i:before {
+  content: ' ';
+  position: absolute;
+  top: 9px;
+  right: 4px;
+  width: 6px;
+  height: 2px;
+  background: #fff;
+}
+
+.h_search .search_history_title i:after {
+  content: ' ';
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  width: 2px;
+  height: 7px;
+  background: #fff;
+}
+
+.h_search .search_history_body {
+  border: 1px solid #eaeaea;
+  border-top: 0;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.h_search .search_history_body .ul {
+  padding: 8px 0;
+}
+
+.h_search .search_history_body .li {
+  padding: 8px;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.h_search .search_history_body .clear_history {
+  background: #f8f8f8;
+  height: 29px;
+  line-height: 29px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  position: relative;
+  padding-left: 25px;
+  font-size: 12px;
+  color: #545454;
+}
+
+.h_search .search_history_body .clear_history i {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  background: url("https://cdn.597.com/wx/images/trashcan.png") no-repeat;
+  background-size: 14px 14px;
+  width: 14px;
+  height: 14px;
+}
+
+.h_search .search_history_body .clear_history .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 40px;
+  text-align: center;
+  color: #555;
+}
+
+.resume_c {
+  height: 108px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+#resume_slider_list {
+  height: 88px;
+  padding-top: 15px;
+}
+
+.resume_c .tp .li navigator {
+  width: 25%;
+  height: 70px;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.resume_c .tp .dl .dt {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #f54444 url("https://cdn.597.com/wx/images/resume_icon.png") no-repeat 0 0;
+  background-size: 200px 100px;
+}
+
+.resume_c .tp .dl .dd {
+  font-size: 12px;
+  color: #555;
+}
+
+.resume_c .tp .l2 .dt {
+  background-color: #319af3;
+  background-position: -48px 0;
+}
+
+.resume_c .tp .l3 .dt {
+  background-color: #7cc494;
+  background-position: -99px 0;
+}
+
+.resume_c .tp .l4 .dt {
+  background-color: #7b72bd;
+  background-position: -150px 0;
+}
+
+.resume_c .tp .l6 .dt {
+  background-color: #68c756;
+  background-position: -50px -50px;
+}
+
+.resume_c .tp .l7 .dt {
+  background-color: #5ac6cc;
+  background-position: -100px -50px;
+}
+
+.resume_c .bt {
+  text-align: center;
+  height: 15px;
+}
+
+.resume_c .bt .li.actived {
+  background: #38f;
+}
+
+.resume_c .bt .li {
+  width: 6px;
+  height: 6px;
+  background: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.login_c {
+  height: 42px;
+  padding: 15px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background: #fbfbfb;
+}
+
+.login_c .left {
+  height: 42px;
+  float: left;
+}
+
+.login_c .left i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  background: url("https://cdn.597.com/wx/images/login_pic.png") no-repeat;
+  background-size: 40px 40px;
+  overflow: hidden;
+}
+
+.login_c .left span {
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  font-size: 16px;
+  color: #555;
+  vertical-align: top;
+  margin-left: 6px;
+}
+
+.login_c .right {
+  float: right;
+  padding-top: 8px;
+  padding-right: 5px;
+}
+
+.login_c .right navigator {
+  border: 1px solid #38f;
+  display: block;
+  float: left;
+  font-size: 14px;
+  color: #38f;
+  padding: 2px 12px;
+  margin-left: 10px;
+  border-radius: 2px;
+}
+
+.login_c .right navigator.lg {
+  background: #38f;
+  color: #fff;
+}
+
+.scroll-view_H {
+  white-space: nowrap;
+}
+
+.scroll-view-item_H {
+  display: inline-block;
+  width: 100%;
+  height: 88px;
+}
+
+/*search*/
+
+.module .jobs_title {
+  background: #f3f3f3;
+}
+
+.h_job_list .jobs_title {
+  position: relative;
+  overflow: hidden;
+}
+
+.module .jobs_title .ul {
+  padding: 0 15px;
+}
+
+.module .jobs_title .li.actived {
+  border-bottom: 2px solid #38f;
+}
+
+.module .jobs_title .li {
+  border-top: none;
+  background: none;
+  float: left;
+  padding: 0 1px;
+  text-shadow: none;
+}
+
+.h_job_list .jobs_title .li {
+  line-height: 34px;
+  height: 34px;
+  border-top: 1px solid #dfdfdf;
+  font-size: 16px;
+  padding: 0 15px;
+  text-shadow: 1px 1px 1px #fff;
+  background: #f3f3f3;
+}
+
+.h_job_list .jobs_title navigator {
+  color: #444;
+  display: inline-block;
+}
+
+.module .jobs_title .li.actived view {
+  color: #38f;
+  font-weight: bold;
+}
+
+.refresh {
+  /*position: absolute;*/
+  /*right: 15px;
+  top: 10px;*/
+  width: 10px;
+  height: 10px;
+  background: url(https://cdn.597.com/wx/images/refresh.png) no-repeat;
+  background-size: 70%;
+  margin: 0px 15px;
+}
+
+.h_job_list .jobs_body .dl {
+  border-bottom: 1px solid #eee;
+  border-top: 0;
+  font-size: 14px;
+  position: relative;
+  padding: 10px 15px;
+  line-height: 20px;
+}
+
+.h_job_list .jobs_body .dt {
+  color: #222;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.h_job_list .jobs_body navigator:visited .dt span {
+  color: #888;
+}
+
+.h_job_list .jobs_body .dt span {
+  color: #222;
+  display: inline-block;
+  max-width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 5px;
+  line-height: 32px;
+  vertical-align: top;
+}
+
+.h_job_list .jobs_body .dt image {
+  width: 30px;
+  height: 16px;
+  vertical-align: top;
+  padding-top: 6px;
+  margin-right: 5px;
+}
+
+.h_job_list .jobs_body .dd {
+  color: #888;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.h_job_list .jobs_body .dd i {
+  height: 22px;
+  width: 16px;
+  display: inline-block;
+  overflow: hidden;
+  background: url("https://cdn.597.com/wx/images/V3/03.png") no-repeat 0 -22px;
+  background-size: 22px;
+  vertical-align: top;
+}
+
+em, i {
+  font-style: normal;
+}
+
+.h_job_list .jobs_body .dd em {
+  padding: 0 5px;
+  color: #ddd;
+}
+
+.h_job_list .jobs_body .dd.salary {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  color: #f8881d;
+}
+
+.all_pos {
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.all_pos navigator {
+  display: block;
+  line-height: 45px;
+  height: 45px;
+  font-size: 14px;
+  color: #15c;
+}
+
+.all_pos view {
+  display: block;
+  line-height: 45px;
+  height: 45px;
+  font-size: 14px;
+  color: #15c;
+}
+
+.search_pos {
+  text-align: center;
+}
+
+.search_pos navigator {
+  display: block;
+  line-height: 45px;
+  height: 45px;
+  font-size: 14px;
+  color: #15c;
+}
+
+.h_search .more_condition_title i.plus:before {
+  content: ' ';
+  position: absolute;
+  top: 6px;
+  left: 3px;
+  width: 8px;
+  height: 2px;
+  font-size: 0;
+  background: #21a7d9;
+}
+
+.h_search .more_condition_title i.plus:after {
+  content: ' ';
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  width: 2px;
+  height: 8px;
+  font-size: 0;
+  background: #21a7d9;
+}
+
+.btn_gotop {
+  position: fixed;
+  right: 5px;
+  bottom: 100px;
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s ease-out;
+  background: url("https://cdn.597.com/mi/images/V3/02.png") no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  text-indent: -100px;
+  z-index: 999;
+}
+
+.floatLeft {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.pageBd {
+  position: relative;
+  padding: 8px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.searchBar {
+  content: '';
+  left: 0;
+  top: 0;
+  /* width: 80%; */
+  width: 100%;
+  float: right;
+  border-radius: 10px;
+  border: 1px solid #e6e6ea;
+  box-sizing: border-box;
+  background: #fff;
+  text-align: center;
+  font-size: 12px;
+  color: #9b9b9b;
+  height: 30px;
+  line-height: 30px;
+}
+
+.weui-icon-search {
+  background: url("../../images/search.jpg");
+}
+
+.icon-arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid dashed dashed;
+  border-width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 22px;
+  z-index: 100;
+}
+
+.error_date {
+  font-size: 14px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.error_date .error_img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 6px solid #e7e7e7;
+  border-radius: 100px;
+  font-size: 76px;
+  text-align: center;
+  color: #e7e7e7;
+  box-shadow: 0 -1px #bcbaba, 0 -1px #bcbaba inset;
+  text-shadow: 0 -1px #bcbaba;
+}
+
+.error_date .error_msg {
+  text-align: center;
+  color: #888;
+  padding-top: 30px;
+}
+
+.selectCity {
+  float: left;
+  height: 50px;
+  padding-left: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 40%;
+  font-size: 26px;
+  color: #fff;
+  margin-left: 10%;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.j_HotJobsIndustryList {
+  margin-bottom: 8px;
+  overflow: hidden;
+  clear: both;
+  background-color: #fff;
+}
+
+.j_HotJobsIndustryList .dt, .model .h3 {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #38f;
+  background: url(https://cdn.597.com/m/images/4.2.1_titleIcon.png) no-repeat;
+  background-size: 5px 16px;
+  background-position: left center;
+}
+
+.j_HotJobsIndustryList .dt text {
+  margin: 0 5px;
+  color: #38f;
+  background: #fff;
+  padding: 0 10px;
+  float: left;
+  display: block;
+  line-height: 35px;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  text-shadow: none;
+  font-weight: 400 !important;
+}
+
+.j_HotJobsIndustryList .dd {
+  width: 25%;
+  border-bottom: 1px dotted #d6d6d6;
+  border-right: 1px dotted #d6d6d6;
+  font-size: 14px;
+  color: #7a7a7a;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.j_HotJobsIndustryList .dd .a {
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  color: #7a7a7a;
+  text-align: center;
+  padding: 0px 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.avatar {
+  width:40px;
+  height:40px;
+  padding:5px;
+  box-shadow:0 0 3px #DDD;
+  display:inline-block;
+  border-radius:50%;
+  float:right;
+  margin-right: 10%;
+}
+.avatar image{
+  border-radius:50%;
+  width:40px;
+  height:40px;
+}
+.isShare{
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  width:100%;
+  height: 100%
+}
+.isShare image{
+  width:100%;
+  height: 100%;
+  display:inline-block;
+  overflow:hidden;
+}
+.locationInfo{
+  margin: 10px;
+  font-size: 12px;
+}
+.kefu{background: url('https://cdn.597.com/wx/images/kefu.png') no-repeat;width:50px;height:50px;position: fixed;right: 18px;bottom: 130px;}
+.zgz {
+  display: none;/*cny_note*/
+  position: fixed;
+  right: 18px;
+  bottom: 50px;
+  height: 50px;
+  width: 50px;
+  transition: all 0.3s ease-out;
+  z-index: 999;
+  background-color: #38f;
+  color: #fff;
+  text-align: center;
+  opacity:0.8;
+  border-radius:5px;
+  line-height:25px;
+}
+
+.talkSearch{
+  margin-left: 2%;
+  width: 18%;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background:#fff;
+  color:#666;
+}

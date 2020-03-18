@@ -1,0 +1,19 @@
+<view class="module">
+	<view id="panel_loading" class="loading hide">加载中</view>
+	<view id="panel_view_result" class="photo_view">
+		<view class="pic_box">
+			<view class="pic" bindtap="changeImage">
+				<image src="https:{{resumeImage}}"></image>
+				<i class="camera_icon"></i>
+			</view>
+		</view>
+		<view class="state" id="photoFlag" bindtap="changePhotoFlag">
+			<label class="{{isShowPhoto==1?'checked':''}}">简历中显示</label>
+		</view>
+	</view>
+	<view id="tips" style="margin:20px;">
+		<view style="color:#38f;line-height: 20px;font-size: 12px;">温馨提示：</view>
+		<view style="line-height: 20px;font-size: 12px;color: #888;">1.允许上传的图片类型为：jpg、jpeg、gif、png</view>
+	</view>
+</view>
+<include src="/page/footerNav.swan" />

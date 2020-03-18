@@ -1,0 +1,30 @@
+.loginFullscreen {margin:0px !important;background:#fff;overflow:hidden;z-index:888;position:absolute !important;top:0;left:0;width:100%;height:100%}
+.account_bind .bind_box {padding: 25px 20px;text-align: center;}
+.account_bind .bind_box .base {padding-bottom: 20px;}
+.account_bind .bind_box .avatar {width: 55px;height: 55px;padding: 5px;box-shadow: 0 0 3px #DDD;display: inline-block;border-radius: 50%;}
+.account_bind .bind_box .avatar image {border-radius: 50%;width: 55px;height: 55px;}
+.account_bind .bind_box .name {font-size: 14px;font-weight: bold;}
+.account_bind .login {text-align: left;}
+.account_bind .login .title {font-size: 16px;font-weight: bold;height: 22px;line-height: 22px;}
+.account_bind .QQ .bind_form .li {padding: 5px 0;font-size: 14px;color: #7A7A7A;position: relative;}
+.account_bind .bind_form .li input {height: 18px;line-height: 18px;padding: 7px 40px;border: 1px solid #C9C9C9;box-shadow: 2px 2px 2px #F1F1F1 inset;outline: none;border-radius: 3px;font-size: 14px;}
+.account_bind .bind_form li.btn {padding-left: 0;padding-right: 0;}
+.account_bind .bind_form .li {padding: 5px 10px;}
+.btn {text-align: center;padding: 10px 15px 30px 15px;}
+.account_bind .bind_form .li button {background: #38f;border-radius: 3px;color: #FFF;font-size: 14px;cursor: pointer;}
+.account_bind .login .state navigator {color:red;font-size: 14px;}
+.account_bind .success {padding-top: 50px;}
+.account_bind .bind_box {padding: 25px 20px;text-align: center;}
+.account_bind .bind_box .state {font-size: 12px;color: #B9B9B9;}
+.account_bind .success .state .icon {width: 125px;height: 80px;margin: 0 auto;}
+.account_bind .success .state .icon i {width: 110px;height: 60px;border-left: 3px solid #60C060;border-bottom: 3px solid #60C060;display: block;-webkit-transform: rotate(-45deg) translate(15px,-5px);-moz-transform: rotate(-45deg) translate(15px,-5px);}
+.account_bind .success .state .text {font-size: 20px;color: #42B042;padding: 15px 0 10px 0;}
+.labelPhone{content: "";display: block;position: absolute;width: 24px;height: 24px;overflow: hidden;top: 50%;margin-top: -12px;background: url("https://cdn.597.com/wx/images/V3/01.png") no-repeat 0 -225px;background-size: 50px;background-position: -25px -225px;margin-left:10px;}
+.labelYzm{content: "";display: block;position: absolute;width: 24px;height: 24px;overflow: hidden;top: 50%;margin-top: -12px;background: url("https://cdn.597.com/wx/images/V3/01.png") no-repeat 0 -225px;background-size: 50px;background-position: 0 -250px;margin-left:10px;}
+.labelPwd{position: absolute;top: 50%;margin-top: -12px;width: 24px;height: 24px;overflow: hidden;background: url("https://cdn.597.com/wx/images/V3/01.png") no-repeat 0 -150px;background-size: 50px;display: block;content: "";background-position: 0 -200px;margin-left:10px;}
+.labelName{position: absolute;top: 50%;margin-top: -12px;width: 24px;height: 24px;overflow: hidden;background: url("https://cdn.597.com/wx/images/V3/01.png") no-repeat 0 -150px;background-size: 50px;display: block;content: "";margin-left:10px;}
+.btnSendValidate {background: #31b859;color: #fff;width: 100%;border: 0;height: 36px;line-height: 36px;display: inline-block;cursor: pointer;border-radius: 2px;text-align: center;}
+
+.backBtn{margin-top: 50px; width: 100%;height: 45px;font-size: 16px;line-height: 45px;color: #FFF;background: #e46660;text-align: center;border-radius: 2px;display: block;}
+.state navigator{width: 46%;}
+.forgetPsw{text-align: right;color:#C9C9C9 !important;}

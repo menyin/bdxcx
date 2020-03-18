@@ -1,0 +1,38 @@
+[
+    {
+        "type": "delete api",
+        "file": "F:/Desktop/bdxcx/page/ai/ai.js",
+        "row": 70,
+        "column": 4,
+        "before": "wx.startRecord({\n  success: function (res) {\n    wx.showLoading({\n      title: '转换中...',\n      mask: 'true'\n    }); // console.log(res);\n\n    var tempFilePath = res.tempFilePath;\n    wx.uploadFile({\n      url: 'https://api.597.com/web/mi/upRecord/?aiAct=jobSearch',\n      filePath: tempFilePath,\n      name: \"Filedata\",\n      formData: {},\n      header: {\n        'content-type': 'multipart/form-data'\n      },\n      success: function (json) {\n        var resDate = JSON.parse(json.data);\n        console.log(json); //微信小程序 wx.uploadFile方法 success返回值必须是字符串\n\n        if (resDate.status == 1 && resDate.result) {\n          that.setData({\n            'content': resDate.result[0],\n            'aiContent': JSON.stringify(resDate.ai),\n            'time': resDate.time,\n            'time1': resDate.time1,\n            'time2': resDate.time2,\n            'time3': resDate.time3\n          });\n          console.log(resDate.ai); //搜索跳转\n\n          var keyword = resDate.ai.info.keyword[0];\n\n          if (resDate.ai.act == \"jobSearch\") {\n            var url = \"/page/search/result/result?kwType=3\" + \"&keyword=\" + keyword;\n            wx.navigateTo({\n              url: url\n            });\n          }\n\n          if (resDate.ai.act == \"resumeUpdate\") {\n            var url = \"page/person/resume/newRefresh/newRefresh\";\n            wx.navigateTo({\n              url: url\n            });\n          }\n\n          if (resDate.ai.act == \"resumeEdit\") {\n            var url = \"page/person/resume/getSubResume/getSubResume\";\n            wx.navigateTo({\n              url: url\n            });\n          }\n\n          wx.hideLoading();\n          return;\n        }\n\n        wx.showToast({\n          title: '未能识别！',\n          icon: 'success',\n          duration: 2000\n        });\n      },\n      fail: function (res) {\n        console.log(res);\n      }\n    });\n  },\n  fail: function (res) {\n    //录音失败\n    console.log(res);\n  }\n})",
+        "after": "",
+        "message": "wx.startRecord:没有相对应的函数"
+    },
+    {
+        "type": "delete api",
+        "file": "F:/Desktop/bdxcx/page/ai/ai.js",
+        "row": 144,
+        "column": 4,
+        "before": "wx.stopRecord()",
+        "after": "",
+        "message": "wx.stopRecord:没有相对应的函数"
+    },
+    {
+        "type": "delete api",
+        "file": "F:/Desktop/bdxcx/page/talkTemplate/talkTemplate.js",
+        "row": 35,
+        "column": 2,
+        "before": "wx.startRecord({\n  success: function (res) {\n    wx.showLoading({\n      title: '转换中...',\n      mask: 'true'\n    });\n    var tempFilePath = res.tempFilePath;\n    wx.uploadFile({\n      url: 'https://api.597.com/web/mi/upRecord/?aiAct=jobSearch',\n      filePath: tempFilePath,\n      name: \"Filedata\",\n      formData: {},\n      header: {\n        'content-type': 'multipart/form-data'\n      },\n      success: function (json) {\n        var resDate = JSON.parse(json.data); //微信小程序 wx.uploadFile方法 success返回值必须是字符串\n\n        if (resDate.status == 1 && resDate.result) {\n          that.setData({\n            talkHide: true\n          }); //搜索跳转\n\n          var keyword = resDate.ai.info.keyword[0];\n\n          if (resDate.ai.act == \"jobSearch\") {\n            var url = \"/page/search/result/result?kwType=3\" + \"&keyword=\" + keyword;\n\n            if (getCurrentPages().length > 1) {\n              wx.redirectTo({\n                url: url\n              });\n            } else {\n              wx.navigateTo({\n                url: url\n              });\n            }\n          } //刷新简历\n\n\n          if (resDate.ai.act == \"resumeUpdate\") {\n            wx.navigateTo({\n              url: '/page/person/resume/newRefresh/newRefresh'\n            });\n          } //打开简历\n\n\n          if (resDate.ai.act == \"resumeEdit\") {\n            wx.navigateTo({\n              url: '/page/person/resume/getSubResume/getSubResume'\n            });\n          }\n\n          wx.hideLoading();\n          return;\n        }\n\n        wx.hideLoading();\n        wx.showToast({\n          title: '未能识别！',\n          icon: 'success',\n          duration: 2000\n        });\n      },\n      fail: function (res) {\n        wx.hideLoading();\n        wx.showToast({\n          title: '未能识别3！',\n          icon: 'success',\n          duration: 2000\n        });\n      }\n    });\n  },\n  fail: function (res) {\n    //录音失败\n    wx.hideLoading();\n    wx.showToast({\n      title: '录音失败',\n      icon: 'success',\n      duration: 2000\n    });\n  }\n})",
+        "after": "",
+        "message": "wx.startRecord:没有相对应的函数"
+    },
+    {
+        "type": "delete api",
+        "file": "F:/Desktop/bdxcx/page/talkTemplate/talkTemplate.js",
+        "row": 118,
+        "column": 2,
+        "before": "wx.stopRecord()",
+        "after": "",
+        "message": "wx.stopRecord:没有相对应的函数"
+    }
+]

@@ -1,0 +1,32 @@
+<view class="black_list">
+    <view class="add_black_list pad20">
+        <form bindsubmit="formSubmit">
+            <view class="div">
+                <input type="text" class="inputText" name="addBlackListText" />
+                <button formType="submit">搜索</button>
+            </view>
+        </form>
+        <view class='dl searchList'>
+            <block s-for="row, index in companyList">
+                <view class="dd" id="{{row.cid}}">
+                    <span class="_cname">{{row.cname}}</span>
+                    <span bindtap="addChange" class="icon_add" data-id="{{row.cid}}" data-index="{{index}}">+</span>
+                </view>
+            </block>
+        </view>
+    </view>
+    <view class="shield_keyword">
+        <view class="dl">
+            <view class="dt">屏蔽的企业</view>
+            <block s-if="blackList">
+                <block s-for="row, index in blackList">
+                    <view class="dd">
+                        <span class="_cname">{{row.cname}}</span>
+                        <view class="icon_delete" data-id="{{row.cid}}" data-index="{{index}}" bindtap="delChange"></view>
+                    </view>
+                </block>
+            </block>
+        </view>
+    </view>
+</view>
+<include src="/page/footerNav.swan" />

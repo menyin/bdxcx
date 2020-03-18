@@ -1,0 +1,16 @@
+<view class="fullscreen">
+    <form bindsubmit="formSubmit">
+        <view class="module self">
+            <view class="template_main4">
+                <view class="dl text_area_new">
+                    <view class="dt lang must">自我评述</view>
+                    <view class="dd">
+                        <textarea style="text-align:left;" maxlength="2000" name='careerDirection' value="{=self1=}" placeholder="结合你的优势和特点，对自己做一个综合评述和展现。" class="textAreaMsg" />
+                    </view>
+                </view>
+            </view>
+            <view class="btn"><button class="btn1_submit lang" formType="submit">保存</button></view>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

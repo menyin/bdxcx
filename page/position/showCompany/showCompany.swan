@@ -1,0 +1,67 @@
+<view class="container" hidden="{{hideAll}}">
+
+    <view class="com_base">
+        <view class="com_base_logo">
+            <image s-if="companyRow.logoUrl" src="https://pic.{{ROOT_DOMAIN}}/logo/{{companyRow.logoUrl}}"></image>
+            <image s-else src="https://cdn.597.com/wx/images/com_default_logo_180_180.png"></image>
+        </view>
+        <view class="com_base_name">{{companyRow.cname}}</view>
+        <view class="com_base_job">{{companyRow.allCount}}个岗位正在招聘</view>
+        <view class="com_base_attr">{{companyRow.comIndustry}}<span>|</span>{{companyRow.comWorkers}}人</view>
+    </view>
+
+    <view class="com_model com_about">
+        <view class="com_model_bd">
+            <view class="com_profile">
+                <view class="com_profile_text" style="overflow: hidden; height: {{pHeight?pHeight:'192px'}};">
+                    <p>{{companyRow.comInfo}}</p>
+                </view>
+                <navigator bindtap="changePHeight" class="com_profile_open {{hide}}">展开</navigator>
+            </view>
+            <!-- 企业图片 -->
+            <view s-if="companyRow.companyPic.length>0" class="com_picture" style="height:192px;">
+                <swiper indicator-dots="true" autoplay="true" interval="5000" duration="2000">
+                <block s-for="item, index in companyRow.companyPic">
+                    <swiper-item>
+                    <image src="https://pic.{{ROOT_DOMAIN}}/com/{{item.picPath}}" class="slide-image" width="355" height="150" />
+                    </swiper-item>
+                </block>
+                </swiper>
+            </view>
+        </view>
+    </view>
+
+    <!-- 职位 -->
+    <view class="com_model com_pos_list">
+        <view class="com_model_hd">热招职位</view>
+        <view class="com_model_bd">
+            <view class="ul">
+                <view s-for="jobRow, index in companyRow.jobList" class="li">
+                    <navigator open-type="redirect" url="../jobInfo/jobInfo?jobId={{jobRow._jid}}">
+                        <view class="dl">
+                            <view class="dt">{{jobRow.jname}}</view>
+                            <view class="dd com_pos_salary">¥{{jobRow.jobSalary}}</view>
+                            <view class="dd"><span class="com_pos_area">{{jobRow.jobArea}}</span><span class="com_pos_date">{{jobRow.updateTime}}刷新</span></view>
+                        </view>
+                    </navigator>
+                </view>
+            </view>
+            <view class="com_pos_more"><navigator open-type="redirect" url="../comJobList/comJobList?cid={{companyRow._cid}}">查看更多</navigator></view>
+        </view>
+    </view>
+    <!-- 联系 -->
+    <view class="com_model com_contact">
+        <view class="com_model_bd">
+            <view class="h3">联系方式</view>
+            <view>{{companyRow.comPhone}}</view>
+            <view>{{companyRow.comAddress}}</view>
+            <view class="ul">
+                <!--<view class="li"><navigator id="share" href="javascript:;" class="btn share">公司靠谱，赞一个</navigator></view>-->
+                <view s-if="uid<=0" class="li last"><navigator open-type="redirect" class="btn resign" url="../../miLogin/miLogin">注册597账号，加入该企业！</navigator></view>
+            </view>
+        </view>
+    </view>
+    <view class="com_copy">© 597人才网版权所有</view>	
+</view>
+<include src="/page/backIndex.swan" />
+<include src="/page/footerNav.swan" />

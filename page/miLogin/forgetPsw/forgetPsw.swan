@@ -1,0 +1,39 @@
+<view class="getBackPassword">
+  <form bindsubmit="formSubmit">
+    <view class="tab_top clearfix">
+      <view class="ul">
+        <view class="li active">
+          <span>1</span>身份认证</view>
+        <view class="li">
+          <span>2</span>密码重置</view>
+      </view>
+    </view>
+    <view class="tab_body">
+      <view class="two">
+        <view class="tab_verification_top">
+          <view class="ul clearfix">
+            <view class="li active" id="li_byMobile">
+              <i class="phone"></i>通过手机验证</view>
+          </view>
+        </view>
+        <view class="tab_verification_body" id="li_byMobile_body">
+          <view class="p">只能使用已绑定的手机号码来找回密码；系统将发送验证码短信到您的手机上，请注意查收</view>
+          <view class="inputText_phone">
+            <input class="inputText" placeholder="请输入手机号码" name="textMobile" bindinput="changeMobile" />
+          </view>
+          <!-- <view class="inputText_code">
+          <input class="inputText" placeholder="请输入验证码" name="txtImgCode" />
+          <img onclick="this.src='/api/web/authCode.api?key=mobilePassword'" id="yzmCode" src="/api/web/authCode.api?key=mobilePassword" />
+        </view> -->
+          <button class="sendCode" disabled="{{sendCodeFlag}}" data-mobile="{{mobile}}" bindtap="getCode" style="background:#31b859">{{sendCodeTitle}}</button>
+          <view class="inputText_code">
+            <input class="inputText" placeholder="请输入短信验证码" name="textMobileCode" />
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="btn" id="view_mobile">
+      <button class="btn1_submit" formType="submit">下一步</button>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,98 @@
+.security_setup {
+    padding: 15px 0;
+    font-size: 14px;
+    background: #fff;
+}
+.security_setup .h1 {
+    padding: 0 15px 15px 15px;
+    line-height: 40px;
+    height: 40px;
+}
+.security_setup .dl .dt {
+    background: #EDEDED;
+    padding-left: 15px;
+    line-height: 23px;
+    height: 23px;
+}
+.yTip .dl .dt, .dd {
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+}
+.security_setup .dl .ul {
+    padding: 5px 15px;
+}
+.security_setup .dl .li {
+    display: block;
+    padding: 10px 0;
+}
+.inputRadio1 .li {
+    display: inline-block;
+    position: relative;
+}
+
+.security_setup .black_list {
+    padding-left: 5px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    background: #F6F6F6;
+    position: relative;
+    padding-right: 80px;
+    line-height: 40px;
+    height: 40px;
+    margin: 5px 15px 0 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.security_setup .black_list text {
+    width: 75px;
+    height: 48px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: #888;
+    font-size: 12px;
+    color: #EEEEEE;
+    text-align: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.black_list {
+    font-size: 14px;
+}
+.security_setup .note {
+    margin: 0px 17px 0px 20px;
+    font-size: 12px;
+    background: #F6F6F6;
+    border: 1px solid #DDD;
+    padding: 5px;
+    border-radius: 2px;
+    color: #999;
+}
+.btn {
+    text-align: center;
+    padding: 15px 15px;
+}
+.btn1_submit {
+    width: 100%;
+    background: #38f;
+    border: 0;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.li radio{padding:5px;}
+
+.rlable{
+  height: 18px;
+  line-height: 18px;
+  background: url("https://cdn.597.com/wx/images/icon1.png") no-repeat 0 -24px; 
+  background-size: 150px 150px;
+  display: block;
+}
+.check{background-position: 0 -49px;}

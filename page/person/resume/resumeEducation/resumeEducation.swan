@@ -1,0 +1,48 @@
+<view class="education" id="educationInfo">
+    <form bindsubmit="formSubmit">
+    <view class="template_main6">
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="School">学校</view></view>
+            <view class="dd"><input type="text" name="school" class="inputText tip" placeholder="请输入学校名称" placeholder-class="placeClass" value="{=eduName=}" /></view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must">专业</view></view>
+            <view class="dd"><input type="text" name="speciality" class="inputText tip" placeholder="请输入专业名称" placeholder-style="text-align:right;" value="{=eduSpecialty=}" /></view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="Degree">学历</view></view>
+            <view class="dd">
+                <picker name="degree" bindchange="bindDegreeChange" value="{{degreeIndex}}" range="{{degree}}">
+                    <view class="select_box tip">
+                    {{degree[degreeIndex]}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="Time Period">入学时间</view></view>
+            <view class="dd">
+                <picker id="start" name="startData" mode="date" fields="month" value="{{startData?startData:timeNow}}" bindchange="bindStartDateChange">
+                    <view class="select_box tip">
+                    {{startData}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+        <view class="dl last_dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="Time Period">毕业时间</view></view>
+            <view class="dd">
+                <picker id="end" name="endData" mode="date" fields="month" value="{{endData?endData:timeNow}}" bindchange="bindEndDateChange">
+                    <view class="select_box tip">
+                    {{endData}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+    </view>
+    <view class="btn">
+        <block s-if="delShow"><button class="delete" bindtap="canDel" data-id="{{eduid}}" data-index="{{index}}">删除</button></block>
+        <button style="{{btnStyle}}" class="btn1_submit lang" formType="submit">保存</button>
+    </view>
+    </form>
+</view>

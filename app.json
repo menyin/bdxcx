@@ -1,0 +1,63 @@
+{
+    "pages": [
+        "page/index/index",
+
+        "page/person/index/index",
+
+        "page/person/resume/index/index",
+        "page/person/resume/getBlackList/getBlackList",
+        "page/person/resume/queryBaseInfo/queryBaseInfo",
+        "page/person/resume/securitySetup/securitySetup",
+        "page/person/resume/getSubResume/getSubResume",
+        "page/person/resume/resumePhoto/resumePhoto",
+        "page/person/resume/resumeBase/resumeBase",
+        "page/person/resume/resumeApply/resumeApply",
+        "page/person/resume/resumeEducation/resumeEducation",
+        "page/person/resume/resumeWork/resumeWork",
+        "page/person/resume/resumeSchool/resumeSchool",
+        "page/person/resume/resumeProject/resumeProject",
+        "page/person/resume/resumeLanguage/resumeLanguage",
+        "page/person/resume/resumeAbility/resumeAbility",
+        "page/person/resume/resumeTrain/resumeTrain",
+        "page/person/resume/resumeSelf/resumeSelf",
+        "page/person/resume/resumeCert/resumeCert",
+        "page/person/resume/resumeOtherInfo/resumeOtherInfo",
+        
+        "page/person/apply/index/index",
+        "page/person/apply/whoInviteMeHisList/whoInviteMeHisList",
+        "page/person/apply/applyHisList/applyHisList",
+        "page/person/apply/myFavList/myFavList",
+        "page/person/apply/resumeViewedLogList/resumeViewedLogList",
+
+        "page/search/search",
+        "page/search/result/result",
+
+        "page/position/comJobList/comJobList",
+        "page/position/companyInfo/companyInfo",
+        "page/position/jobInfo/jobInfo",
+        "page/position/showCompany/showCompany",
+
+        "page/miLogin/miLogin",
+        "page/miLogin/forgetPsw/forgetPsw",
+        "page/miLogin/forgetPsw2/forgetPsw2",
+        "page/about/userFreeback/userFreeback",
+
+        "page/selectTemplate/selectTemplate",
+        "page/areaTemplate/areaTemplate",
+        "page/newArea/newArea",
+        "page/jump/jump",
+        "page/logout/logout",
+        "page/person/resume/newRefresh/newRefresh",
+        "page/ai/ai",
+        "page/webView/webView"
+
+    ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "597人才网求职招聘找工作",
+        "navigationBarBackgroundColor": "#38f",
+        "backgroundColor": "#38f",
+        "font-size":"20px"
+    }
+}
+

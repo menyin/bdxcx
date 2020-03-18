@@ -1,0 +1,27 @@
+<view class="refresh_resume">
+    <view class="template_main4">
+        <view class="title">上次刷新时间</view>
+        <view class="updata_time" id="lastUpdate">{{resumeRow.resumeUptime}}</view>
+        <view class="select_status">登录自动刷新简历
+            <view id="switch_icon">
+                <!--<switch wx:if="{{resumeRow.isAutoRefresh==1}}" checked name="isAutoRefresh" class="switchOne" bindchange="switchChange"/>
+                <switch wx:else name="isAutoRefresh" class="switchOne" bindchange="switchChange"/>-->
+                <i class="{{isAutoRefresh==1?'switch_on':'switch_off'}}" data-value="{{isAutoRefresh}}" bindtap="switchChange"></i>
+            </view>
+        </view>
+        <view class="refresh_box">
+        <view class="re_title">手动刷新简历</view>
+        </view>
+    </view>
+    <view class="btn"><button bindtap="refreshChange" class="btn1_submit">刷 新</button></view>
+    <view class="yTip">
+        <view class="dl">
+            <view class='dd' style="color:#38f">温馨提示：</view>
+            <view class='dd'>1.刷新失败，请确认简历状态是否为公开状态，只有公开状态才能刷新；</view>
+            <view class='dd'>2.刷新前请核对联系方式，如联系方式有变，请更改后再进行刷新；</view>
+            <view class='dd'>3.登录自动刷新简历功能开启后，在每天第一次登录时，将自动刷新简历。</view>
+            <!--<view 'dd'>3.如果最近7天没有登录（登录包括：电脑端、手机端、微信公众号等597各平台），将关闭“登录自动刷新简历”功能，需要手动重新开启。</view>-->
+        </view>
+    </view>
+</view>
+<include src="/page/footerNav.swan" />

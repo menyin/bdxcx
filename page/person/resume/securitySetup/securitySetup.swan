@@ -1,0 +1,32 @@
+<view class="security_setup">
+    <form bindsubmit="formSubmit">
+        <view class="h1">简历：<text style="color:#38f;font-weight:bold;">{{resumeRow.rTitle}}</text></view>
+        <view>
+            <view class="dl">
+                <view class="dt">资料公开设置</view>
+                <view class="dd">
+                    <view class="ul inputRadio1">
+                        <radio-group name="status" class="radio-group" bindchange="radioChange">
+                            <view class="li">
+                                <label bindtap="changeChecked" data-val="1" class="rlable {{checked==1?'check':''}}"><radio style="opacity:0" value="1" checked="{{resumeRow.display==1?true:false}}" /><text style="position:fixed;">公开，但对下列黑名单保密</text></label>
+                                <navigator url="../getBlackList/getBlackList"><view class="black_list"><text>设置黑名单</text></view></navigator>
+                            </view>
+                            <view class="li">
+                                <label bindtap="changeChecked" data-val="2" class="rlable {{checked==2?'check':''}}"><radio style="opacity:0" value="2" checked="{{resumeRow.display==2?true:false}}" /><text style="position:fixed;">半公开</text></label>
+                                
+                            </view>
+                            <view class="note">请谨慎设置，设置为“半公开”后，企业将不能查看您的电话。</view>
+                            <view class="li">
+                                <label bindtap="changeChecked" data-val="0" class="rlable {{checked==0?'check':''}}"><radio style="opacity:0" value="0" checked="{{resumeRow.display==0?true:false}}" /><text style="position:fixed;">完全保密</text></label>
+                            </view>
+                            <view class="note">请谨慎设置，设置为“完全保密”后，不能刷新并且任何人都搜索不到您的简历。</view>
+                        </radio-group>
+                    </view>
+                </view>
+            </view>
+            
+        </view>
+        <view class="btn"><button class="btn1_submit" formType="submit">保存</button></view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

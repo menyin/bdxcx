@@ -1,0 +1,41 @@
+/*遮罩层*/
+.ui-mask{position:absolute;top:0;left:0;width:100%;background:#000;opacity:0.6;height:865px;display:block;z-index:29}
+
+/*弹出框*/ 
+.popBox{width: 60%; height: auto; z-index: 888; position: fixed; top: 30%; left: 20%; visibility: visible; opacity: 1;background:#FFF;}
+.popBox .box-title {color: #222;padding: 12px 15px 0 15px;}
+.content_2 {background: #fff;padding: 28px 15px 20px 15px;}
+.content_2 .ul{text-align:center;}
+.up_box .button {border-top: 1px solid #eee; padding: 5%;}
+
+
+.talk{
+  text-align: center;
+  line-height: 38px;
+  height: 38px;
+  background-color: #38f;
+  color: #fff;
+  border-radius:5px;
+  border:1px solid #e6e6ea;
+
+}
+.talkOver{
+  text-align: center;
+  line-height: 38px;
+  height: 38px;
+  background-color: #666;
+  border: 1px solid #999;
+  border-radius:5px;
+  color: #fff;
+}
+
+.talkSearch{
+  margin-left: 2%;
+  width: 18%;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background:#fff;
+  color:#666;
+}

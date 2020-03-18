@@ -1,0 +1,35 @@
+<view class="fullscreen">
+    <form bindsubmit="formSubmit">
+        <view class="user_freeback">
+            <view class="template_main3">
+                <view class="title">你的意见与建议</view>
+                <view class="dl text">
+                    <view class="dd">
+                        <textarea class="textAreaMsg" name="idea" value />
+                    </view>
+                </view>
+                <view class="title">
+                    <label for="contactMe" style="vertical-align:top;">联系方式（用于回复你的意见）</label>
+                </view>
+                <view id="showContact" style="display:" class="content">
+                    <view class="dl">
+                        <view class="dt">您的姓名</view>
+                        <view class="dd"><input type="text" class="inputText" name="uName" value /></view>
+                    </view>
+                    <view class="dl">
+                        <view class="dt">您的邮箱</view>
+                        <view class="dd"><input type="text" class="inputText" name="uEmail" value /></view>
+                    </view>
+                    <view class="dl">
+                        <view class="dt">联系电话</view>
+                        <view class="dd"><input type="text" class="inputText" name="uTel" value /></view>
+                    </view>
+                </view>
+            </view>
+            <view class="btn">
+                <button class="btn1_submit" formType="submit">确 定</button>
+            </view>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

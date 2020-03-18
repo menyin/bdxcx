@@ -1,0 +1,9 @@
+<view class="city_box">
+  <view class="local-city">当前城市:{{localCity.name}}</view>
+  <view class="h3">开放城市</view>
+  <view class="ul city_lst hot">
+    <view s-for="item, index in hotCity" class="li">
+      <view class="nobor" bindtap="citySearch" data-v="{{item.v}}" data-c="{{item.c}}">{{item.c}}</view> 
+    </view>   
+  </view>
+</view>

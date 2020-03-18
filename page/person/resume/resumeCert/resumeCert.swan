@@ -1,0 +1,25 @@
+<view class="education" id="educationInfo">
+    <form bindsubmit="formSubmit">
+        <view class="template_main6">
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must" en>证书</view></view>
+                <view class="dd"><input type="text" name="certName" class="inputText tip" placeholder="请输入证书" value="{=certificateName=}" /></view>
+            </view>
+            <view class="dl last_dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must" en>获得时间</view></view>
+                <view class="dd">
+                    <picker name="gainTime" mode="date" fields="year" value="{{CertGainTimeYear?CertGainTimeYear:timeNow}}" bindchange="bindGainTimeChange">
+                        <view class="select_box tip">
+                        {{CertGainTimeYear}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+        <view class="btn_ds">
+            <block s-if="delShow"><button class="delete" bindtap="canDel" data-id="{{certificateid}}" data-index="{{index}}">删除</button></block>
+            <button style="{{btnStyle}}" class="btn1_submit lang" formType="submit">保存</button>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

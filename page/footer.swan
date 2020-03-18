@@ -1,0 +1,9 @@
+<view style="text-align: center;font-size: 13px;color: gray;line-height: 36px;">
+    <view>咨询电话：
+        <image style="width: 20px;height: 20px;margin-right: 5px;position: relative;top: 6px;" src="http://cdn.597.com/m/images/botTel.png" alt></image>
+        <text style="color:#3f74c2;" data-phone="{{Phone400}}" bindtap="callPhone">{{Phone400}}</text>
+        <text style="color:#3f74c2;margin-left:5px;" bindtap="suggest">意见反馈</text>
+        <!--<navigator url="../about/userFreeback/userFreeback" style="color:#3f74c2;">意见反馈</navigator>-->
+    </view>
+    <view>{{copyRight}}</view>
+</view>

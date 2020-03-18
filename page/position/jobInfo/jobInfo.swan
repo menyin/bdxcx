@@ -1,0 +1,196 @@
+<view class="fullscreen pos_detail" hidden="{{hideAll}}">
+  <view id="swiper-container" class="swiper-container">
+    <view class="property_pos">
+      <view class="h2 name hlkw name_with_icon">{{jobRow.jname}}</view>
+      <view>
+        <span>招{{jobRow.jobNumber}}
+          <block s-if="jobRow.deptName">, {{jobRow.deptName}}</block>
+        </span>
+      </view>
+      <view class="attr">
+        <span class="attr_loc">{{jobRow.jobArea}}</span>
+        <em>|</em>
+        <span class="attr_date">{{jobRow.updateTime}}刷新</span>
+      </view>
+      <view class="attr_icon">
+        <image s-if="jobRow.urgency==1" src="https://cdn.597.com/wx/images/touch_jizhao.png"></image>
+        <image s-if="jobRow.jobSalaryMax>=10000" src="https://cdn.597.com/wx/images/touch_gaoxin.png"></image>
+        <view s-if="_version>=658" class="shareBtn">
+          <button class="share" open-type="share">分享</button>
+        </view>
+      </view>
+      <view class="salary">{{jobRow.jobSalary}}</view>
+    </view>
+    <view class="company_info ">
+      <navigator class="company_info_a" open-type="redirect" url="../companyInfo/companyInfo?cid={{jobRow._cid}}">
+        <view class="dl">
+          <view class="dt">
+            <image s-if="jobRow.companyRow.logoUrl" src="https://pic.{{ROOT_DOMAIN}}/logo/{{jobRow.companyRow.logoUrl}}"></image>
+            <image s-else src="https://cdn.597.com/wx/images/com_default_logo_180_180.png"></image>
+          </view>
+          <view class="dd title hlkw">{{jobRow.companyRow.cname}}</view>
+          <view class="dd">{{jobRow.companyRow.comType}}
+            <span>/{{jobRow.companyRow.comWorkers}}</span>
+          </view>
+          <view class="dd">{{jobRow.companyRow.comIndustry}}</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="item requirements_pos">
+      <view class="item_title">职位要求</view>
+      <view class="item_body">{{jobRow.jobDegree}}
+        <span>/</span> 经验{{jobRow.jobWorkYear}}
+        <span>/</span> {{jobRow.jobAge}}
+        <span>/</span> {{jobRow.jobGender}}</view>
+    </view>
+    <view class="item description_pos">
+      <view class="item_title">职位描述</view>
+      <view class="item_body" style="overflow:hidden;height:{{pHeight?pHeight:'38px'}};">
+        <text>{{jobRow.jobContent}}</text>
+      </view>
+      <view bindtap="changePHeight" class="comIcon {{hide}}">展开</view>
+    </view>
+    <view s-if="jobRow.rewardStr" class="item promotion_pos">
+      <view class="item_title">职位福利</view>
+      <view class="item_body">
+        <view class="dl">
+          <view class="dt openIcon" style="display:none;">展开</view>
+          <view class="dd" s-for="item, index in jobRow.rewardStr">{{item}}</view>
+        </view>
+      </view>
+    </view>
+
+    <!--部门联系方式-->
+    <view s-if="jobRow.deptRow.isshow==1" class="item contactus">
+      <view class="item_title">该职位隶属于部门：{{jobRow.deptRow.cuName}}</view>
+      <view class="item_body" style="position:relative;">
+        <view class="dl">
+          <view class="dt">部门联系人</view>
+          <view class="dd">{{jobRow.deptRow.linker}}</view>
+        </view>
+        <view class="dl" s-if="jobRow.deptRow.email.length>0">
+          <view class="dt">部门邮箱</view>
+          <view class="dd">{{jobRow.deptRow.email}}</view>
+        </view>
+        <view class="dl" s-if="jobRow.deptRow.linktel.length>0">
+          <view class="dt">部门电话</view>
+          <view class="dd">
+            {{jobRow.deptRow.linktel}}
+            <view class="phoneImg" bindtap="callPhone" data-phone="{{jobRow.deptRow.linktel}}"></view>
+          </view>
+        </view>
+        <view class="dl" s-if="jobRow.deptRow.qq.length>0">
+          <view class="dt">部门QQ</view>
+          <view class="dd">{{jobRow.deptRow.qq}}</view>
+        </view>
+        <view class="dl contactus_addree">
+          <view class="dt">部门地址</view>
+          <view class="dd">
+            {{jobRow.deptRow.address}}
+            <view s-if="jobRow.deptRow.longitude!='0'&&jobRow.deptRow.latitude!='0'" style="color:#F8881D;" bindtap="showMap" data-lat="{{jobRow.deptRow.latitude}}" data-lng="{{jobRow.deptRow.longitude}}" data-address="{{jobRow.deptRow.address}}">查看地图</view>
+          </view>
+        </view>
+        <view class="dl" s-if="jobRow.deptRow.content.length>0">
+          <view class="dt">部门简介</view>
+          <view class="dd">{{jobRow.deptRow.content}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="item contactus">
+      <view class="item_title">联系方式</view>
+      <view class="item_body" style="position:relative;">
+        <view class="dl">
+          <view class="dt">联系人</view>
+          <view class="dd">
+            {{jobRow.companyRow.comUser}}
+          </view>
+        </view>
+        <view class="dl">
+          <view class="dt">电子邮箱</view>
+          <view class="dd">{{jobRow.companyRow.comEmail}}</view>
+        </view>
+        <view class="dl">
+          <view class="dt">联系电话</view>
+          <view class="dd">
+            <block s-if="jobRow.linkWay=='0'">（企业未公开，请通过597人才网投递简历）</block>
+            <block s-else>
+              <view class="phoneImg" bindtap="showPhone"></view>
+              <block s-if="jobRow.linkWays.length>0">
+                <view s-for="item, index in jobRow.linkWays">{{item.n}}：{{item.t}}</view>
+              </block>
+              <block s-else>{{jobRow.linkWayStr}}</block>
+            </block>
+          </view>
+        </view>
+        <view class="dl contactus_addree">
+          <view class="dt">工作地址</view>
+          <view class="dd">
+            {{jobRow.companyRow.comAddress}}
+            <view s-if="jobRow.companyRow.comLatitude!='0'&&jobRow.companyRow.comLongitude!='0'" style="color:#F8881D;" bindtap="showMap" data-lat="{{jobRow.companyRow.comLatitude}}" data-lng="{{jobRow.companyRow.comLongitude}}" data-address="{{jobRow.companyRow.comAddress}}">查看地图</view>
+          </view>
+        </view>
+        <view class="dl contactus_addree">
+          <view class="dt">面试地址</view>
+          <view class="dd">
+            <block s-if="jobRow.companyRow.comAddress!=jobRow.jobAddInfo">
+              {{jobRow.jobAddInfo}}
+            </block>
+            <block s-else>（同上）</block>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="tips">面试过程中，遇到用人单位收取费用，请提高警惕</view>
+  </view>
+
+  <!--电话-->
+  <block s-if="jobRow.linkWay!=0">
+    <view style="margin-top:60px;"></view>
+    <!--部门存在显示部门的联系方式-->
+    <block s-if="jobRow.deptRow.isshow==1">
+      <view class="contactbar">
+        <view class="landlord">
+          <view class="llname">{{jobRow.deptRow.linker}}</view>
+          <view class="llnumber">{{jobRow.deptRow.linktel}}</view>
+        </view>
+        <view s-if="jobRow.collect=='1'" class="aa sc1" bindtap="addFavorite" data-id="{{jobRow._jid}}">取消收藏</view>
+        <view s-else class="aa sc" bindtap="addFavorite" data-id="{{jobRow._jid}}">收藏</view>
+        <view class="aa yp" bindtap="addApplyPost" data-id="{{jobRow._jid}}">应聘</view>
+        <view class="aa dh" bindtap="callPhone" data-phone="{{jobRow.deptRow.linktel}}">电话</view>
+      </view>
+    </block>
+    <!--显示职位的联系方式-->
+    <block s-else>
+      <view class="contactbar">
+        <view class="landlord">
+          <view class="llname">{{jobRow.callMe[0].n}}</view>
+          <view class="llnumber">{{jobRow.callMe[0].t}}</view>
+        </view>
+        <view s-if="jobRow.collect==1" class="aa sc1" bindtap="addFavorite" data-id="{{jobRow._jid}}">取消收藏</view>
+        <view s-else class="aa sc" bindtap="addFavorite" data-id="{{jobRow._jid}}">收藏</view>
+        <view class="aa yp" bindtap="addApplyPost" data-id="{{jobRow._jid}}">应聘</view>
+        <view class="aa dh" bindtap="showPhone">电话</view>
+      </view>
+    </block>
+  </block>
+  <block s-else>
+    <view id="applyFootBtn" class="apply_pos" style="position:fixed !important;z-index:88;">
+      <view class="apply_pos_box ">
+        <navigator s-if="jobRow.collect==1" bindtap="addFavorite" class="favorite1 favPost first" data-id="{{jobRow._jid}}">取消收藏</navigator>
+        <navigator s-else bindtap="addFavorite" class="favorite favPost first" data-id="{{jobRow._jid}}">收藏</navigator>
+        <navigator bindtap="addApplyPost" class="applyPost last" data-id="{{jobRow._jid}}">应 聘</navigator>
+      </view>
+    </view>
+    <view style="height:50px;"></view>
+  </block>
+</view>
+
+<!--电话弹出层-->
+<view class="blackMask" hidden="{{isHidePhone}}"></view>
+<view class="showPhone" hidden="{{isHidePhone}}">
+  <view s-for="item, index in jobRow.callMe" class="p" style="color:#f50;" bindtap="callPhone" data-phone="{{item.t}}">{{item.n}}：{{item.t}}</view>
+  <view class="p" bindtap="hidePhone">取消</view>
+</view>
+
+<include src="/page/backIndex.swan" />
+<include src="/page/footerNav.swan" />

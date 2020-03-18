@@ -1,0 +1,12 @@
+<view class="fullscreen mc_default">
+    <view class="manage_setup">
+		<view class="binding interview_center">
+			<view class="template_main1">
+				<view class="li interview_list"><navigator url="../whoInviteMeHisList/whoInviteMeHisList"><lable class="labelImg"></lable>邀请面试<text>{{applyCount.inviteCount}}</text></navigator></view>
+				<view class="li resume_view"><navigator url="../resumeViewedLogList/resumeViewedLogList"><lable class="labelImg"></lable>简历被看<text>{{applyCount.visitCount}}</text></navigator></view>
+				<view class="li apply_list"><navigator url="../applyHisList/applyHisList"><lable class="labelImg"></lable>应聘记录<text>{{applyCount.joinCount}}</text></navigator></view>
+				<view class="li send_list"><navigator url="../myFavList/myFavList"><lable class="labelImg"></lable>职位收藏<text>{{applyCount.collectCount}}</text></navigator></view>
+			</view>
+		</view>
+	</view>
+</view>

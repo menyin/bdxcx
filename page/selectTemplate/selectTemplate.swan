@@ -1,0 +1,33 @@
+<view class="selectParts" style="width: 100%; background: rgb(255, 255, 255);" id="thirdSelect">
+    <view class="selectMainTop" style="width: 100%;">
+        <view class="ptworkPlace" style>
+            <p>已选：</p>
+            <view id="hasSelected" s-if="cacheSelect.length>0">
+                <black s-for="item, index in cacheSelect">
+                <span s-if="item.name">
+                    {{item.name}}
+                    <em bindtap="delAdd" data-index="{{index}}" data-name="{{item.name}}" data-id="{{item.id}}" class="icon-svg152"><image src="https://cdn.597.com/wx/images/close_circle.png"></image></em>
+                </span>
+                </black>
+            </view>
+            <view>
+                <navigator class="sure" bindtap="sureAdd">确定</navigator>
+            </view>
+        </view>
+    </view>
+    <view class="ul psgMParts psgMPartsx">
+        <view class="li" s-for="ar, index in areaList">
+            <block s-if="ar.isNext">
+                <navigator id='{{ar.value}}' url="/page/selectTemplate/selectTemplate?p={{ar.value}}&type={{types}}&name={{dataName}}&maxCount={{maxCount}}" class="notSelect">{{ar.label}}</navigator><i class="icon-svg15"></i>
+            </block>
+            <block s-else>
+                <navigator data-name="{{ar.label}}" data-id='{{ar.value}}' bindtap="addVal" class="notSelect">
+                    {{ar.label}}
+                    <block s-for="item, index in cacheSelect">
+                    <icon s-if="ar.value==item.id" type="success_no_circle" size="20" color="green" />
+                    </block>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view>

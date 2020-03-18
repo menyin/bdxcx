@@ -1,0 +1,85 @@
+<view class="module apply">
+    <form bindsubmit="formSubmit" report-submit="true">
+        <view class="template_main6">
+            <view class="dl goto">
+                <a url="javascript:;">
+                    <view class="dt"><span class="asterisk red">*</span><view class="lang must">意向职位</view></view>
+                    <view class="dd">
+                        <navigator url="../../../areaTemplate/areaTemplate?type=position&name=applyPosition&p=0&maxCount=5">
+                        <view class="select_box tip">{{applyPositionNames}}</view>
+                        </navigator>
+                    </view>
+                    <view hidden="true">
+                        <input name="applyPositionIds" value="{=applyPositionIds=}" />
+                        <input name="applyPositionNames" value="{=applyPositionNames=}" />
+                    </view>
+                </a>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang">期望职位</view></view>
+                <view class="dd">
+                    <view class="goto_tip"><input type="text" name="jobSeeking1" class="inputText tip" placeholder="请输入你想从事的职位" value="{=applyData.jobSeeking1=}" bindblur="bindJobSeeking1Change" /></view>
+                </view>
+            </view>
+            <view class="dl goto">
+                <a href="javascript:;">
+                    <view class="dt"><span class="asterisk red">*</span><view class="lang must">意向地区</view></view>
+                    <view class="dd">
+                        <navigator url="../../../areaTemplate/areaTemplate?type=area&name=applyArea&p=1&maxCount=5">
+                        <view class="select_box tip">{{applyAreaNames}}</view>
+                        </navigator>
+                    </view>
+                    <view hidden="true">
+                        <input name="applyAreaIds" value="{=applyAreaIds=}" />
+                        <input name="applyAreaNames" value="{=applyAreaNames=}" />
+                    </view>
+                </a>
+            </view>
+            <view class="dl last_dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">职位类型</view></view>
+                <view class="dd">
+                    <picker name="joinType" bindchange="bindJoinTypeChange" value="{{applyData.joinType}}" range="{{joinType}}">
+                        <view class="select_box tip">
+                        {{joinType[applyData.joinType]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="Industry">意向行业</view></view>
+                <view class="dd">
+                    <navigator url="../../../areaTemplate/areaTemplate?type=industry&name=applyIndustry&p=0&maxCount=5">
+                    <view class="select_box tip">{{applyIndustryNames}}</view>
+                    </navigator>
+                </view>
+                <view hidden="true">
+                    <input name="applyIndustryIds" value="{=applyIndustryIds=}" />
+                    <input name="applyIndustryNames" value="{=applyIndustryNames=}" />
+                </view>
+            </view>
+            <!-- <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">到岗时间</view></view>
+                <view class="dd">
+                    <picker name="joinTime" bindchange="bindJoinTimeChange" value="{{applyData.checkinDate}}" range="{{joinTime}}">
+                        <view class="select_box tip">
+                        {{joinTime[applyData.checkinDate]}}
+                        </view>
+                    </picker>
+                </view>
+            </view> -->
+            <view class="viewider"></view>
+            <view class="dl salary last_dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang">期望月薪</view></view>
+                <view class="dd">
+                    <picker name="salary" bindchange="bindSalarysChange" value="{{applyData.salary}}" range="{{salarys}}">
+                        <view class="select_box tip">
+                        {{salarys[applyData.salary]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+        <view class="btn"><button class="btn1_submit lang" formType="submit">保存</button></view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

@@ -1,0 +1,215 @@
+<view class="fullscreen mc_default">
+  <view class="topFload">
+    <view class="person_info">
+      <view class="dl">
+        <!--<navigator url="../resume/resumePhoto/resumePhoto" class="dt">-->
+        <view class="dt">
+          <image id="userPhoto" src="https:{{userPhoto}}"></image>
+          <!--<i class="camera"></i>-->
+        </view>
+        <!--</navigator>-->
+        <view class="dd name" style="padding-top:20px;font-size:20px;">{{nickname}}</view>
+        <!-- <view class="dd child"><span>会员编号：a319da2380958</span></view> -->
+        <!--{if $userRow['regDate']}-->
+        <!-- <view class="dd child"><span>注册日期：2016-04-14</span></view> -->
+        <!--{/if}-->
+      </view>
+    </view>
+  </view>
+
+  <view class="person_menu">
+    <view class="menu_container">
+      <view class="ul msgSearcher" style="height:52px;">
+        <view class="li menu_info">
+          <navigator url="../apply/whoInviteMeHisList/whoInviteMeHisList">
+            <b>
+              <i>{{applyCount.inviteCount}}</i>
+            </b><span>面试邀请</span></navigator>
+        </view>
+        <view class="li menu_search">
+          <navigator url="../apply/resumeViewedLogList/resumeViewedLogList">
+            <b>
+              <i>{{applyCount.visitCount}}</i>
+            </b><span>简历被看</span></navigator>
+        </view>
+        <view class="li menu_collect">
+          <navigator url="../apply/myFavList/myFavList">
+            <b>
+              <i>{{applyCount.collectCount}}</i>
+            </b><span>职位收藏</span></navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="manage_setup">
+    <view class="tab_menu1">
+      <view class="ul tab_person">
+        <view class="li">
+          <view>账户设置</view>
+        </view>
+      </view>
+    </view>
+
+    <view>
+      <view id="tab_person_2" class="binding person_center">
+        <view id="ul setting-userInfo" class="template_main1 myul">
+          <view class="li change_name" data-action="name">
+            <view class="navigator" bindtap="showChangeName">
+              <label></label>修改用户名
+              <view class="summary" id="userName">{{userName}}</view>
+            </view>
+          </view>
+          <view class="li change_password" data-action="password">
+            <view class="navigator" bindtap="showChangePwd">
+              <label></label>修改密码</view>
+          </view>
+          <view class="li change_mailbox" data-action="email">
+            <view class="navigator" bindtap="showChangeMail">
+              <label></label>修改邮箱
+              <view class="summary" id="userEmail">{{email}}</view>
+            </view>
+          </view>
+          <view class="li change_phone" data-action="mobile">
+            <view class="navigator" bindtap="showChangePhone">
+              <label></label>修改手机
+              <view class="summary" id="userMobile">{{phone}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="exit">
+        <view bindtap="logout" class="exit_button">解绑并退出当前账号</view>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<!--修改用户名弹窗-->
+<view hidden="{{changeNameFlag}}" class="popBox ">
+  <view class="box-title">修改用户名</view>
+  <view class="box-content">
+    <view class="up_box">
+      <form bindsubmit="submitChangeName">
+        <view class="content_2">
+          <view class="ul">
+            <view hidden="{{errorFlag}}" class="errorLi">{{errorMeg}}</view>
+            <view class="li">
+              <input name="pwdLogin" type="password" value="{=nullVal=}" placeholder="原密码" />
+              <i class="input-clear hide"></i>
+            </view>
+            <view class="li">
+              <input name="userName" type="text" value="{=userName=}" placeholder="用户名" />
+              <i class="input-clear" style="display: none;"></i>
+            </view>
+          </view>
+        </view>
+        <view class="button clearfix">
+          <button bindtap="hideAll" class="cancel box-cancel">取消</button>
+          <button formType="submit" class="confirm box-ok">确认</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>
+
+<!--修改密码弹窗-->
+<view hidden="{{changePwdFlag}}" class="popBox ">
+  <view class="box-title">修改密码</view>
+  <view class="box-content">
+    <view class="up_box">
+      <form bindsubmit="submitChangepwd">
+        <view class="content_2">
+          <view class="ul">
+            <view hidden="{{errorFlag}}" class="errorLi">{{errorMeg}}</view>
+            <view class="li">
+              <input type="password" name="oldpwd" value="{=nullVal=}" placeholder="原密码" />
+              <i class="input-clear hide"></i>
+            </view>
+            <view class="li">
+              <input type="password" name="newpwd" value="{=nullVal=}" placeholder="新密码" />
+              <i class="input-clear hide"></i>
+            </view>
+            <view class="li">
+              <input type="password" name="confirmpwd" value="{=nullVal=}" placeholder="确认密码" />
+              <i class="input-clear hide"></i>
+            </view>
+          </view>
+        </view>
+        <view class="button clearfix">
+          <button bindtap="hideAll" class="cancel box-cancel">取消</button>
+          <button formType="submit" class="confirm box-ok">确认</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>
+
+<!--修改邮箱-->
+<view hidden="{{changeMailFlag}}" class="popBox ">
+  <view class="box-title">修改邮箱</view>
+  <view class="box-content">
+    <form bindsubmit="submitChangeMail">
+      <view class="up_box">
+        <view class="content_2">
+          <view class="ul">
+            <view hidden="{{errorFlag}}" class="errorLi">{{errorMeg}}</view>
+            <view class="li">
+              <input type="password" name="pwd" placeholder="登录密码" value="{=nullVal=}" />
+              <i class="input-clear"></i>
+            </view>
+            <view class="li">
+              <input type="text" name="email" value="{=email=}" placeholder="邮箱地址" />
+              <i class="input-clear"></i>
+            </view>
+            <!--<view>
+								<view class="li" style="width: 40%;float:left;"><input type="text" name="yzm" value="" placeholder="验证码"/><i class="input-clear"></i></view>
+								<image bindtap="changeCode" style="width:100px;height:32px;margin:5px 3px;" src="{{codeUrl}}"></image>
+							</view>                                            -->
+          </view>
+        </view>
+        <view class="button clearfix">
+          <button bindtap="hideAll" class="cancel box-cancel">取消</button>
+          <button formType="submit" class="confirm box-ok">确认</button>
+        </view>
+      </view>
+    </form>
+  </view>
+</view>
+
+<!--修改手机号码-->
+<view hidden="{{changePhoneFlag}}" class="popBox ">
+  <view class="box-title">修改手机</view>
+  <view class="box-content">
+    <form bindsubmit="submitChangePhone">
+      <view class="up_box">
+        <view class="content_2">
+          <view class="ul">
+            <view hidden="{{errorFlag}}" class="errorLi">{{errorMeg}}</view>
+            <view class="li">
+              <input type="number" bindinput="changeIndexMobile" name="mobile" value="{=phone=}" placeholder="手机号码" />
+              <i class="input-clear"></i>
+            </view>
+            <view style="overflow: hidden;">
+              <view class="li" style="width: 40%;float:left;">
+                <input type="text" name="mobileZym" id="mobileZym" value="{=nullVal=}" placeholder="验证码" />
+                <i class="input-clear"></i>
+              </view>
+              <button class="can" disabled="{{sendCodeFlag}}" data-mobile="{{changePhone}}" bindtap="getIndexCode">{{sendCodeTitle}}</button>
+            </view>
+          </view>
+        </view>
+        <view class="button clearfix">
+          <button bindtap="hideAll" class="cancel box-cancel">取消</button>
+          <button formType="submit" class="confirm box-ok">确认</button>
+        </view>
+      </view>
+    </form>
+  </view>
+</view>
+<include src="../../footer.swan" />
+<!--遮罩层-->
+<view hidden="{{maskFlag}}" class="ui-mask" bindtap="hideAll"></view>
+<include s-if="uid<=0" src="/page/loginTemplate/loginTemplate.swan" />

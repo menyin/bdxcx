@@ -1,0 +1,4619 @@
+[
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 47,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 50,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 54,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 59,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 62,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 66,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 71,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 74,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 78,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 116,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 120,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 148,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 159,
+        "column": 16,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 164,
+        "column": 16,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 168,
+        "column": 20,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 185,
+        "column": 24,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 205,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 213,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 229,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 231,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 234,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 235,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 248,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 280,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 296,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 319,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 326,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/app.js",
+        "row": 336,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/config/global.js",
+        "row": 9,
+        "column": 2,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/config/global.js",
+        "row": 11,
+        "column": 2,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/config/global.js",
+        "row": 16,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/config/global.js",
+        "row": 26,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/config/global.js",
+        "row": 39,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/config/global.js",
+        "row": 41,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/config/global.js",
+        "row": 47,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/config/global.js",
+        "row": 56,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/lib/bmap-wx.js",
+        "row": 35,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/lib/bmap-wx.js",
+        "row": 79,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/lib/bmap-wx.js",
+        "row": 168,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/lib/bmap-wx.js",
+        "row": 223,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/lib/bmap-wx.js",
+        "row": 308,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 49,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 55,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 60,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 107,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 114,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 122,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 135,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 151,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 170,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 242,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 253,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 260,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 262,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 291,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 401,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 422,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 582,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 608,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/result/result.js",
+        "row": 768,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 35,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 41,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 46,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 58,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 67,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 78,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 86,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 97,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 108,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 210,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 214,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 262,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/_search/search.js",
+        "row": 283,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/about/userFreeback/userFreeback.js",
+        "row": 7,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/about/userFreeback/userFreeback.js",
+        "row": 31,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/about/userFreeback/userFreeback.js",
+        "row": 33,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/about/userFreeback/userFreeback.js",
+        "row": 39,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/ai/ai.js",
+        "row": 22,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 12,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 40,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 65,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 96,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 105,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 132,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 151,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 162,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 185,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 252,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/areaTemplate/areaTemplate.js",
+        "row": 294,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform context && method",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 357,
+        "column": 4,
+        "before": "wx.navigateToMiniProgram",
+        "after": "swan.navigateToSmartProgram",
+        "message": "wx.navigateToMiniProgram --- 方法被替换为navigateToSmartProgram"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 58,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 72,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 109,
+        "column": 20,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 127,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 158,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 170,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 177,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 220,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 226,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 248,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 280,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 296,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 315,
+        "column": 16,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 319,
+        "column": 22,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 342,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 346,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/index/index.js",
+        "row": 373,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/jump/jump.js",
+        "row": 7,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/jump/jump.js",
+        "row": 9,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/jump/jump.js",
+        "row": 12,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/logout/logout.js",
+        "row": 18,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/logout/logout.js",
+        "row": 25,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw/forgetPsw.js",
+        "row": 23,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw/forgetPsw.js",
+        "row": 41,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw/forgetPsw.js",
+        "row": 54,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw/forgetPsw.js",
+        "row": 57,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw/forgetPsw.js",
+        "row": 82,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw/forgetPsw.js",
+        "row": 87,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw/forgetPsw.js",
+        "row": 103,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw/forgetPsw.js",
+        "row": 108,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 28,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 47,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 52,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 56,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 60,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 65,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 78,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 79,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/forgetPsw2/forgetPsw2.js",
+        "row": 84,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 36,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 38,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 46,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 48,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 62,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 75,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 78,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 97,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 99,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 110,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 114,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 118,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 147,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 152,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 157,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 170,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 174,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 200,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 205,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 210,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/miLogin/miLogin.js",
+        "row": 216,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/newArea/newArea.js",
+        "row": 39,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/newArea/newArea.js",
+        "row": 43,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/applyHisList/applyHisList.js",
+        "row": 23,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/applyHisList/applyHisList.js",
+        "row": 107,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/applyHisList/applyHisList.js",
+        "row": 111,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/applyHisList/applyHisList.js",
+        "row": 126,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/myFavList/myFavList.js",
+        "row": 22,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/myFavList/myFavList.js",
+        "row": 104,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/myFavList/myFavList.js",
+        "row": 108,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/myFavList/myFavList.js",
+        "row": 122,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/resumeViewedLogList/resumeViewedLogList.js",
+        "row": 23,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/whoInviteMeHisList/whoInviteMeHisList.js",
+        "row": 17,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/whoInviteMeHisList/whoInviteMeHisList.js",
+        "row": 36,
+        "column": 30,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/whoInviteMeHisList/whoInviteMeHisList.js",
+        "row": 73,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/whoInviteMeHisList/whoInviteMeHisList.js",
+        "row": 158,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/whoInviteMeHisList/whoInviteMeHisList.js",
+        "row": 162,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/apply/whoInviteMeHisList/whoInviteMeHisList.js",
+        "row": 176,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 55,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 170,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 224,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 265,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 271,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 320,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 326,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 349,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 363,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 366,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 394,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 401,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 425,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 438,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 441,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 470,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 474,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 478,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 506,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 509,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 520,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 524,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 553,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 556,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 563,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/index/index.js",
+        "row": 569,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/getBlackList/getBlackList.js",
+        "row": 30,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/getBlackList/getBlackList.js",
+        "row": 39,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/getBlackList/getBlackList.js",
+        "row": 76,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/getBlackList/getBlackList.js",
+        "row": 106,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/getSubResume/getSubResume.js",
+        "row": 20,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/getSubResume/getSubResume.js",
+        "row": 35,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/index/index.js",
+        "row": 34,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/newRefresh/newRefresh.js",
+        "row": 32,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/newRefresh/newRefresh.js",
+        "row": 39,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 9,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 15,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 49,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 56,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 63,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 71,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 90,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 94,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 98,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 105,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/queryBaseInfo/queryBaseInfo.js",
+        "row": 114,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 13,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 31,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 45,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 58,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 74,
+        "column": 7,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 78,
+        "column": 7,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 102,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 123,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 127,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 129,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 133,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 140,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 158,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 174,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 178,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 181,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeAbility/resumeAbility.js",
+        "row": 186,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 14,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 117,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 155,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 159,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 163,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 167,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 171,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 179,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 233,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 237,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 239,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeApply/resumeApply.js",
+        "row": 243,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 31,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 233,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 237,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 241,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 245,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 249,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 253,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 257,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 261,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 265,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 309,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 311,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 338,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 342,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 345,
+        "column": 16,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 349,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeBase/resumeBase.js",
+        "row": 357,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 13,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 31,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 45,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 56,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 72,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 76,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 98,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 117,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 121,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 123,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 127,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 134,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 152,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 169,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 173,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 176,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeCert/resumeCert.js",
+        "row": 181,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 16,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 37,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 54,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 65,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 89,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 93,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 97,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 101,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 105,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 133,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 160,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 164,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 166,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 170,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 177,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 195,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 211,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 215,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 218,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeEducation/resumeEducation.js",
+        "row": 223,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 15,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 34,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 50,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 61,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 80,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 84,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 88,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 136,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 140,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 142,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 146,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 153,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 171,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 188,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 192,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 195,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeLanguage/resumeLanguage.js",
+        "row": 200,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 13,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 32,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 46,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 57,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 69,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 73,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 113,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 117,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 119,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 123,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 130,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 148,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 164,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 168,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 171,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeOtherInfo/resumeOtherInfo.js",
+        "row": 176,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 9,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 20,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 30,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 40,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 51,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 64,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 83,
+        "column": 16,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 87,
+        "column": 20,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 90,
+        "column": 20,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 95,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 98,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 103,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 128,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 132,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumePhoto/resumePhoto.js",
+        "row": 135,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 14,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 37,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 55,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 66,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 88,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 92,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 96,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 100,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 104,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 108,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 134,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 158,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 162,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 164,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 168,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 175,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 193,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 209,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 213,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 216,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeProject/resumeProject.js",
+        "row": 221,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 13,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 34,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 51,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 62,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 82,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 86,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 90,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 94,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 117,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 138,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 142,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 144,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 148,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 155,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 173,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 189,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 193,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 196,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSchool/resumeSchool.js",
+        "row": 201,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSelf/resumeSelf.js",
+        "row": 10,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSelf/resumeSelf.js",
+        "row": 21,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSelf/resumeSelf.js",
+        "row": 32,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSelf/resumeSelf.js",
+        "row": 50,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSelf/resumeSelf.js",
+        "row": 62,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSelf/resumeSelf.js",
+        "row": 66,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSelf/resumeSelf.js",
+        "row": 68,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeSelf/resumeSelf.js",
+        "row": 72,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 13,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 37,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 55,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 66,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 88,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 92,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 96,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 100,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 104,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 108,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 134,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 157,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 161,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 163,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 167,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 174,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 192,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 208,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 212,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 215,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeTrain/resumeTrain.js",
+        "row": 220,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 17,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 71,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 95,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 116,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 149,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 153,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 157,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 161,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 165,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 169,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 173,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 177,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 181,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 214,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 241,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 245,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 247,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 251,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 258,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 276,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 292,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 296,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 299,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/resumeWork/resumeWork.js",
+        "row": 304,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/securitySetup/securitySetup.js",
+        "row": 11,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/securitySetup/securitySetup.js",
+        "row": 17,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/securitySetup/securitySetup.js",
+        "row": 47,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/person/resume/securitySetup/securitySetup.js",
+        "row": 51,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/comJobList/comJobList.js",
+        "row": 35,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/companyInfo/companyInfo.js",
+        "row": 44,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 48,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 58,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 71,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 73,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 81,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 94,
+        "column": 16,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 100,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 107,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 120,
+        "column": 16,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 126,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 132,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 135,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 154,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 156,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 163,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 165,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 171,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 191,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/jobInfo/jobInfo.js",
+        "row": 216,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/position/showCompany/showCompany.js",
+        "row": 33,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 42,
+        "column": 21,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 45,
+        "column": 25,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 54,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 60,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 65,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 112,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 131,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 140,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 153,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 169,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 188,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 265,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 276,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 283,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 311,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 420,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 441,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 609,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 635,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/result/result.js",
+        "row": 876,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 36,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 42,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 47,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 59,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 68,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 77,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 85,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 96,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 112,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 151,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 158,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 217,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 222,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 232,
+        "column": 16,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 254,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 260,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 308,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/search/search.js",
+        "row": 329,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 33,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 64,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 78,
+        "column": 10,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 83,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 89,
+        "column": 14,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 103,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 114,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 125,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/selectTemplate/selectTemplate.js",
+        "row": 151,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/talkTemplate/talkTemplate.js",
+        "row": 10,
+        "column": 2,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/talkTemplate/talkTemplate.js",
+        "row": 13,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "F:/Desktop/bdxcx/page/talkTemplate/talkTemplate.js",
+        "row": 21,
+        "column": 12,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    }
+]

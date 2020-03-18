@@ -1,0 +1,10 @@
+<!--page/ai/ai.wxml-->
+<view class='pageAi'>
+  <view class="textAi">音频转换时间：{{time1}}</view>
+  <view class="textAi">语音识别结果：{{content}}</view>
+  <view class="textAi">文字转换时间：{{time2}}</view>
+  <view class="textAi">ai识别结果：{{aiContent}}</view>
+  <view class="textAi">ai转换时间：{{time3}}</view>
+  <view class="textAi">总转换时间：{{time}}</view>
+  <view class="{{talkClass}}" bindtouchstart="startRecord" bindtouchend="endRecord">按住我说话</view>
+</view>

@@ -1,0 +1,91 @@
+page {
+  background: #f5f5f5;
+  font-size: 16px;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.green {
+  color: #282;
+}
+.color666{color:#888 !important;}
+.red {
+  color: #c00;
+}
+
+img {
+  border: 0;
+}
+
+picker {
+  font-size: 14px;
+}
+
+input {
+  font-size: 14px;
+}
+
+.hideToLong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nav_bottom {
+    z-index: 8888;
+    height: 55px;
+    border-top: 1px solid #E7E7E7;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    background: #fbfbfb;
+}
+.nav_bottom .li {
+    width: 25%;
+    float: left;
+}
+
+.nav_bottom .li span:before {
+    content: '';
+    display: block;
+    width: 26px;
+    height: 28px;
+    background: url("https://cdn.597.com/mi/images/nav_bottom2.png") no-repeat;
+    background-size: 266%;
+    margin: 0 auto;
+    background-position: 0px 2px;
+}
+.nav_bottom .li:nth-child(2) span:before {
+    background-position: 0 -43px;
+}
+.nav_bottom .li:nth-child(3) span:before {
+    background-position: 0 -90px;
+}
+.nav_bottom .li:nth-child(4) span:before {
+    background-position: 0 -136px;
+}
+.nav_bottom .li span {
+    display: block;
+    color: #888;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+.bottomnull {
+    height: 55px;
+    width: 100%;
+    background: #F5F5F5;
+}
+.clear{clear: both;
+}
+.floatR{float: right;}
+.floatL{float: left;}

@@ -1,0 +1,144 @@
+<view class="jobcn_selector jobcn_selector_area cn">
+  <view class="head_wrap section">
+
+    <!--<view class="selector_head">
+      <a class="back"></a>     地区选择
+      <a class="save">确定</a>    
+    </view>-->
+    <view class="selector_opted  clearfix">
+      <view>
+        <view class="clear_count"> 
+          <span>已选择{{selectBase.title}}</span> 
+          <view class="right_position"> 
+            <span class="selector_checker_count"><span class="currentNum">{{cacheSelect.length}}</span>/{{selectBase.maxCount}}</span>  
+            <span class="selector_clear clearSelector" style="display:block" bindtap="clearAll"> 清空</span>  
+          </view>
+        </view> 
+        <span class="selector_checker_tip hide">{{selectBase.title}}不限</span> 
+        <view class="selector_checker_plan clearfix" style="display: block;height:70px;">
+          <view class="selectedItems ul" s-if="cacheSelect.length>0">
+            <view class="selectedIcon li" s-for="item, index in cacheSelect">
+              <a class="selector_selected" s-if="item.name"><span>{{item.name}}</span> 
+                <i class="selected_icon" bindtap="delAdd" data-index="{{index}}"></i>
+              </a> 
+            </view>
+          </view>
+        </view>
+      </view>
+      <view>
+          <text class="sure" bindtap="sureAdd">确定</text>
+      </view>
+    </view>
+    <!--<view class="currant_position">
+      <i class="position_icon"></i>当前定位
+      <a class="getLocation">[重新定位]</a>  <span class="selected_area">厦门市</span>  
+    </view>-->
+  </view>
+
+  <!--selector_body-->
+  <view class="main_box selectorBody" style="display:block">
+    <view class="selector_body_box bodyMainBox {{cv&&areaList[cv].s.length>0?'active_level':''}}">
+      <view class="selector_body">
+        <!--level1-->
+        <view class="selector_category_box1 selectorLv1 provinceBox {{cv&&areaList[cv].s.length>0?'gray':''}}">
+          <scroll-view scroll-y="true" style="height: {{iheight}}">
+            <view class="provinceItems ul">
+              <!-- <view data-pv="0" class="title li subSelected {{pv==0?'active':''}}" bindtap="levelOne"><span>{{selectBase.title}}不限</span>  </view> -->
+              <!--<view class="title li nearly_area {{pv=='last'?'active':''}}" data-pv="last" bindtap="levelOne"><span><i></i>最近选择</span>  </view>-->
+              <view s-if="types=='area'" class="title li hot_area {{pv=='hot'?'active':''}}" data-pv="hot" bindtap="levelOne"><span><i></i>开放城市</span>  </view>
+              <block s-for="item, index in areaList[p].s">
+              <view data-pv="{{item}}" class="title li {{pv==item?'active':''}}" bindtap="levelOne"><span>{{areaList[item].c}}</span></view>
+              </block>
+            </view>
+            <view class="shade_box" bindtap="hideShadeBox"></view>
+          </scroll-view>
+        </view>
+
+        <!--level2-->
+        <view class="selector_category_box2 selectorLv2 cityBox">
+          <view class="selector_category_items">
+            <scroll-view scroll-y="true" style="height: {{iheight}}">
+              <view class="ul {{pv==0?'':'hide'}}" data-pv="0">
+                <!-- <view class="selector_item li {{cv&&cv==0?'selected':''}}" data-cv="" bindtap="levelTow"><span>不限<i class="item_check"></i><i class="item_icon hide"></i></span>  </view> -->
+              </view>
+              <view class="ul cityItems {{pv=='last'?'':'hide'}}" data-pv="last"> </view>
+              <view s-if="types=='area'" data-pv="hot" class="ul {{pv=='hot'?'':'hide'}}">
+              <block s-for="item, index in hotCity">
+              <view class="selector_item li {{cv==item.v?'active':''}}" data-cv="{{item.v}}" bindtap="levelTow">
+                <span>{{item.c}}
+                    <block s-if="!areaSearch">
+                    <i class="item_icon"></i>
+                    </block>
+                    <block s-else>
+                    <block s-for="cache, index in cacheSelect">
+                    <i s-if="item.v==cache.id" class="item_check" style="display:block;"></i>
+                    </block>
+                    </block>
+                </span>  
+              </view>
+              </block>
+
+
+              </view>
+              <view data-pv="{{pv}}" class="ul {{pv&&pv!=0&&pv!='hot'&&pv!='last'?'':'hide'}}">
+                <view class="selector_item li " data-pv="{{pv}}" bindtap="myIsAll">
+                  <span>全{{areaList[pv].c}}
+                    <block s-for="cache, index in cacheSelect">
+                    <i s-if="pv==cache.id" class="item_check" style="display:block;"></i>
+                    </block>
+                  </span>  
+                </view>
+                <block s-for="item, index in areaList[pv].s">
+                <view class="selector_item li {{cv==item?'active':''}}" data-cv="{{item}}" bindtap="levelTow">
+                  <span>{{areaList[item].c}}
+                    <block s-if="areaList[item].s && areaList[item].s.length>0">
+                    <i class="item_icon"></i>
+                    </block>
+                    <block s-else>
+                    <block s-for="cache, index in cacheSelect">
+                    <i s-if="item==cache.id" class="item_check" style="display:block;"></i>
+                    </block>
+                    </block>
+                  </span>  
+                </view>
+                </block>
+              </view>
+            </scroll-view>
+          </view>
+        </view>
+
+        <!--level3-->
+        <view class="selector_category_box3 selectorLv3 cityBox {{cv&&areaList[cv].s.length>0?'':'hide'}}">
+          <view class="selector_category_items">
+          <scroll-view scroll-y="true" style="height: {{iheight}}">
+            <view class="ul hide" data-pv="0">
+              <view class="selector_item li {{cv==0?'':'hide'}}" data-cv="0">
+                <span>不限<i class="item_check"></i><i class="item_icon hide"></i></span>  
+              </view>
+            </view>
+            <view class="selector_item li " data-cv="{{cv}}" bindtap="myIsAll">
+              <span>全{{areaList[cv].c}}
+                <block s-for="cache, index in cacheSelect">
+                <i s-if="cv==cache.id" class="item_check" style="display:block;"></i>
+                </block>
+              </span>  
+            </view>
+            <block s-for="level3, index in areaList[cv].s">
+            <view class="selector_item li" data-tv="{{level3}}" bindtap="levelThree">
+              <span>{{areaList[level3].c}}
+                <block s-for="cache, index in cacheSelect">
+                <i s-if="level3==cache.id" class="item_check" style="display:block;"></i>
+                </block>
+              </span>  
+            </view>
+            </block>
+          </scroll-view>
+          </view>
+        </view>
+        <view class="selector_category_box4 selectorLv4 areaBox">
+          <view class="selector_category_items"> </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,392 @@
+<!--<scroll-view scroll-y="true" style="height: 800px;" bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{topNums}}">     -->
+    <black s-if="resumeRow">
+    <view class="operate_lang" id="operate_lang">
+        <view class="ul">
+        <view class="li cn-title"><a>中文<span class="green" id="cnFinish">({{finishCount}}%)</span></a></view>
+        </view>
+    </view>
+    <view class="refresh_tip">
+        <navigator url="../queryBaseInfo/queryBaseInfo">
+            更新于 {{resumeRow.resumeUptime}} 点击刷新简历
+        </navigator>
+    </view>
+    <view class="gongkai_tip">
+        <navigator url="../securitySetup/securitySetup">
+            设置简历公开程度
+        </navigator>
+    </view>
+    <view id="model_list" class="module my_resume_detail">
+        <view class="ul">
+            <view class="cn-content slider" style>
+                <view class="template_main7 cn">
+                    <!--基本信息-->
+                    <view id="base" class="li res_base"> 
+                        <view class="title"> 
+                            <view class="dl"> 
+                                <view class="dt"> <i></i> 基本信息  <span>必填</span> </view> 
+                                <view class="dd"> <navigator url="../resumeBase/resumeBase" name="edit" rel="base">编辑</navigator> </view> 
+                            </view> 
+                        </view>  
+                        <view class="hs_content"> 
+                            <view class="basicInfo"> 
+                                <view class="dl"> 
+                                    <view class="dt">{{resumeRow.baseData.name}}</view> 
+                                    <view class="dd">{{resumeRow.baseData.sex==1?'男':'女'}}/ {{resumeRow.age>0?resumeRow.age+"岁/":''}}  {{resumeRow.baseData.height}}CM <!--/ {{resumeRow.baseData.marriageInfo}}-->/{{resumeRow.baseData.maxEduInfo}} </view> 
+                                    <!--<view class="dd">{{resumeRow.baseData.maxEduInfo}} / {{resumeRow._workYear}}</view> -->
+                                </view> 
+                            </view> 
+                            <view class="personInfo"> 
+                                <view class="dl"> 
+                                    <view class="dt">户籍<text class="dd">{{resumeRow.baseData.hometownPCName}}</text></view> 
+                                </view> 
+                                <view class="dl"> 
+                                    <view class="dt">现居<text class="dd">{{resumeRow.baseData.locationPCName}}</text> </view> 
+                                </view> 
+                                <view class="dl" s-if="resumeRow.baseData.mobile"> 
+                                    <view class="dt">手机<text class="dd">{{resumeRow.baseData.mobile}}  <i class="phone_y"></i>  </text></view> 
+                                </view>  
+                                <view class="dl email" s-if="resumeRow.baseData.email"> 
+                                    <view class="dt">邮箱<text class="dd">{{resumeRow.baseData.email}}<i class="email_n"></i>  </text> </view> 
+                                </view>  
+                                <view class="dl" s-if="resumeRow.baseData.qq"> <view class="dt">QQ<text class="dd">{{resumeRow.baseData.qq}}</text></view></view> 
+                                <view class="dl"> </view> 
+                            </view> 
+                            <view class="myPhoto"> 
+                                <navigator url="../resumePhoto/resumePhoto" name="edit" rel="photo">
+                                <image src="https:{{resumeRow.attachment}}"></image> 
+                                </navigator> 
+                            </view> 
+                        </view> 
+                    </view>
+                    <!--求职意向-->
+                    <view class="li res_apply"> 
+                        <view id="apply" class="title"> 
+                            <view class="dl"> 
+                                <view class="dt"> <i></i> 求职意向 <span>必填</span> </view> 
+                                <view class="dd"> <navigator url="../resumeApply/resumeApply" name="edit" rel="apply">编辑</navigator> </view> 
+                            </view> 
+                        </view>   
+                        <view class="hs_content"> 
+                            <view class="dl"> 
+                                <view class="dt">意向职位<text class="dd">{{resumeRow.applyData.applyPositionNames}}</text></view>       
+                            </view> 
+                            <view class="dl"> 
+                                <view class="dt">意向行业<text class="dd">{{resumeRow.applyData.applyIndustryNames}}</text></view> 
+                            </view> 
+                            <view class="dl"> 
+                                <view class="dt">意向地区<text class="dd">{{resumeRow.applyData.applyAreaNames}}</text></view>         
+                            </view> 
+                            <!-- <view class="dl" wx:if="{{resumeRow.applyData._joinTime}}"> 
+                                <view class="dt">到岗时间<text class="dd">{{resumeRow.applyData._joinTime}}</text></view>  
+                            </view>  -->
+                            <view class="dl" s-if="resumeRow.applyData.joinSalaryInfo"> 
+                                <view class="dt">期望月薪<text class="dd">{{resumeRow.applyData.joinSalaryInfo}}</text> </view> 
+                            </view> 
+                            <view class="dl">  </view>
+                        </view>  
+                    </view>
+                    <!--教育经历-->
+                    <view class="li res_edu">
+                        <view id="education" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    教育经历<span>必填</span>
+                                </view>
+                                <view s-if="resumeRow.eduListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeEducation/resumeEducation" name="edit" rel="education">编辑</navigator>
+                                </view>
+                            </view>
+                        </view> 
+                        <view s-if="resumeRow.eduListInfo.length>0" class="hs_content">
+                            <view s-for="eduRow, index in resumeRow.eduListInfo" class="edu_list">
+                                <view class="li">  
+                                    <view class="li_box"> 
+                                        <view> {{eduRow.eduStartDate}} ~ {{eduRow.eduEndDate?eduRow.eduEndDate:'至今'}} <span>|</span> {{eduRow.eduBackGroundInfo}} </view> 
+                                        <view class="name">学校：{{eduRow.eduName}}</view> 
+                                        <view>专业：{{eduRow.eduSpecialty}}</view> 
+                                        <view class="edit"> <navigator url="../resumeEducation/resumeEducation?id={{eduRow.eduid}}&index={{index}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeEducation/resumeEducation">添加教育经历</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content">详细的教育经历可给人良好的第一印象</view>
+                    </view>
+                    <!--工作经历-->
+                    <view class="li res_work">
+                        <view id="work" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    工作经历
+                                    <span></span>
+                                </view>
+                                <view s-if="resumeRow.workListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeWork/resumeWork" name="edit" rel="work">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.workListInfo.length>0" class="hs_content">
+                            <view s-for="workRow, index in resumeRow.workListInfo" class="work_list">
+                                <view class="li">  
+                                    <view class="li_box"> 
+                                        <view>{{workRow.workStartDate}} ~ {{workRow.workEndDate?workRow.workEndDate:'至今'}}</view> 
+                                        <view class="name">公司名称：{{workRow.workName}}</view> 
+                                        <view>担任职务：{{workRow.workOffice}}</view> 
+                                        <view>工作描述：<text>{{workRow.workContent}}</text></view> 
+                                        <view class="edit"> <navigator url="../resumeWork/resumeWork?id={{workRow.workid}}&index={{index}}&workContent1={{workRow.workContent}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeWork/resumeWork" id="add_btn" rel="work">添加工作经历</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content">详细的工作经历能更好的展示你的工作能力</view>
+                    </view>
+                    <!-- 实践经历-->
+                    <view class="li res_school">
+                        <view id="school" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    实践经历
+                                </view>
+                                <view s-if="resumeRow.practiceListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeSchool/resumeSchool" name="edit" rel="school">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.practiceListInfo.length>0" class="hs_content">
+                            <view s-for="praRow, index in resumeRow.practiceListInfo" class="school_list">
+                                <view class="li">  
+                                    <view class="li_box"> 
+                                        <view> {{praRow._PracticeTimeStart}} ~ {{praRow._PracticeTimeEnd?praRow._PracticeTimeEnd:'至今'}} </view> 
+                                        <view class="name">实践名称：{{praRow.PracticeName}}</view> 
+                                        <view>详细介绍：<text>{{praRow.PracticeDetail}}</text></view> 
+                                        <view class="edit"> <navigator url="../resumeSchool/resumeSchool?id={{praRow.practiceid}}&index={{index}}&PracticeDetail1={{praRow.PracticeDetail}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeSchool/resumeSchool" id="add_btn" rel="school">添加实践经历</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content">实践经历有助于HR更了解你</view>
+                    </view>
+                    <!--项目经验-->
+                    <view class="li res_project">
+                        <view id="project" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    项目经验 
+                                </view>
+                                <view s-if="resumeRow.projectListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeProject/resumeProject" name="edit" rel="project">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.projectListInfo.length>0" class="hs_content">
+                            <view s-for="proRow, index in resumeRow.projectListInfo" class="project_list">
+                                <view class="li"> 
+                                    <view class="li_box"> 
+                                        <view> {{proRow.projectStart}} ~ {{proRow.projectEnd?proRow.projectEnd:'至今'}} </view> 
+                                        <view class="name">项目名称：{{proRow.projectName}}</view> 
+                                        <view>项目职位：{{proRow.projectDuty}}</view> 
+                                        <view>项目介绍：{{proRow.projectIntr}}</view> 
+                                        <view>项目经验：<text>{{proRow.projectExperience}}</text></view>
+                                        <view class="edit"> <navigator url="../resumeProject/resumeProject?id={{proRow.projectid}}&index={{index}}&projectExperience1={{proRow.projectExperience}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeProject/resumeProject" id="add_btn" rel="project">添加项目经验</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content ">企业更青睐有项目经验的求职者</view>
+                    </view>
+                    <!--语言能力-->
+                    <view class="li res_language">
+                        <view id="language" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    语言能力 
+                                </view>
+                                <view s-if="resumeRow.languageListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeLanguage/resumeLanguage" name="edit" rel="language">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.languageListInfo.length>0" class="hs_content">
+                            <view s-for="lanRow, index in resumeRow.languageListInfo" class="language_list">
+                                <view class="li"> 
+                                    <view class="li_box"> 
+                                        <view>{{lanRow.languageTypeInfo}}{{lanRow.langSkillLevelInfo}}（{{lanRow.langCert}}）</view> 
+                                        <view class="edit"> <navigator url="../resumeLanguage/resumeLanguage?id={{lanRow.languageid}}&index={{index}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeLanguage/resumeLanguage" id="add_btn" rel="language">添加语言能力</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content">语言能力是提升求职竞争力的法宝</view>
+                    </view>
+                    <!--技能特长-->
+                    <view class="li res_ability">
+                        <view id="ability" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    技能特长
+                                </view>
+                                <view s-if="resumeRow.skillListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeAbility/resumeAbility" name="edit" rel="ability">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.skillListInfo.length>0" class="hs_content">
+                            <view s-for="skillRow, index in resumeRow.skillListInfo" class="ability_list">
+                                <view class="li"> 
+                                    <view class="li_box"> 
+                                        <view>{{skillRow.SkillName}}{{skillRow.SkillLevelInfo}}</view> 
+                                        <view class="edit"> <navigator url="../resumeAbility/resumeAbility?id={{skillRow.skillid}}&index={{index}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeAbility/resumeAbility" id="add_btn" rel="ability">添加技能特长</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content ">技能特长是你驰骋职场的必杀技</view>
+                    </view>
+                    <!-- 培训经历 -->
+                    <view class="li res_train">
+                        <view id="train" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    培训经历 
+                                </view>
+                                <view s-if="resumeRow.trainingListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeTrain/resumeTrain" name="edit" rel="train">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.trainingListInfo.length>0" class="hs_content">
+                            <view s-for="trainRow, index in resumeRow.trainingListInfo" class="train_list">
+                                <view class="li"> 
+                                    <view class="li_box"> 
+                                        <view> {{trainRow.trainingStartDate}} ~ {{trainRow.trainingEndDate?trainRow.trainingEndDate:'至今'}} </view> 
+                                        <view class="name">机构名称：{{trainRow.trainingName}}</view> 
+                                        <view>培训项目：{{trainRow.trainingSpecialty}}</view> 
+                                        <view>获得证书：{{trainRow.trainingBackGround}}</view> 
+                                        <view>专业课程：<text>{{trainRow.trainDetail}}</text></view> 
+                                        <view class="edit"> <navigator url="../resumeTrain/resumeTrain?id={{trainRow.trainingid}}&index={{index}}&trainDetail1={{trainRow.trainDetail}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeTrain/resumeTrain" id="add_btn" rel="train">添加培训经历</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content ">培训经历让你更具求职竞争力</view>
+                    </view>
+                    <!-- 自我评述 -->
+                    <view class="li res_self">
+                        <view id="self" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    自我评述 
+                                </view>
+                                <view class="dd">
+                                    <navigator url="../resumeSelf/resumeSelf?self={{resumeRow.joinEvaluate}}" name="edit" rel="self">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.joinEvaluate" class="hs_content ">
+                            <view class="hideContent"><text>{{resumeRow.joinEvaluate}}</text></view>
+                        </view>
+                        <view s-else class="un_content">自我评述可让企业更全面了解你</view>
+                    </view>
+                    <!--添加证书-->
+                    <view class="li res_cert">
+                        <view id="cert" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    证书
+                                </view>
+                                <view s-if="resumeRow.certificateListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeCert/resumeCert" name="edit" rel="cert">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.certificateListInfo.length>0" class="hs_content">
+                            <view s-for="certRow, index in resumeRow.certificateListInfo" class="cert_list">
+                                <view class="li"> 
+                                    <view class="li_box"> 
+                                        <view>{{certRow.certificateName}}({{certRow.CertGainTimeYear}}年获得)</view> 
+                                        <view class="edit"> <navigator url="../resumeCert/resumeCert?id={{certRow.certificateid}}&index={{index}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeCert/resumeCert" id="add_btn" rel="cert">添加证书</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content ">证书是你能力的最佳说明</view>
+                    </view>
+                    <!--其他信息-->
+                    <view class="li res_otherInfo">
+                        <view id="otherInfo" class="title">
+                            <view class="dl">
+                                <view class="dt">
+                                    <i></i>
+                                    其他信息
+                                </view>
+                                <view s-if="resumeRow.otherinfoListInfo.length<=0" class="dd">
+                                    <navigator url="../resumeOtherInfo/resumeOtherInfo" name="edit" rel="otherInfo">编辑</navigator>
+                                </view>
+                            </view>
+                        </view>
+                        <view s-if="resumeRow.otherinfoListInfo.length>0" class="hs_content">
+                            <view s-for="otherRow, index in resumeRow.otherinfoListInfo" class="otherInfo_list">
+                                <view class="li"> 
+                                    <view class="li_box"> 
+                                        <view class="name">主题：{{otherRow.TopicDesc}}</view> 
+                                        <view>描述：{{otherRow.TopicContent}}</view> 
+                                        <view class="edit"> <navigator url="../resumeOtherInfo/resumeOtherInfo?id={{otherRow.otherinfoid}}&index={{index}}&TopicContent1={{otherRow.TopicContent}}" name="edit">编辑</navigator> </view> 
+                                    </view> 
+                                </view>
+                            </view>
+                            <view class="add_btn">
+                                <navigator url="../resumeOtherInfo/resumeOtherInfo" id="add_btn" rel="otherInfo">添加其他信息</navigator>
+                            </view>
+                        </view>
+                        <view s-else class="un_content ">其他信息</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    </black>
+    <!--<black wx:else>
+    <view class="notResumes">
+        <view class="res_null">
+            <i></i>
+            <span>您还没有可用简历，找工作需要可用简历！<span>
+            </span></span>
+        </view>
+        <view class="btn_box"><navigator url="../resumeBase/resumeBase">马上创建简历</navigator></view>
+    </view>
+    </black>-->
+<!--</scroll-view>
+<view hidden="{{goTop}}" class="btn_gotop fadeIn" bindtap="goToTop">GoTop</view>-->
+<include src="/page/footerNav.swan" />

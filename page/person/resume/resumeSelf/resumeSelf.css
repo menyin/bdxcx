@@ -1,0 +1,76 @@
+.module {
+  background: #fff;
+}
+
+.template_main4 {
+  padding-top: 15px;
+}
+
+.template_main4 .text_area_new .dt {
+  position: static;
+  width: auto;
+  left: auto;
+  top: auto;
+  padding-left: 0;
+  line-height: 30px;
+}
+
+.template_main4 .dd {
+  font-size: 12px;
+}
+
+.template_main4 .text_area_new .dd .textAreaMsg {
+  margin-left: 0;
+  box-sizing: border-box;
+  height: 152px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.textAreaMsg {
+  border: 1px solid #c9c9c9;
+  line-height: 18px;
+  height: 54px;
+  padding: 5px;
+  font-size: 14px;
+  width: 100%;
+  margin-left: -12px;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+.btn {
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.btn1_submit {
+  width: 100%;
+  background: #38f;
+  border: 0;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.yTip .dl .dt, .dd {
+  line-height: 20px;
+  font-size: 12px;
+  color: #888;
+}
+
+.template_main4 .dl {
+  margin: 0px 15px;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.template_main4 .dt .asterisk {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+}

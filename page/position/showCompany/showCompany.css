@@ -1,0 +1,243 @@
+.container {
+    max-width: 640px;
+    min-width: 240px;
+    background: #EBEBEB url("https://cdn.597.com/wx/images/bg.jpg") no-repeat center top;
+    margin: 0 auto;
+    background-size: 100%;
+}
+.com_base {
+    text-align: center;
+}
+.com_base_logo {
+    padding: 48px 0 30px;
+}
+.com_base_logo image {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    vertical-align: top;
+    border: 7.6px solid rgba(255,255,255,0.2);
+    box-shadow: 0 0 18px rgba(0,0,0,0.1);
+}
+.com_base_name {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+.com_base_job {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #ffff9f;
+    color: #ffff9f;
+    padding: 0 18px;
+    font-size: 14px;
+    border-radius: 18px;
+    margin: 18px 0;
+}
+.com_base_attr {
+    font-size: 12px;
+    color: #FFF;
+}
+.com_base_attr span {
+    padding: 0 0.60px;
+}
+.com_about {
+    padding-bottom: 30px;
+}
+.com_model {
+    background: #FFF;
+    margin: 24px;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.com_profile {
+    padding: 30px 18px;
+    position: relative;
+}
+.com_profile_text {
+    height: 16.8rem;
+    overflow: hidden;
+}
+.com_profile p {
+    font-size: 14px;
+    line-height: 28px;
+}
+.com_profile_open:after, .com_profile_close:after {
+    content: '';
+    display: inline-block;
+    width: 1.36px;
+    height: 1.36px;
+    background: url("https://cdn.597.com/wx/images/icon02.png") no-repeat 0 0.36px;
+    margin-left: 0.60px;
+    background-size: 100%;
+}
+.com_profile_open, .com_profile_close {
+    margin-top: 10px;
+    margin-right: 15px;
+    text-align: right;
+    color: #38f;
+
+}
+.com_model {
+    background: #FFF;
+    margin: 24px;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.com_model_hd {
+    height: 48px;
+    line-height: 48px;
+    background: #FF6968;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.com_pos_list .ul {
+    padding: 18px;
+    list-style: none;
+}
+.com_pos_list .dl {
+    border-bottom: 0.12px dotted #DDD;
+    position: relative;
+    padding: 0.6rem 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 60px;
+}
+.com_pos_list .dt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 4.8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 60px;
+}
+.com_pos_list .dd.com_pos_salary {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    color: #FF6968;
+}
+.com_pos_list .dd {
+    line-height: 24px;
+}
+.com_pos_list .dd .com_pos_area {
+    padding-right: 18px;
+}
+.com_pos_list .dd span {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: top;
+}
+.com_pos_list .dd span:before {
+    display: inline-block;
+    content: "";
+    height: 14px;
+    width: 14px;
+    overflow: hidden;
+    background: url('https://cdn.597.com/wx/images/icon01.png') no-repeat;
+    background-size: 200%;
+    margin: 0.36px 0.360px 0.36px 0;
+    vertical-align: top;
+}
+.com_pos_list .dd span.com_pos_area:before {
+    background-position: 0 0;
+}
+.com_pos_list .dd span.com_pos_date:before {
+    background-position: -14px 0;
+}
+.com_pos_more {
+    padding: 0 30px 24px;
+    text-align: center;
+}
+.com_pos_more navigator {
+    display: inline-block;
+    line-height: 38px;
+    height: 38px;
+    border: 1px solid #ff6968;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ff6968;
+}
+.com_model {
+    background: #FFF;
+    margin: 24px;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.com_contact .com_model_bd {
+    text-align: center;
+    padding: 36px 0 60px;
+}
+.com_contact view {
+    font-size: 14px;
+    line-height: 28px;
+    color: #666;
+}
+.com_contact .h3 {
+    font-size: 18px;
+    padding: 12px 0;
+    color: #000;
+}
+
+.com_contact .ul {
+    list-style: none;
+    padding-top: 24px;
+}
+.com_contact .li {
+    padding: 8px 36px;
+}
+.com_contact .li navigator {
+    display: block;
+    background: #FF6968;
+    border-radius: 5px;
+    line-height: 42px;
+    height: 42px;
+    border: 1px solid #FF6968;
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.com_contact .li .last .navigator {
+    background: #FFF;
+    color: #FF6968;
+}
+.com_copy {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.com_picture {
+    padding: 18px 18px 0;
+}
+.m_slide {
+    position: relative;
+    overflow: hidden;
+}
+element.style {
+    transition-duration: 0ms;
+    transform: translate3d(-708px, 0px, 0px);
+}
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    width: 236px;
+    height: 100%;
+    position: relative;
+}
+.com_picture image {
+    height: 192px;
+    width: 100%;
+    vertical-align: top;
+}

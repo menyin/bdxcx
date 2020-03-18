@@ -1,0 +1,21 @@
+<!--<template name="loginItem">-->
+<view hidden="{{talkHide}}" class="ui-mask" bindtap="talkhide"></view>
+
+<view hidden="{{talkHide}}" class="popBox ">
+  <!-- <view class="box-title">语音搜索</view> -->
+  <view class="box-content">
+    <view class="up_box">
+      <form bindsubmit="submitChangepwd">
+        <view class="content_2">
+          <view class="ul">
+            <image style="width:74px;height:62px;margin-left:28px;" src="{{yuyinImg}}"></image>
+          </view>
+        </view>
+        <view class="button clearfix">
+            <view class="{{talkClass}}" bindtouchstart="startRecord" bindtouchend="endRecord">按住我说话</view>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>
+<!--</template>-->

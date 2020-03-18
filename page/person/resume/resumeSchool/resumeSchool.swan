@@ -1,0 +1,48 @@
+<view class="education" id="educationInfo">
+    <form bindsubmit="formSubmit">
+        <view class="template_main6">
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">实践名称</view></view>
+                <view class="dd"><input type="text" name="PracticeName" class="inputText tip" placeholder="请输入实践名称" value="{=PracticeName=}" /></view>
+            </view>
+
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">开始时间</view></view>
+                <view class="dd">
+                    <picker name="startDate" mode="date" fields="month" value="{{startDate?startDate:timeNow}}" bindchange="bindStartDateChange">
+                        <view class="select_box tip">
+                        {{startDate}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">结束时间</view></view>
+                <view class="dd">
+                    <picker name="endDate" mode="date" fields="month" value="{{endDate?endDate:timeNow}}" bindchange="bindEndDateChange">
+                        <view class="select_box tip">
+                        {{endDate}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            
+            <view class="dl dl_rebuild">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">详细介绍</view></view>
+                <view class="dd">
+                    <textarea style="text-align:left;" maxlength="2000" class="textAreaMsg tip" name="PracticeDetail" placeholder="请描述具体工作内容，有什么收获？，最多输入2000字" value="{=PracticeDetail1=}" />
+                </view>
+            </view>
+            <!--<view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">详细介绍</view></view>
+                <view class="dd"><input maxlength="2000" type="text" name="PracticeDetail" class="inputText tip" placeholder="请输入详细介绍" value="{{PracticeDetail}}"/></view>
+            </view>-->
+
+        </view>
+        <view class="btn_ds">
+            <block s-if="delShow"><button class="delete" bindtap="canDel" data-id="{{practiceid}}" data-index="{{index}}">删除</button></block>
+            <button style="{{btnStyle}}" class="btn1_submit lang" formType="submit">保存</button>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

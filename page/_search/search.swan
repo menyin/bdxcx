@@ -1,0 +1,203 @@
+  <view class="fullscreen relative mar80">
+    <view class="preview_sorting" style="position:fixed;width:100%;z-index:99999;">
+        <view class="pageBd">
+            <icon type="search" size="15" style="position:absolute;top:16px;left:6%;" />
+            <icon type="clear" size="15" style="position:absolute;top:16px;right:16%;z-index:888;" bindtap="clearVal" />
+            <input value="{=searchVal?searchVal:''=}" bindinput="searchVal" bindconfirm="huichechufa" type="text" class="searchBar weui-search-bar__input pad100" placeholder="搜索职位" focus="{{isFocus}}" confirm-type="search" />
+            <label s-if="searchVal.length>0" class="sureClass" data-key="{{searchVal}}" bindtap="toSearch">确定</label>
+            <label s-else class="sureClass quxiaoClass" bindtap="toBack">取消</label>
+            <!-- <view class="talkSearch" bindtap='talkSearch'>语音搜索</view> -->
+        </view>
+    </view>
+    <view class="mar80"></view>
+    <view class="searchList" hidden="{{autoHide}}">
+      <scroll-view scroll-y="true" style="height: 300px;" class="ul2 current">
+        <view s-for="item, index in rows" class="li" data-key="{{item}}" bindtap="toSearch">{{item}}</view>
+      </scroll-view>
+    </view>
+    <view class="mask" id="maskEl" hidden="{{autoHide}}" bindtap="hideAll"></view>
+    <!--附近职位-->
+    <!--<view hidden="{{isHideLoc}}" class="nearby" bindtap="jumpToSearch">附近职位</view>-->
+
+    <!--搜索条件-->
+    <view class="criteria_set_box">
+        <view class="experience_requirement template" id="position">
+         <view class="title">职位类别</view>
+             <view class="content" style="position:relative;">
+                <navigator url="/page/areaTemplate/areaTemplate?p=0&name=indexPosition&type=position&maxCount=5&isSearch=true">
+                    <view class="btnType">{{searchData.jobFunNames?searchData.jobFunNames:'请选择'}}</view>
+                </navigator>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="industry">
+         <view class="title">行业类别</view>
+            <view class="content" style="position:relative;">
+                <navigator url="/page/areaTemplate/areaTemplate?p=0&name=IndexIndustry&type=industry&maxCount=5&isSearch=true">
+                    <view class="btnType">{{searchData.callingNames?searchData.callingNames:'请选择'}}</view>
+                </navigator>
+            </view>
+        </view>
+        <view s-if="localCity.s" class="experience_requirement template" id="citys">
+            <view class="title">地区
+              <span class="duoxuan">（可多选）</span>
+            </view>
+            <view class="content">
+            <view class="ul">
+                <view class="li">
+                  <a class="{{searchData.jobLocIds==''?'active':''}}" data-id data-name bindtap="bindCitysChange">不限</a>
+                </view>
+                <view s-for="item, index in localCity.s" class="li">
+                    <a class="{{item.selected&&item.selected==1?'active':''}}" data-id="{{item.area_id}}" data-name="{{item.area_name}}" bindtap="bindCitysChange">{{item.area_name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view hidden="{{isHideLoc}}" class="experience_requirement template" id="nearby">
+         <view class="title">附近职位</view>
+            <view class="content">
+            <view class="ul">
+                <view s-for="item, index in nearbyList" class="li">
+                    <a class="{{item.id==searchData.distance?'active':''}}" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="bindNearbyChange">{{item.name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="sort">
+            <view class="title">排序</view>
+            <view class="content">
+            <view class="ul">
+                <view s-for="item, index in sortList" class="li">
+                    <a class="{{item.id==searchData.order?'active':''}}" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="bindSortChange">{{item.name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="sex">
+            <view class="title">性别</view>
+            <view class="content">
+            <view class="ul">
+                <view s-for="item, index in gender" class="li">
+                    <a class="{{index==searchData.selGender?'active':''}}" data-id="{{index}}" bindtap="bindGenderChange">{{item}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="salary">
+            <view class="title">薪资</view>
+            <view class="content">
+            <view class="ul">
+                <view s-for="item, index in salarys" class="li">
+                  <a class="{{index==searchData.minSalary?'active':''}}" data-id="{{index}}" data-name="{{item}}" bindtap="bindSalaryChange">{{item}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="education_requirements template" id="education" data-type="reqdegreeid">
+            <view class="title">学历要求<span class="duoxuan">（可多选）</span></view>
+            <view class="content">
+            <view class="ul">
+                <view class="li">
+                  <a class="{{searchData.Degree==''?'active':''}}" data-id data-name bindtap="bindDegreeChange">不限</a>
+                </view>
+                <view s-for="item, index in degree" class="li">
+                  <a class="{{item.selected&&item.selected==1?'active':''}}" data-id="{{item.id}}" bindtap="bindDegreeChange">{{item.name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="reward">
+            <view class="title">福利<span class="duoxuan">（可多选）</span></view>
+            <view class="content">
+            <view class="ul">
+                <view class="li">
+                  <a class="{{searchData.Reward==''?'active':''}}" data-id data-name bindtap="bindRewardChange">不限</a>
+                </view>
+                <view s-for="item, index in fuli" class="li">
+                <a class="{{item.selected&&item.selected==1?'active':''}}" data-id="{{item.id}}" bindtap="bindRewardChange">{{item.name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="joinType">
+            <view class="title">工作类型</view>
+            <view class="content">
+            <view class="ul">
+                <view s-for="item, index in joinTypeList" class="li">
+                    <a class="{{item.id==searchData.joinType?'active':''}}" data-id="{{item.id}}" bindtap="bindJoinTypeChange">{{item.name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="workYear">
+            <view class="title">工作经验</view>
+            <view class="content">
+            <view class="ul">
+                <view s-for="item, index in workYearList" class="li">
+                    <a class="{{item.id==searchData.workYear?'active':''}}" data-id="{{item.id}}" bindtap="bindWorkYearChange">{{item.name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="property">
+            <view class="title">公司性质</view>
+            <view class="content">
+            <view class="ul">
+                <view s-for="item, index in comPropertyList" class="li">
+                    <a class="{{item.id==searchData.comProperty?'active':''}}" data-id="{{item.id}}" bindtap="bindComPropertyChange">{{item.name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="experience_requirement template" id="size">
+            <view class="title">公司规模</view>
+            <view class="content">
+            <view class="ul">
+                <view s-for="item, index in comSizeList" class="li">
+                    <a class="{{item.id==searchData.comSize?'active':''}}" data-id="{{item.id}}" bindtap="bindComSizeChange">{{item.name}}</a>
+                </view>
+            </view>
+            </view>
+        </view>
+        <view class="button" style="width:100%; box-sizing: border-box;">
+            <!--<button class="lbtn" type="reset" bindtap="hideAll">关闭</button>-->
+            <button class="lbtn" type="submit" data-key="{{searchVal}}" bindtap="toSearch">确定</button>
+        </view>
+    </view>
+    
+    <!--历史搜索-->
+	<view s-if="historyList.length>0" class="dl j_HotJobsIndustryList j_industrySubmit">
+		<view class="dt HJI_h3"><span>历史搜索</span></view>
+		<view s-for="item, index in historyList" class="dd" data-key="{{item}}" bindtap="toSearch">{{item}}</view>
+	</view>
+  <view style="margin-bottom:60px;"></view>
+	<!--热门搜索-->
+	<!--<view class="dl j_HotJobsIndustryList j_industrySubmit">
+		<view class="dt HJI_h3"><span>热门搜索</span></view>
+		<view class="dd" data-key="会计" bindtap="toSearch">会计</view>
+        <view class="dd" data-key="司机" bindtap="toSearch">司机</view>
+        <view class="dd" data-key="文员" bindtap="toSearch">文员</view>
+        <view class="dd" data-key="美工" bindtap="toSearch">美工</view>
+        <view class="dd" data-key="施工员" bindtap="toSearch">施工员</view>
+        <view class="dd" data-key="出纳" bindtap="toSearch">出纳</view>
+        <view class="dd" data-key="销售" bindtap="toSearch">销售</view>
+        <view class="dd" data-key="外贸" bindtap="toSearch">外贸</view>
+        <view class="dd" data-key="普工" bindtap="toSearch">普工</view>
+        <view class="dd" data-key="仓管" bindtap="toSearch">仓管</view>
+        <view class="dd" data-key="平面设计" bindtap="toSearch">平面设计</view>
+        <view class="dd" data-key="业务员" bindtap="toSearch">业务员</view>
+        <view class="dd" data-key="行政" bindtap="toSearch">行政</view>
+        <view class="dd" data-key="客服" bindtap="toSearch">客服</view>
+        <view class="dd" data-key="厨师" bindtap="toSearch">厨师</view>
+        <view class="dd" data-key="采购" bindtap="toSearch">采购</view>
+        <view class="dd" data-key="保安" bindtap="toSearch">保安</view>
+        <view class="dd" data-key="室内设计" bindtap="toSearch">室内设计</view>
+        <view class="dd" data-key="教师" bindtap="toSearch">教师</view>
+        <view class="dd" data-key="助理" bindtap="toSearch">助理</view>
+        <view class="dd" data-key="人事" bindtap="toSearch">人事</view>
+        <view class="dd" data-key="日语" bindtap="toSearch">日语</view>
+        <view class="dd" data-key="淘宝" bindtap="toSearch">淘宝</view>
+        <view class="dd" data-key="服务员" bindtap="toSearch">服务员</view>
+	</view>-->
+  </view>
+  <!--自能语音-->
+<include src="/page/talkTemplate/talkTemplate.swan" />

@@ -1,0 +1,25 @@
+<view class="education" id="educationInfo">
+    <form bindsubmit="formSubmit">
+        <view class="template_main6">
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">主题</view></view>
+                <view class="dd"><input type="text" name="TopicDesc" class="inputText tip" placeholder="请输入主题" value="{=TopicDesc=}" /></view>
+            </view>
+            <view class="dl_rebuild">
+                <view class="dt"><span class="abc asterisk red">*</span><view class="abc lang must" en>内容描述</view></view>
+                <view class="dd">
+                <textarea maxlength="2000" class="textAreaMsg tip" name="TopicContent" placeholder="请描述具体工作内容，有什么收获？最多输入2000字" value="{=TopicContent1=}" />
+                </view>
+            </view>
+            <!--<view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">内容描述</view></view>
+                <view class="dd"><input type="text" name="TopicContent" class="inputText tip" placeholder="请输入内容描述" value="{{TopicContent}}"/></view>
+            </view>-->
+        </view>
+        <view class="btn">
+            <block s-if="delShow"><button class="delete" bindtap="canDel" data-id="{{otherinfoid}}" data-index="{{index}}">删除</button></block>
+            <button style="{{btnStyle}}" class="btn1_submit lang" formType="submit">保存</button>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

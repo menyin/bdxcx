@@ -1,0 +1,67 @@
+<view class="fullscreen">   
+    <!--<scroll-view scroll-y="true" style="height: 800px;" bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{topNums}}">  -->
+        <view s-if="listShow" class="my_favourite">
+            <view class="ul list_style2 bm-list">
+                <view s-for="row, index in favList.rows" class="li">
+                    <block s-if="!row.cname || !row.jname">
+                        <view class="dl">
+                            <view class="dt color666">职位已经不存在</view>
+                        </view>
+                    </block>
+                    <block s-elif="row.display==0">
+                        <view class="dl">
+                            <view class="dt pad_right color666">职位已经停招</view>
+                            <view class="dd pad_right">{{row.cname}}</view>
+                            <view class="dd pos_state">
+                                <view s-if="row.display==1" class="startJob">在招</view>
+                            </view>
+                            <view class="dd attr"><span>{{row.areaName}}</span><em>|</em><span class="attr_date">收藏于{{row.createTime}}</span></view>
+                            <view class="dd icon_checkbox"></view>
+                        </view>
+                    </block>
+                    <block s-else>
+                        <!--<navigator class="list_item" data-id="{{row._jid}}" url="../../../position/jobInfo/jobInfo?jobId={{row._jid}}">-->
+                            <view class="dl" bindtouchstart="touchStart" bindtouchend="touchEnd" bindtap="del" data-jid="{{row._jid}}" data-id="{{row.id}}">
+                                <view class="dt pad_right">{{row.jname}}</view>
+                                <view class="dd pad_right">{{row.cname}}</view>
+                                <view class="dd pos_state">
+                                    <view s-if="row.display==1" class="startJob">在招</view>
+                                </view>
+                                <view class="dd attr"><span>{{row.areaName}}</span><em>|</em><span class="attr_date">收藏于{{row.createTime}}</span></view>
+                                <view class="dd icon_checkbox"></view>
+                            </view>
+                        <!--</navigator>-->
+                    </block>
+                </view>
+            </view>
+            <!--<view wx:if="{{favList.pages>=2}}" class="pagenav_wrapper" id="viewed_pager">
+                <view class="previous_next">
+                    <navigator wx:if="{{(favList.page-1)>=1}}" open-type="redirect" url="myFavList?page={{favList.page-1}}" class="previous first">上一页</navigator>
+                    <navigator wx:else class="previous first">上一页</navigator>          
+                    <span>|</span>
+                    <navigator wx:if="{{(favList.page+1)<=(favList.pages)}}" open-type="redirect" url="myFavList?page={{favList.page+1}}" class="next last">下一页</navigator>
+                    <navigator wx:else  class="next last">下一页</navigator>            
+                </view>
+                <view class="jump selectOption">
+                    <picker bindchange="bindPageChange" value="{{favList.page-1}}" range="{{pages}}">
+                        <view class="picker">
+                        {{favList.page}}/{{favList.pages}}
+                        </view>
+                    </picker>
+                </view>
+            </view>-->
+            <block s-if="favList.rows.length>0">
+            <!--start加载更多 方式-->
+            <view s-if="moreHide" class="all_pos"><view>无更多职位</view></view>
+            <view s-else class="all_pos"><view bindtap="moreAndMore">点击加载更多</view></view>
+            <!--end加载更多 方式-->
+            </block>
+        </view>
+        <view s-else class="error_date">
+            <view class="error_img">!</view>
+            <view class="error_msg">收藏夹为空。</view>
+        </view>
+    <!--</scroll-view>-->
+    <!--<view hidden="{{goTop}}" class="btn_gotop fadeIn" bindtap="goToTop">GoTop</view>    -->
+</view>
+<include src="/page/footerNav.swan" />

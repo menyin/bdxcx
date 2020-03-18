@@ -1,0 +1,53 @@
+<view class="education " id="educationInfo">
+    <form bindsubmit="formSubmit">
+        <view class="template_main6">
+            <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="trainingName">机构名称</view></view>
+                <view class="dd"><input type="text" name="trainingName" class="inputText tip" placeholder="请输入机构名称" value="{=trainingName=}" /></view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">入学时间</view></view>
+                <view class="dd">
+                    <picker name="startDate" mode="date" fields="month" value="{{startDate?startDate:timeNow}}" bindchange="bindStartDateChange">
+                        <view class="select_box tip">
+                        {{startDate}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">毕业时间</view></view>
+                <view class="dd">
+                    <picker name="endDate" mode="date" fields="month" value="{{endDate?endDate:timeNow}}" bindchange="bindEndDateChange">
+                        <view class="select_box tip">
+                        {{endDate}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="trainingSpecialty">培训项目</view></view>
+                <view class="dd"><input type="text" name="trainingSpecialty" class="inputText tip" placeholder="请输入培训项目" value="{=trainingSpecialty=}" /></view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="trainingBackGround">获得证书</view></view>
+                <view class="dd"><input type="text" name="trainingBackGround" class="inputText tip" placeholder="请输入获得证书" value="{=trainingBackGround=}" /></view>
+            </view>
+            <view class="dl_rebuild">
+                <view class="dt abc"><span class="abc asterisk red">*</span><view class="lang must newDt">专业课程</view></view>
+                <view class="dd">
+                <textarea style="text-align:left;" maxlength="2000" class="textAreaMsg tip" name="trainDetail" placeholder="请输入专业课程，最多输入2000字" value="{=trainDetail1=}" />
+                </view>
+            </view>
+            <!--<view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="trainingBackGround">专业课程</view></view>
+                <view class="dd"><input  maxlength="2000" type="text" name="trainDetail" class="inputText tip" placeholder="请输入专业课程" value="{{trainDetail}}"/></view>
+            </view>-->
+        </view>
+        <view class="btn_ds">
+            <block s-if="delShow"><button class="delete" bindtap="canDel" data-id="{{trainingid}}" data-index="{{index}}">删除</button></block>
+            <button style="{{btnStyle}}" class="btn1_submit lang" formType="submit">保存</button>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

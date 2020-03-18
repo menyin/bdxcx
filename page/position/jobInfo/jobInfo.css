@@ -1,0 +1,482 @@
+.fullscreen {
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.property_pos {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 15px;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+}
+.property_pos .name.name_with_icon {
+    padding-right: 130px;
+}
+.property_pos .name {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    padding-bottom: 2px;
+    line-height: 30px;
+}
+.property_pos .name span {
+    font-weight: normal;
+    color: #888;
+    font-size: inherit;
+}
+.property_pos .attr {
+    line-height: 20px;
+}
+.property_pos .attr span:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    background: #EEE;
+    margin-right: 5px;
+    vertical-align: top;
+    background: url("https://cdn.597.com/wx/images/V3/03.png") no-repeat 0 -22px;
+    background-size: 22px;
+}
+.property_pos .attr em {
+    padding: 0 10px;
+    color: #ddd;
+}
+em, i {
+    font-style: normal;
+}
+.property_pos .attr span:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    background: #EEE;
+    margin-right: 5px;
+    vertical-align: top;
+    background: url("https://cdn.597.com/wx/images/V3/03.png") no-repeat 0 -22px;
+    background-size: 22px;
+}
+.property_pos .attr_icon {
+    overflow: hidden;
+    padding-top: 5px;
+}
+.property_pos .attr_icon image {
+    height: 18px;
+    width:34px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.property_pos .salary {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 16px;
+    color: #F8881D;
+}
+.company_info {
+    position: relative;
+
+}
+.company_info .company_info_a {
+/*.company_info navigator {*/
+    display: block;
+    padding: 15px 25px 15px 15px;
+}
+.company_info .dl{zoom: 1;}
+.company_info .dl::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.company_info .dt {
+    float: left;
+}
+.company_info .dt image {
+    display: block;
+    border: 1px solid #EEE;
+    width: 48px;
+    height: 48px;
+}
+.company_info .dd.title {
+    line-height: 18px;
+    height: 18px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.company_info .dd {
+    margin-left: 60px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #555;
+}
+.company_info a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: 15px;
+    width: 8px;
+    height: 8px;
+    border: #AAAAAA solid;
+    -webkit-transform: rotate(45deg);
+    border-width: 2px 2px 0 0;
+}
+.pos_detail .requirements_pos {
+    border-top: 1px solid #ddd;
+}
+.item_title {
+    line-height: 30px;
+    height: 30px;
+    padding: 0 15px;
+    background: #f3f3f3;
+    color: #222;
+    font-size: 14px;
+    font-weight: bold;
+}
+.item_body {
+    padding: 15px 15px;
+    font-size: 14px;
+    /*color: #555; cny_note*/
+    color:#fff;
+}
+.pos_detail .requirements_pos span {
+    padding: 0 5px;
+    color: #aaa;
+}
+.pos_detail .description_pos .item_body {
+    line-height: 20px;
+}
+.pos_detail .promotion_pos .dl {
+    position: relative;
+    overflow: hidden;
+    padding-right: 50px;
+}
+.pos_detail .promotion_pos dt {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    padding-right: 16px;
+    line-height: 20px;
+    color: #1155CC;
+}
+.pos_detail .promotion_pos .dd {
+    float: left;
+    line-height: 20px;
+    padding: 5px 10px 5px 0;
+}
+.pos_detail .promotion_pos .dd:before {
+    display: inline-block;
+    height: 20px;
+    width: 12px;
+    line-height: 15px;
+    content: "";
+    overflow: hidden;
+    background: url("https://cdn.597.com/wx/images/V3/03.png") no-repeat 0 -44px;
+    background-size: 22px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.contactus .dl {
+    padding: 2px 0;
+}
+.contactus .dt {
+    float: left;
+    font-weight: bold;
+}
+.contactus .dd {
+    margin-left: 80px;
+    /*text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;*/
+}
+.tips {
+    margin: 0px 15px 15px 15px;
+    font-size: 12px;
+    color: #38f;
+    line-height: 26px;
+    text-align: center;
+    background: #ffffe9;
+    border: 1px solid #f0e5ba;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.pos_detail .apply_pos {
+    background: #F7F7F7;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.pos_detail .apply_pos_box {
+    background: #38f;
+    line-height: 50px;
+}
+.pos_detail .apply_pos_box .first {
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+.pos_detail .apply_pos_box .last{
+    margin-left: 81px;
+    display: block;
+    text-align: center;
+}
+.pos_detail .apply_pos .favorite,.pos_detail .apply_pos .favorite1 {
+    position: relative;
+    text-indent: -300px;
+    overflow: hidden;
+}
+.pos_detail .apply_pos_box navigator {
+    color: #fff;
+    font-size: 18px;
+}
+
+.pos_detail .apply_pos .favorite:after {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -15px;
+    background: url("https://cdn.597.com/wx/images/V3/04.png") no-repeat;
+    background-size: 100%;
+}
+
+.pos_detail .apply_pos .favorite1:after {
+    content: "";
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -15px;
+    background: url("https://cdn.597.com/wx/images/V3/05.png") no-repeat;
+    background-size: 100%;
+}
+
+.showNextPos.active {
+    height: 50px;
+}
+.showNextPos {
+    width: 100%;
+    height: 0;
+    text-align: center;
+    transition: all .2s ease-out;
+}
+.pos_detail .showNextPos navigator {
+    width: 33%;
+    height: 50px;
+    line-height: 50px;
+    color: #38f;
+    display: block;
+    float: left;
+    padding: 0;
+}
+.pos_detail .showNextPos span {
+    width: 34%;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+    color: #555555;
+    display: block;
+    float: left;
+}
+.pos_detail .showNextPos navigator {
+    width: 33%;
+    height: 50px;
+    line-height: 50px;
+    color: #38f;
+    display: block;
+    float: left;
+    padding: 0;
+}
+.btn_freeback, .btn_save, .btn_manage, .btn_previous, .btn_next {
+    padding: 0 5px;
+    height: 28px;
+    line-height: 28px;
+    color: #FFF;
+    border-radius: 2px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+.property_pos .attr span.attr_date:before {
+    background-position: 0 0;
+}
+.property_pos .attr span:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    background: #EEE;
+    margin-right: 5px;
+    vertical-align: top;
+    background: url("https://cdn.597.com/wx/images/V3/03.png") no-repeat 0 -22px;
+    background-size: 22px;
+}
+.company_info navigator:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: 15px;
+    width: 8px;
+    height: 8px;
+    border: #AAAAAA solid;
+    -webkit-transform: rotate(45deg);
+    border-width: 2px 2px 0 0;
+}
+.comIcon {
+    margin-top: 10px;
+    margin-right: 15px;
+    text-align: right;
+    color: #38f;
+}
+
+.contactbar {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    /*border-top: 1px solid #ff4500;cny_note*/
+    border-top: 1px solid #DCEDFF;
+    background: #fff;
+}
+.contactbar .landlord {
+    padding: 5px 0 0 10px;
+}
+.contactbar .llname {
+    font-size: 14px;
+    color: #3f4358;
+    padding-right:60px;
+}
+.contactbar .llnumber {
+    font-size: 10px;
+    margin-top: 3px;
+    color: #aaa;
+    padding-right:60px;
+}
+.contactbar .aa {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    border: none;
+    border-left: 1px solid #ededed;
+}
+.contactbar .dh:before {
+    position: absolute;
+    top: 4px;
+    left: 19px;
+    width: 22px;
+    height: 19px;
+    content: '';
+    background: url(http://cdn.597.com/mi/images/house-ico.png) no-repeat;
+    background-size: 22px auto;
+    background-position: 0 -118px;
+}
+.phoneImg{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    width: 22px;
+    height: 19px;
+    content: '';
+    background: url(http://cdn.597.com/mi/images/house-ico.png) no-repeat;
+    background-size: 22px auto;
+    background-position: 0 -118px;
+}
+.dh{
+    right: 120px;
+    padding-top: 28px;
+    background: #fff;
+    color: #777;
+}
+.sc{
+    right: 60px;
+    line-height: 50px;
+    background: #31b859;
+    color: #fff;
+}
+.sc1{
+    right: 60px;
+    line-height: 50px;
+    background: #f4283b;
+    color: #fff;
+}
+.yp{
+    right: 0;
+    line-height: 50px;
+    background: #38f;
+    color: #fff;
+}
+
+.showPhone {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    z-index: 1000002;
+}
+.showPhone .p {
+    background: #fff;
+    margin: 0 15px 10px;
+    border-radius: 8px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    text-align: center;
+    color: #087eff;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.blackMask {
+    background: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100001;
+}
+.shareBtn{
+  float: right;
+  overflow: hidden;
+  
+}
+.share{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px !important;
+}

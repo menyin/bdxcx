@@ -1,0 +1,37 @@
+<view class="fullscreen" hidden="{{hideAll}}">
+    <view class="company_info" id="comInfo" data-com="559969">
+        <view class="conClass">
+            <view class="dl">
+                <view class="dt">
+                    <image s-if="companyRow.logoUrl" src="http://pic.{{ROOT_DOMAIN}}/logo/{{companyRow.logoUrl}}"></image>
+                    <image s-else src="https://cdn.597.com/wx/images/com_default_logo_180_180.png"></image>
+                </view>
+                <view class="dd title">{{companyRow.cname}}</view>
+                <view class="dd">{{companyRow.comType}}<span>/</span>{{companyRow.comWorkers}}人</view>
+                <view class="dd">{{companyRow.comIndustry}}</view>
+            </view>
+            <view s-if="_version>=658" class="shareBtn"><button class="share" open-type="share">分享</button></view>
+        </view>
+    </view>
+
+    <view class="item list_pos">
+        <view class="item_body">
+            <block s-for="item, index in companyRow.jobList">
+                <view class="h4"><span>{{item.title}}</span>（{{item.count}}）</view>
+                <view class="ul">
+                    <view s-for="jobRow, index in item.rows" class="li">
+                        <navigator open-type="redirect" url="../jobInfo/jobInfo?jobId={{jobRow._jid}}">
+                            <view class="dl">
+                                <view class="dt"><span>{{jobRow.jname}}</span></view>
+                                <view class="dd attr"><span>{{jobRow.jobArea}}</span><em>|</em><span>{{jobRow.updateTime}}刷新</span></view>
+                                <view class="dd salary">¥{{jobRow.jobSalary}}</view>
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+</view>
+<include src="/page/backIndex.swan" />
+<include src="/page/footerNav.swan" />

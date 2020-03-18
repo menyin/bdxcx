@@ -1,0 +1,35 @@
+<view class="getBackPassword">
+<form bindsubmit="formSubmit">
+  <view class="tab_top clearfix">
+    <view class="ul">
+      <view class="li step_finished">
+        <span>1</span>身份认证</view>
+      <view class="li active">
+        <span>2</span>密码重置</view>
+    </view>
+  </view>
+  <view class="tab_body">
+    <view class="three">
+      <input hidden='true' type="text" name="textMobile" value="{=textMobile=}" />
+      <input hidden='true' type="text" name="textMobileCode" value="{=textMobileCode=}" />
+      <view class="dl clearfix">
+        <view class="dt">新密码：</view>
+        <view class="dd">
+          <i class="pwd_vision close"></i>
+          <input class="inputText" type="password" name="textNewpwd" placeholder="请输入新密码" />
+        </view>
+      </view>
+      <view class="dl clearfix">
+        <view class="dt">确认密码：</view>
+        <view class="dd">
+          <i class="pwd_vision close"></i>
+          <input class="inputText" type="password" name="textSurepwd" placeholder="请再次输入新密码" />
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="btn">
+    <button class="btn1_submit" formType="submit">确认</button>
+  </view>
+  </form>
+</view>

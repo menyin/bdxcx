@@ -1,0 +1,346 @@
+<!--<scroll-view scroll-y="true" style="height: 800px;" bindscrolltolower="lower" bindscroll="scroll" scroll-top="{{topNums}}">-->
+<view class="fullscreen relative">
+  <view class="preview_sorting">
+
+    <!--搜索有确认按钮-->
+    <!--<view class="pageBd">
+          <icon type="search" size="15" style="position:absolute;top:16px;left:6%;"/>
+          <icon type="clear" size="15" style="position:absolute;top:16px;right:16%;" bindtap="clearVal"/>
+          <input value="{{searchVal?searchVal:''}}" bindinput="searchVal" bindconfirm="huichechufa" type="text" class="searchBar weui-search-bar__input pad100" placeholder="搜索职位"/>
+          <label class="sureClass" data-key="{{searchVal}}" bindtap="toSearch">确定</label>
+      </view>-->
+    <!--搜索没确认按钮-->
+    <view class="pageBd">
+      <navigator bindtap='backSearchPage' url class="searchBar">
+        <label>
+          <icon style="height:15px;width:15px;" type="search" size="10" />{{searchData.keyword?searchData.keyword:'搜索职位'}}</label>
+      </navigator>
+      <!-- <view class="talkSearch" bindtap='talkSearch'>语音搜索</view> -->
+    </view>
+    <!--start关联词-->
+    <!--<view class="searchList" hidden="{{autoHide}}">
+      <scroll-view scroll-y="true" style="height: 260px;" class="ul2 current">
+        <view wx:for="{{rows}}" class="li" data-key="{{item}}" bindtap="toSearch">{{item}}</view>
+      </scroll-view>
+    </view>-->
+    <!--end关联词-->
+
+    <view style="height:42px;">
+      <view class="filtate-outter">
+        <view class="list-filtrate">
+          <view class="filtrate-nav section">
+            <view class="ul">
+              <!--<view class="li" >
+                  <navigator bindtap="selectArea">
+                    {{searchData.jobLocNames?searchData.jobLocNames:'地区'}}
+                    <i class="filt-arrow"></i>
+                  </navigator>
+                </view>
+                <view class="li">
+                  <navigator url="/page/areaTemplate/areaTemplate?p=0&name=indexPosition&type=position&maxCount=5&isSearch=true">
+                    {{searchData.jobFunNames?searchData.jobFunNames:'职位'}}
+                    <i class="filt-arrow"></i>
+                  </navigator>
+                </view>
+                <view class="li">
+                  <navigator url="/page/areaTemplate/areaTemplate?p=0&name=IndexIndustry&type=industry&maxCount=5&isSearch=true">
+                    {{searchData.callingNames?searchData.callingNames:'行业'}}
+                    <i class="filt-arrow"></i>
+                  </navigator>
+                </view>
+                <view class="li" bindtap="showShaixuan">
+                   筛选
+                   <i class="filt-arrow"></i>
+                </view>-->
+              <view class="li" bindtap="selectArea">
+                {{searchData.jobLocNames?searchData.jobLocNames:'地区'}}
+                <i class="filt-arrow"></i>
+              </view>
+              <view class="li" bindtap="showXinzi">
+                {{searchData.minSalaryName?searchData.minSalaryName:'薪资'}}
+                <i class="filt-arrow"></i>
+              </view>
+              <view hidden="{{isHideLoc}}" class="li" bindtap="showFujin">
+                {{searchData.distanceName?searchData.distanceName:'附近'}}
+                <i class="filt-arrow"></i>
+              </view>
+              <view class="li" bindtap="showPaixu">
+                {{searchData.orderName?searchData.orderName:'排序'}}
+                <i class="filt-arrow"></i>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="mask" id="maskEl" hidden="{{autoHide}}" bindtap="hideAll"></view>
+
+  <!--start旧选择城市-->
+  <!--<view hidden="{{areaHide}}" class="f_box_inner arrow">
+      <scroll-view scroll-y="true" style="height: 260px;" class="ul2 current">  
+        <view class="li2" data-id="" data-name="" bindtap="bindCityChange">不限</view>  
+        <view wx:for="{{selectAreaList}}" class="li2" data-id="{{item.area_id}}" data-name="{{item.area_name}}"  bindtap="bindCityChange">{{item.area_name}}</view>
+      </scroll-view>
+    </view>-->
+  <!--end旧选择城市-->
+
+  <!--start筛选-->
+  <view hidden="{{shaixuanHide}}" class="criteria_set_box">
+    <view class="criteria_select_bd" id="selectBox">
+      <scroll-view scroll-y="true" style="height: 260px;" class="ul2 current">
+        <view hidden="{{isHideLoc}}" class="experience_requirement template" id="nearby">
+          <view class="title">附近职位</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in nearbyList" class="li">
+                <a class="{{item.id==searchData.distance?'active':''}}" data-id="{{item.id}}" bindtap="bindNearbyChange">{{item.name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="experience_requirement template" id="sort">
+          <view class="title">排序</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in sortList" class="li">
+                <a class="{{item.id==searchData.order?'active':''}}" data-id="{{item.id}}" bindtap="bindSortChange">{{item.name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="experience_requirement template" id="sex">
+          <view class="title">性别</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in gender" class="li">
+                <a class="{{index==searchData.selGender?'active':''}}" data-id="{{index}}" bindtap="bindGenderChange">{{item}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="experience_requirement template" id="salary">
+          <view class="title">薪资</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in salarys" class="li">
+                <a class="{{index==searchData.minSalary?'active':''}}" data-id="{{index}}" bindtap="bindSalaryChange">{{item}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="education_requirements template" id="education" data-type="reqdegreeid">
+          <view class="title">学历要求</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in degree" class="li">
+                <a class="{{index==searchData.Degree?'active':''}}" data-id="{{index}}" bindtap="bindDegreeChange">{{item}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="experience_requirement template" id="reward">
+          <view class="title">福利</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in fuli" class="li">
+                <a class="{{index==searchData.Reward?'active':''}}" data-id="{{index}}" bindtap="bindRewardChange">{{item}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="experience_requirement template" id="nearby">
+          <view class="title">工作类型</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in joinTypeList" class="li">
+                <a class="{{item.id==searchData.joinType?'active':''}}" data-id="{{item.id}}" bindtap="bindJoinTypeChange">{{item.name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="experience_requirement template" id="nearby">
+          <view class="title">工作经验</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in workYearList" class="li">
+                <a class="{{item.id==searchData.workYear?'active':''}}" data-id="{{item.id}}" bindtap="bindWorkYearChange">{{item.name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="experience_requirement template" id="nearby">
+          <view class="title">公司性质</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in comPropertyList" class="li">
+                <a class="{{item.id==searchData.comProperty?'active':''}}" data-id="{{item.id}}" bindtap="bindComPropertyChange">{{item.name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="experience_requirement template" id="nearby">
+          <view class="title">公司规模</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in comSizeList" class="li">
+                <a class="{{item.id==searchData.comSize?'active':''}}" data-id="{{item.id}}" bindtap="bindComSizeChange">{{item.name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="button" style="width:100%; box-sizing: border-box;">
+          <button class="lbtn" type="reset" bindtap="hideAll">关闭</button>
+        </view>
+        <view class="close_btn">
+          <a></a>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <!--end筛选-->
+  <!--start选择新城市-->
+  <view hidden="{{areaHide}}" class="criteria_set_box">
+    <view class="criteria_select_bd" id="selectBox">
+      <scroll-view scroll-y="true" style="height: 260px;" class="ul2 current">
+        <view class="experience_requirement template" id="nearby">
+          <view class="title">地区<span class="duoxuan">（可多选）</span></view>
+          <view class="content">
+            <view class="ul">
+              <view class="li">
+                <a class="{{searchData.jobLocIds==''?'active':''}}" data-id data-name bindtap="bindCityChange_more">不限</a>
+              </view>
+              <view s-for="item, index in selectAreaList" class="li">
+                <a class="{{item.selected&&item.selected==1?'active':''}}" data-id="{{item.area_id}}" data-name="{{item.area_name}}" bindtap="bindCityChange_more">{{item.area_name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="button" style="width:100%; box-sizing: border-box;">
+          <button class="lbtn" type="reset" bindtap="sureSearch">确定</button>
+          <button class="lbtn" type="reset" bindtap="toSelectCity">重新选择城市</button>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <!--end选择新城市-->
+  <!--start选择薪资-->
+  <view hidden="{{xinziHide}}" class="criteria_set_box">
+    <view class="criteria_select_bd" id="selectBox">
+      <scroll-view scroll-y="true" style="height: 260px;" class="ul2 current">
+        <view class="experience_requirement template" id="salary">
+          <view class="title">薪资</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in salarys" class="li">
+                <a class="{{index==searchData.minSalary?'active':''}}" data-id="{{index}}" data-name="{{item}}" bindtap="bindSalaryChange">{{item}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <!--end选择薪资-->
+  <!--start选择附近职位-->
+  <view hidden="{{fujinHide}}" class="criteria_set_box">
+    <view class="criteria_select_bd" id="selectBox">
+      <scroll-view scroll-y="true" style="height: 260px;" class="ul2 current">
+        <view hidden="{{isHideLoc}}" class="experience_requirement template" id="nearby">
+          <view class="title">附近</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in nearbyList" class="li">
+                <a class="{{item.id==searchData.distance?'active':''}}" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="bindNearbyChange">{{item.name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <!--end选择附近职位-->
+  <!--start选择排序-->
+  <view hidden="{{paixuHide}}" class="criteria_set_box">
+    <view class="criteria_select_bd" id="selectBox">
+      <scroll-view scroll-y="true" style="height: 260px;" class="ul2 current">
+        <view class="experience_requirement template" id="sort">
+          <view class="title">排序</view>
+          <view class="content">
+            <view class="ul">
+              <view s-for="item, index in sortList" class="li">
+                <a class="{{item.id==searchData.order?'active':''}}" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="bindSortChange">{{item.name}}</a>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+  <!--end选择排序-->
+  <view class="mask" id="maskEl" hidden="{{backHide}}" bindtap="hideAll"></view>
+  <view style="margin-top:88px;"></view>
+  <view class="clearfix">
+    <block s-if="listShow">
+      <view id="result_data" class="s_job_list clearfix">
+        <view class="ul">
+          <view s-for="jobRow, index in jobList" class="li">
+            <input type="checkbox" class="checkbox" value="{=jobRow._jid=}" />
+            <label></label>
+            <navigator url="../../position/jobInfo/jobInfo?jobId={{jobRow._jid}}">
+              <view class="dl">
+                <view class="floatLeft">
+                  <image src="{{jobRow.logoUrl?jobRow.logoUrl:'http://pic.597.com/logo/jobdefaultlogo.png'}}" style="width:40px;height:40px;" />
+                </view>
+                <view class="dt hideToLong">{{jobRow.jname}}
+                  <image s-if="jobRow.jobSalaryMax>=10000" alt="高薪" src="http://cdn.597.com/mi/images/touch_gaoxin.png" />
+                  <image s-if="jobRow.urgency==1" alt="急招" src="http://cdn.597.com/mi/images/touch_jizhao.png" />
+                </view>
+                <view class="dd hideToLong" style="margin-bottom:5px;">{{jobRow.cname}}</view>
+                <view class="dd">
+                  <i></i>
+                  <block s-if="nearbyVal>0">{{jobRow.geodist}}米以内</block>
+                  <block s-else>{{jobRow.jobArea}}</block>
+                  <em>|</em>
+                  <span><i style="background-position: 0 0;"></i>{{jobRow.updateTime}}刷新</span> <em>|</em>
+                  <block s-if="jobRow.jobSalaryMin=='0'&&jobRow.jobSalaryMax=='0'">¥薪资面议</block>
+                  <block s-else>¥{{jobRow.jobSalaryMin}}-{{jobRow.jobSalaryMax}}</block>
+                  <block s-if="jobRow.onDay>0">
+                  <em>|</em>
+                  <span class="tui">推</span>
+                  </block>
+                </view>
+
+              </view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+      <block s-if="jobList.length>0">
+        <view s-if="moreSearchHide" class="all_pos">
+          <view>无更多职位</view>
+        </view>
+        <view s-else class="all_pos">
+          <view bindtap="moreSearch">点击加载更多</view>
+        </view>
+      </block>
+    </block>
+    <block s-else>
+      <view class="error_date">
+        <view class="error_img">!</view>
+        <view class="error_msg">
+          <view>很抱歉，没有找到符合您的搜索条件的职位。</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+<!--</scroll-view>-->
+
+<!--<view hidden="{{goTop}}" class="btn_gotop fadeIn" bindtap="goToTop">GoTop</view>-->
+
+<include src="/page/backIndex.swan" />
+<include src="/page/footerNav.swan" />
+
+<!--自能语音-->
+<include src="/page/talkTemplate/talkTemplate.swan" />

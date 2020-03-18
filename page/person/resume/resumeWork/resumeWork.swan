@@ -1,0 +1,96 @@
+<view class="module work " id="workInfo">
+    <form bindsubmit="formSubmit">
+    <view class="template_main6">
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="StartTime">开始时间</view></view>
+            <view class="dd">
+                <picker name="startDate" mode="date" fields="month" value="{{startDate?startDate:timeNow}}" bindchange="bindStartDateChange">
+                    <view class="select_box tip">
+                    {{startDate}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="StopTime">结束时间</view></view>
+            <view class="dd">
+                <picker name="endDate" mode="date" fields="month" value="{{endDate?endDate:timeNow}}" bindchange="bindEndDateChange">
+                    <view class="select_box tip">
+                    {{endDate}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must">公司名称</view></view>
+            <view class="dd"><input type="text" name="comName" class="inputText tip" placeholder="请输入公司名称" value="{=comName=}" /></view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="comSize">公司规模</view></view>
+            <view class="dd">
+                <picker name="comSize" bindchange="bindcomSizeChange" value="{{sizeIndex}}" range="{{comSize}}">
+                    <view class="select_box tip">
+                    {{comSize[sizeIndex]}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must">公司性质</view></view>
+            <view class="dd">
+                <picker name="comProperty" bindchange="bindComPropertyChange" value="{{proIndex}}" range="{{comProperty}}">
+                    <view class="select_box tip">
+                    {{comProperty[proIndex]}}
+                    </view>
+                </picker>
+            </view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must">行业类别</view></view>
+            <view class="dd">
+                <navigator url="../../../areaTemplate/areaTemplate?type=industry&name=workIndustry&p=0&maxCount=1">
+                <view class="select_box tip">{{workIndustryNames}}</view>
+                </navigator>
+            </view>
+            <view hidden="true">
+                <input name="workIndustryIds" value="{=workIndustryIds=}" />
+                <input name="workIndustryNames" value="{=workIndustryNames=}" />
+            </view>
+        </view>
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="Positions">职业类别</view></view>
+            <view class="dd">
+                <navigator url="../../../areaTemplate/areaTemplate?type=position&name=workPosition&p=0&maxCount=1">
+                <view class="select_box tip">{{workPositionNames}}</view>
+                </navigator>
+            </view>
+            <view hidden="true">
+                <input name="workPositionIds" value="{=workPositionIds=}" />
+                <input name="workPositionNames" value="{=workPositionNames=}" />
+            </view>
+        </view>
+
+        <view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="Job Title">担任职位</view></view>
+            <view class="dd"><input type="text" name="workOffice" class="inputText tip" placeholder="请输入担任职位" value="{=workOffice=}" /></view>
+        </view>
+        <view class="viewider"></view>
+        <!--input-->
+        <view class="dl dl_rebuild">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must">工作描述</view></view>
+            <view class="dd">
+            <textarea style="text-align:left;" maxlength="2000" class="textAreaMsg tip" name="workDesc" placeholder="请描述你工作期间参与过哪些重要项目/事物，突出个人工作业绩，最多输入2000字" value="{=workContent1=}" />
+            </view>
+        </view>
+        <!--<view class="dl">
+            <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="Job Title">工作描述</view></view>
+            <view class="dd"><input  maxlength="2000" type="text" name="workDesc" class="inputText tip" placeholder="请输入工作描述" value="{{workContent}}"/></view>
+        </view>-->
+    </view>
+    <view class="btn_ds">
+        <block s-if="delShow"><button class="delete" bindtap="canDel" data-id="{{workid}}" data-index="{{index}}">删除</button></block>
+        <button style="{{btnStyle}}" class="btn1_submit lang" formType="submit">保存</button>
+    </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

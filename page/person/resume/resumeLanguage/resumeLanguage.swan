@@ -1,0 +1,35 @@
+<view class="education" id="educationInfo">
+    <form bindsubmit="formSubmit">
+        <view class="template_main6">
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">语种</view></view>
+                <view class="dd">
+                    <picker name="lanType" bindchange="bindLanTypeChange" value="{{languageType}}" range="{{lanType}}">
+                        <view class="select_box tip">
+                        {{lanType[languageType]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="level">熟练程度</view></view>
+                <view class="dd">
+                    <picker name="level" bindchange="bindLevelChange" value="{{langSkillLevel}}" range="{{level}}">
+                        <view class="select_box tip">
+                        {{level[langSkillLevel]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must" en="lanCert">获得证书</view></view>
+                <view class="dd"><input type="text" name="lanCert" class="inputText tip" placeholder="请输入获得证书" value="{=langCert=}" /></view>
+            </view>
+        </view>
+        <view class="btn_ds">
+            <block s-if="delShow"><button class="delete" bindtap="canDel" data-id="{{languageid}}" data-index="{{index}}">删除</button></block>
+            <button style="{{btnStyle}}" class="btn1_submit lang" formType="submit">保存</button>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

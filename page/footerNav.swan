@@ -1,0 +1,9 @@
+<!--<view class="nav_bottom" style="z-index:28;">
+  <view class='ul'>
+    <view class="li"><navigator open-type="switchTab" url="/page/index/index"><span>首页</span></navigator></view>
+    <view class="li"><navigator open-type="switchTab" url="/page/person/resume/index/index"><span>简历</span></navigator></view>
+    <view class="li"><navigator open-type="switchTab" url="/page/person/apply/index/index"><span>应聘</span></navigator></view>
+    <view class="li"><navigator open-type="switchTab" url="/page/person/index/index"><span>我的</span></navigator></view>
+  </view>
+</view>
+<view class="bottomnull"></view>-->

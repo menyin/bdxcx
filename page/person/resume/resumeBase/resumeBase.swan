@@ -1,0 +1,171 @@
+<view class="module base" id="module_base">
+    <form bindsubmit="formSubmit">
+        <view class="template_main6">
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">姓名</view></view>
+                <view class="dd"><input type="text" name="name" class="inputText tip" placeholder="请输入姓名" value="{=baseData.name=}" bindblur="bindNameChange" /></view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">性别</view></view>
+                <view class="dd">
+                    <picker name="gender" bindchange="bindGenderChange" value="{{baseData.sex}}" range="{{gender}}">
+                        <view class="select_box">
+                        {{gender[baseData.sex]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">出生日期</view></view>
+                <view class="dd">
+                    <picker name="birthday" mode="date" value="{{baseData.birthday?baseData.birthday:timeNow}}" bindchange="bindBirthdayChange">
+                        <view class="select_box tip">
+                        {{baseData.birthday}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang">户籍</view></view>
+                <view class="dd">
+                    <navigator url="../../../areaTemplate/areaTemplate?type=area&name=resumeAreaHJ&p=1&maxCount=1">
+                        <view class="select_box tip">{{hometownPCName}}</view>
+                    </navigator>
+                </view>
+                <view hidden="true">
+                    <input name="hometownPC" value="{=hometownPC=}" />
+                    <input name="hometownPCName" value="{=hometownPCName=}" />
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">最高学历</view></view>
+                <view class="dd">
+                    <picker name="degree" bindchange="bindDegreeChange" value="{{baseData.degree}}" range="{{degree}}">
+                        <view class="select_box tip">
+                        {{degree[baseData.degree]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl reset">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">开始工作时间</view></view>
+                <view class="dd">
+                    <picker name="startWorking" mode="date" fields="month" value="{{baseData.workBeginDate?baseData.workBeginDate:timeNow}}" bindchange="bindStartWorkingChange">
+                        <view class="select_box tip">
+                        {{baseData.workBeginDate}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt" style="width:70px;"><span class="asterisk red">*</span><view class="lang must">求职状态</view></view>
+                <view class="dd" style="padding-left:85px;">
+                    <picker name="jobState" bindchange="bindJobStateChange" value="{{baseData.jobState}}" range="{{jobState}}">
+                        <view class="select_box tip">
+                        {{jobState[baseData.jobState]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view s-if="baseData.jobState!=4" class="dl">
+                <view class="dt"><view class="lang must">到岗时间</view></view>
+                <view class="dd">
+                    <picker name="joinTime" bindchange="bindJoinTimeChange" value="{{baseData.checkinDate}}" range="{{joinTime}}">
+                        <view class="select_box tip">
+                        {{joinTime[baseData.checkinDate]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">现居</view></view>
+                <view class="dd">
+                    <navigator url="../../../areaTemplate/areaTemplate?type=area&name=resumeAreaXianJu&p=1&maxCount=1">
+                    <view class="select_box tip">{{locationPCName}}</view>
+                    </navigator>
+                </view>
+                <view hidden="true">
+                    <input name="locationPC" value="{=locationPC=}" />
+                    <input name="locationPCName" value="{=locationPCName=}" />
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><view class="lang">详细地址</view></view>
+                <view class="dd"><input type="text" name="address" class="inputText" placeholder="请输入详细地址" value="{=baseData.address=}" bindblur="bindAddressChange" /></view>
+            </view>
+            <view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">身高</view></view>
+                <view class="dd">
+                    <picker name="height" bindchange="bindHeightChange" value="{{baseData.height}}" range="{{height}}">
+                        <view class="select_box tip">
+                        {{height[baseData.height]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><view class="lang must" en="avoirdupois">体重</view></view>
+                <view class="dd">
+                    <picker name="avoirdupois" bindchange="bindAvoirdupoisChange" value="{{baseData.avoirdupois}}" range="{{avoirdupois}}">
+                        <view class="select_box tip">
+                        {{avoirdupois[baseData.avoirdupois]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><view class="lang must" en="political">政治面貌</view></view>
+                <view class="dd">
+                    <picker name="political" bindchange="bindPoliticalChange" value="{{baseData.political}}" range="{{political}}">
+                        <view class="select_box tip">
+                        {{political[baseData.political]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <view class="dl">
+                <view class="dt"><view class="lang" en="Wedlock">婚姻状况</view></view>
+                <view class="dd">
+                    <picker name="marriage" bindchange="bindMarriageChange" value="{{baseData.marriage}}" range="{{marriage}}">
+                        <view class="select_box tip">
+                        {{marriage[baseData.marriage]}}
+                        </view>
+                    </picker>
+                </view>
+            </view>
+            <!--<view class="dl last_dl">
+                <view class="dt"><view class="lang">身份证</view></view>
+                <view class="dd"><input type="idcard" name="cardNum" class="inputText" placeholder="请输入正确的身份证号码" value="{{baseData.cardNum}}" bindblur="bindCardNumChange"/></view>
+            </view>-->
+            <view class="viewider"></view>
+            <!--<view class="dl">
+                <view class="dt"><span class="asterisk red">*</span><view class="lang must">手机</view></view>
+                <view class="dd">
+                    <input type="text" id="hidMobile"/>
+                    <input style="width:100px;" type="text" id="mobile" class="inputText tip" placeholder="请输入手机号码" value="{{baseData.mobile}}" disabled>
+                    <a style="float: right;text-align: center;display: block;line-height:46px;width: 65px;background: #38f;color: #fff;" id="btnModMobile" href="javascript:isChange();">更改手机</a>
+                    <a style="float: right;text-align: center;display: block;line-height:46px;width: 65px;background: #38f;color: #fff;display: none;" id="btnCancelModMobile" href="javascript:noChange();">取消更改</a>
+                </view>
+            </view>
+            <view class="dl" id='_code' style="display:none;">
+                <view class="dt lang must"><span class="asterisk red">*</span>验证码</view>
+                <view class="dd">
+                    <input style="width:100px;" disabled type="text" id="mobileZym" class="inputText tip" placeholder="请输入验证码">
+                    <a class="_sendY" id="btnSendValidate" href="javascript:;">获取验证码</a>
+                </view>
+            </view>-->
+            <view class="dl">
+                <view class="dt"><view class="lang must">邮箱</view></view>
+                <view class="dd"><input type="text" name="email" class="inputText tip" placeholder="请输入邮箱" value="{=baseData.email=}" bindblur="bindEmailChange" /></view>
+            </view>
+            <view class="dl">
+                <view class="dt">QQ</view>
+                <view class="dd"><input type="number" name="qq" class="inputText tip" placeholder="请输入" value="{=baseData.qq=}" bindblur="bindQQChange" /></view>
+            </view>
+        </view>
+        <view class="btn">
+            <button class="btn1_submit lang" formType="submit">保存</button>
+        </view>
+    </form>
+</view>
+<include src="/page/footerNav.swan" />

@@ -1,0 +1,59 @@
+@import "/page/loginTemplate/loginTemplate.css";
+.fullscreen {margin: 0 auto;background: #fff;overflow: hidden; position: relative;}
+.person_info {padding:0px 15px 15px 15px;background: #38f;}
+.person_info .dl {position: relative;height: 86px;}
+.person_info .dl .dt {position: absolute;left: 0;top: 0;width: 80px;height: 80px;border: 3px solid #f58934;border-radius: 50%;}
+.person_info .dl .dt image {width: 80px;height: 80px;border-radius: 50%;}
+.person_info .dt .camera {position: absolute;top: 64px;left: 58px;}
+i.camera {width: 20px;height: 17px;background: url("https://cdn.597.com/wx/images/icon13.png") no-repeat 0 0;background-size: 225px 200px;}
+.person_info .dd .name {font-size: 20px;line-height: 28px;padding-top: 8px;}
+.person_info .child{font-size: 14px;line-height: 20px;}
+.person_info .dl .dd {padding-left: 102px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color: #fff;}
+.person_menu {background: #F8F8F8;}
+.menu_container {padding: 12px 15px;background: #fff;}
+.menu_container .ul {overflow: hidden;text-align: center;}
+.menu_container .li {width: 30%;float: left;}
+.menu_container .li navigator {display: inline-block;position: relative;}
+.menu_container .li navigator:before {content: '';display: block;width: 30px;height: 30px;margin: 0 auto;background: url("https://cdn.597.com/wx/images/icon13.png") no-repeat 3px -120px;background-size: 188px 167px;}
+.menu_container .li span {color: #555;line-height: 20px;font-size: 14px;}
+.menu_container .li.menu_search {margin-left: 5%;margin-right: 5%;}
+.menu_container .li navigator:before {content: '';display: block;width: 30px;height: 30px;margin: 0 auto;background: url("https://cdn.597.com/wx/images/icon13.png") no-repeat 3px -120px;background-size: 188px 167px;}
+.menu_container .li.menu_search b, .li.menu_info b, .li.menu_collect b {height: 17px;position: absolute;left: 26px;top: 0px;border: 2px solid #fff;border-radius: 12px;}
+.menu_container .li.menu_search i, .li.menu_collect i, .li.menu_info i {
+display: block;padding: 0px 4px;height: 15px;font-size: 12px;color: #5f8dc9;line-height: 15px;background: #fff;border: 1px solid #5f8dc9;border-radius: 12px;}
+em, i {font-style: normal;}
+.menu_container .li navigator:before {content: '';display: block;width: 30px;height: 30px;margin: 0 auto;background: url("https://cdn.597.com/wx/images/icon13.png") no-repeat 3px -120px;background-size: 188px 167px;}
+.manage_setup {background: #F8F8F8;color: #F50;}
+.tab_menu1 .ul {overflow: hidden;border-top: 1px solid #eee;background: #f3f3f3;}
+.tab_menu1 .li {width: 100%;float: left;height: 30px;line-height: 30px;text-align: left;padding-left: 15px;}
+.tab_menu1 view {display: block;color: #888;font-size: 14px;}
+.tab_menu1 navigator:visited {color: #222;}
+.manage_setup .binding {overflow: hidden;}
+.template_main1 {border-top: 1px solid #eee;border-bottom: 1px solid #eee;background: #FFF;font-size: 16px;}
+.template_main1 .li {height: 47px;line-height: 46px;position: relative;}
+.template_main1 .li .navigator {display: block;margin: 0 0 0 15px;color: #212121;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;border-bottom: 1px solid #eee;height: 46px;}
+.template_main1 .li:after {content: ' ';position: absolute;top: 50%;margin-top: -4px;right: 15px;width: 6px;height: 6px;border: #AAAAAA solid;-webkit-transform: rotate(45deg);border-width: 2px 2px 0 0;}
+.person_center .myul .li .navigator label {content: '';display: inline-block;width: 26px;height: 26px;padding-right: 6px;margin-bottom: -7px;background: url("https://cdn.597.com/wx/images/icon14.png") no-repeat 0px 0px;background-size: 26px 104px;}
+.template_main1 .li .summary {position: absolute;top: 0;right: 26px;font-size: 12px;width: 170px;overflow: hidden;white-space: nowrap;text-align: right;text-overflow: ellipsis;color: #B4B4B4;}
+.template_main1 .li.change_password .navigator label {background-position: 0px -26px;}
+.template_main1 .li.change_mailbox .navigator label {background-position: 0px -52px;}
+.template_main1 .li.change_phone .navigator label {background-position: 0px -78px;}
+.menu_container .li.menu_search navigator:before {background-position: -39px -121px;}
+.menu_container .li.menu_collect navigator:before {background-position: -80px -122px;}
+.exit {padding:15px;background: #f8f8f8;}
+.exit_button {width: 100%;height: 45px;font-size: 16px;line-height: 45px;color: #FFF;background: #e46660;text-align: center;border-radius: 2px;display: block;}
+/*弹出框*/ 
+.popBox{width: 80%; height: auto; z-index: 888; position: fixed; top: 187.5px; left: 70rpx; visibility: visible; opacity: 1;background:#FFF;}
+.popBox .box-title {color: #222;padding: 12px 15px 0 15px;}
+.content_2 {background: #fff;padding: 12px 15px 20px 15px;}
+.content_2 .ul .li {border: 1px solid #eee;padding: 0 25px 0 4px;background: #f9f9f7;border-bottom: none;position: relative;}
+.content_2 .ul .li input{width: 100%;height: 18px;padding: 11px 0px;background: none;}
+.up_box .button {border-top: 1px solid #eee;}
+.up_box .button .cancel {width: 50%;height: 44px;color: #888;background: #fff;float: left;border-radius: 0 0 0 4px;box-sizing: border-box;}
+.up_box .button .confirm {width: 50%;height: 44px;color: #38f;background: #fff;float: right;border-radius: 0 0 4px 0;}
+.clearfix:after {display: block;content: '';clear: both;visibility: hidden;height: 0;}
+.can {font-size: 12px;color: #fff;background: #38f;display: block;line-height: 40px;text-align: center;float: right;width: 100px;margin-top:3px;padding-left:0px;padding-right: 0px;}
+.noCan {font-size: 12px;color: #fff;background: #999;display: block;line-height: 40px;text-align: center;float: right;width: 100px;margin-top:3px;}
+/*遮罩层*/
+.ui-mask{position:absolute;top:0;left:0;width:100%;background:#000;opacity:0.6;height:865px;display:block;z-index:29}
+.errorLi{background:red;color: white;font-size: 12px;border: 1px solid red;text-align: center;height: 20px;line-height: 20px;}

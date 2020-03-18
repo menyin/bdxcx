@@ -1,0 +1,146 @@
+.work{
+    background: #f5f5f5;
+    padding-top: 15px;
+}
+.template_main6 {
+    background: #ffffff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.template_main6 .dl {
+    margin-left: 15px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.template_main6 .dl .dt {
+    height: 46px;
+    width: 100px;
+    line-height: 46px;
+    position: absolute;
+    top: 0;
+    padding-left: 15px;
+    color: #222222;
+}
+.template_main6 .dt .asterisk {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+.template_main6 .dl .dd {
+    padding-left: 115px;
+    padding-right: 15px;
+}
+.yTip .dl .dt, .dd {
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+}
+.template_main6 .dl .dd .select_box {
+    height: 18px;
+    padding: 14px 10px 14px 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #555555;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.template_main6 .dl .dd .select_box::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right: 15px;
+    width: 6px;
+    height: 6px;
+    border: #aaaaaa solid;
+    -webkit-transform: rotate(45deg);
+    border-width: 2px 2px 0 0;
+}
+.template_main6 .dl .dd input {
+    padding: 14px 10px 14px 10px;
+    margin-left: -10px;
+    border: none;
+    text-align: right;
+    color: #555555;
+}
+.btn_ds {
+    text-align: center;
+    padding: 15px 15px;
+}
+.btn1_submit {
+    width: 100%;
+    background: #38f;
+    border: 0;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.template_main6 .divider {
+    height: 15px;
+    background: #f5f5f5;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.template_main6 .dl_rebuild .dt {
+    height: 46px;
+    width: 100px;
+    line-height: 46px;
+    position: static;
+    color: #222222;
+}
+.work .template_main6 .dl_rebuild {
+    margin: 0 15px 15px 15px;
+}
+.template_main6 .dl_rebuild {
+    margin: 0 15px 0px 15px;
+    border-bottom: none;
+}
+.template_main6 .dl {
+    margin-left: 15px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.template_main6 .dl_rebuild .dd .textAreaMsg {
+    height: 120px;
+    border: 1px solid #eee;
+    padding: 5px 0;
+    border-radius: 2px;
+    margin-left: 0;
+}
+.textAreaMsg {
+    border: 1px solid #c9c9c9;
+    line-height: 18px;
+    height: 54px;
+    padding: 5px;
+    font-size: 14px;
+    width: 100%;
+    margin-left: -12px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+}
+.template_main6 .dl_rebuild .dd {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.btn_ds .btn1_submit {
+    width: 77%;
+}
+.btn_ds .delete {
+    width: 20%;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 3%;
+    background: #ffffff url("https://cdn.597.com/wx/images/trashcan2.png") no-repeat center center;
+    background-size: 19px 21px;
+    display: inline-block;
+    text-indent: -9999px;
+    vertical-align: top;
+}

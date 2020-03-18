@@ -1,0 +1,118 @@
+.black_list {
+    font-size: 14px;
+    background: #fff;
+    overflow: hidden;
+    height: auto;
+}
+.pad20 {
+    padding: 20px;
+}
+.black_list .add_black_list .div {
+    padding-right: 90px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.inputText {
+    border: 1px solid #C9C9C9;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px 5px;
+    font-size: 14px;
+    width: 100%;
+    margin-left: -12px;
+    -webkit-appearance: none;
+    outline: none;
+}
+.black_list .add_black_list .inputText {
+    margin-left: 0;
+}
+.searchList{
+    overflow: hidden;
+}
+.black_list .add_black_list button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 68px;
+    height: 40px;
+    line-height: 40px;
+    background: #38f;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+}
+.black_list .shield_keyword {
+    padding-bottom: 20px;
+}
+.black_list .shield_keyword .dt {
+    background: #EDEDED;
+    padding-left: 15px;
+    line-height: 23px;
+    height: 23px;
+}
+._cname {
+    display: block;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+.black_list .add_black_list .icon_add {
+    float: right;
+    padding: 0px 10px;
+    font-size: 21px;
+    color: #38f;
+}
+.black_list .shield_keyword .dd {
+    border-bottom: 1px solid #EDEDED;
+    line-height: 38px;
+    height: 38px;
+    position: relative;
+    padding-left: 15px;
+}
+.black_list .shield_keyword .dd .icon_delete {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    margin-top: -8px;
+    background: #9A9A9A;
+}
+.icon_delete {
+    display: block;
+    width: 16px;
+    height: 15px;
+    background: #DB1F20;
+    border-radius: 3px;
+    position: relative;
+    padding:1px;
+}
+.icon_delete:before {
+    content: ' ';
+    width: 2px;
+    height: 12px;
+    background: #FFF;
+    -webkit-transform: rotate(135deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    right: 7px;
+}
+.icon_delete:after {
+    content: ' ';
+    width: 2px;
+    height: 12px;
+    background: #FFF;
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    right: 7px;
+}
+.black_list .add_black_list .dd {
+    border-bottom: 1px solid #EDEDED;
+    line-height: 38px;
+    height: 38px;
+    position: relative;
+    padding-left: 15px;
+}
